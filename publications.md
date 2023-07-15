@@ -6,25 +6,362 @@ title: Publications
 
 # Publications
 
-Lastest Update: 3rd July 2023&nbsp;  [中文 (Chinese Version)](https://caihanlin.com/publications-zh/)
+<!-- =================================================================================== -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
 
-## Undergrad Thesis
+    td {
+      border-top: none;
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <table border="0" style="border-collapse:collapse;">
+    <tr>
+      <td>
+        <img src=".\assets\fig\udrs2former.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+      </td>
+      <td>
+        <div style="text-align: justify;">
+          <papertitle>
+            <strong>
+              Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks
+            </strong>
+          </papertitle>
+          <br>
+          <strong>Sixiang Chen*</strong>, Tian Ye*, Jinbin Bai, Jun Shi, Erkang Chen, Lei Zhu.
+          <br>  
+          <em>International Conference on Computer Vision <strong>(ICCV)</strong></em>, 2023
+          <br>
+          <a href="Ephemeral182.github.io">[arxiv]</a>
+          <a href="Ephemeral182.github.io">[Code]</a>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+<!-- =================================================================================== -->
 
-- [Industrial Inspection System based on Intelligent IoT and Bionic Quadruped Robot](https://caihanlin.com/mypaper/thesis/IP-thesis.pdf)<br>**Hanlin Cai** (Advisor: Zhezhuang Xu)<br>Industrial Placement Thesis in Huading Tech and IACTIP Lab<br>
+<table border="0" style="border-collapse:collapse;">
+  <tr>
+    <td>
+      <img src=".\assets\fig\AWRCP_framework.jpg" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+      <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        AWRCP: Reinventing Adverse Weather Removal with Codebook Priors
+       </strong>
+      </papertitle>
+      <br>
+      Tian Ye*,<strong>Sixiang Chen*</strong>, Jinbin Bai, Shi Jun, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
+      <br>  
+      <em>International Conference on Computer Vision <strong>(ICCV)</strong></em>, 2023
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
 
-## Conference Paper
+<table border="0" style="border-collapse:collapse;">
+  <tr>
+    <td>
+      <img src=".\assets\fig\Uncertainty_MM.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        Uncertainty-Driven Dynamic Degradation Perceiving and Background Modeling for Efficient Single Image Desnowing
+       </strong>
+      </papertitle>
+      <br>
+      <strong>Sixiang Chen*</strong>, Tian Ye*, Chenghao Xue, Haoyu Chen, Yun Liu, Erkang Chen, Lei Zhu.
+      <br>  
+      <em>(Under review)</strong></em>, 2023
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
 
-- [Deep Residual Neural Network for Efficient Traffic Sign Detection](https://caihanlin.com/mypaper/202302ICAROB.pdf)<br>**Hanlin Cai**, Zheng Li, Jiaqi Hu, Wei Hong Lim, Sew Sun Tiang, Mastaneh Mokayef, Chin Hong Wong<br>28th International Conference on Artificial Life and Robotics<br>Beppu, Japan. February, 2023. [Slides](https://caihanlin.com/mypaper/slides/2023-ICAROB-Pre.pdf).
+<table border="0" style="border-collapse:collapse;">
+  <tr>
+    <td>
+      <img src=".\assets\fig\cpl.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        CPLFormer: Cross-scale Prototype Learning Transformer for Image Snow Removal
+       </strong>
+      </papertitle>
+      <br>
+      <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen.
+      <br>  
+      <em>(Under review)</strong></em>, 2023
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
 
-- [An IoT Garbage Monitoring System for Effective Garbage Management](https://caihanlin.com/mypaper/202208cenim.pdf)<br>**Hanlin Cai**, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022.<br>
+<table border="0" style="border-collapse:collapse;">
+  <tr>
+    <td>
+      <img src=".\assets\fig\video.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        Sequential Affinity Learning for Video Restoration
+       </strong>
+      </papertitle>
+      <br>
+      Tian Ye*,<strong>Sixiang Chen*</strong>, Yun Liu, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue.
+      <br>  
+      <em>(Under review)</strong></em>, 2023
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+<div style="border-collapse:collapse;">
+<table>
+  <tr>
+    <td>
+      <img src=".\assets\fig\Nightformer.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        NightHazeFormer: Single Nighttime Haze Removal Using Prior Query Transformer
+       </strong>
+      </papertitle>
+      <br>
+      Yun Liu, Zhongsheng Yan, <strong>Sixiang Chen*</strong>, Tian Ye, Wenqi Ren, Erkang Chen.
+      <br>  
+      <em>Arxiv (Under review)</strong></em>, 2023
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+<table border="0" style="border-collapse:collapse;">
+  <tr>
+    <td>
+      <img src=".\assets\fig\BMVC.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+      <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        Five A+ Network: You Only Need 9K Parameters for Underwater Image Enhancement
+       </strong>
+      </papertitle>
+      <br>
+      Jingxia Jiang*, Tian Ye*, Jinbin Bai*, <strong>Sixiang Chen</strong>, Wenhao Chai, Jun Shi, Yun Liu, Erkang Chen.
+      <br>  
+      <em>Arxiv (Under review)</strong></em>, 2023
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+ <div style="border-collapse:collapse;">
+<table>
+  <tr>
+    <td>
+      <img src=".\assets\fig\dehrformer_00.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        DEHRFormer: Real-time Transformer for Depth Estimation and Haze Removal from Varicolored Haze Scenes
+       </strong>
+      </papertitle>
+      <br>
+      <strong>Sixiang Chen*</strong>, Tian Ye*, Jun Shi, Yun Liu, JingXia Jiang, Erkang Chen, Peng Chen.
+      <br>  
+      <em>International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong></em>, 2023
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+ <div style="border-collapse:collapse;">
+<table>
+  <tr>
+    <td>
+      <img src=".\assets\fig\MSP-Former_00.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        MSP-Former: Multi-Scale Projection Transformer for Single Image Desnowing
+       </strong>
+      </papertitle>
+      <br>
+      <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Taodong Liao, Jingxia Jiang, Erkang Chen, Peng Chen.
+      <br>  
+      <em>International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong></em>, 2022
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+<div style="border-collapse:collapse;">
+<table>
+  <tr>
+    <td>
+      <img src=".\assets\fig\snowformer.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        SnowFormer: Context Interaction Transformer with Scale-awareness for Single Image Desnowing
+       </strong>
+      </papertitle>
+      <br>
+      <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Erkang Chen.
+      <br>  
+      <em>Arxiv (Under review)</strong></em>, 2022
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+ <div style="border-collapse:collapse;">
+<table>
+  <tr>
+    <td>
+      <img src=".\assets\fig\ACCV.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        Towards Real-time High-Definition Image Snow Removal: Efficient Pyramid Network with Asymmetrical Encoder-decoder Architecture
+       </strong>
+      </papertitle>
+      <br>
+      Tian Ye*, <strong>Sixiang Chen*</strong>, Yun Liu, Yi Ye, Erkang Chen.
+      <br>  
+      <em>Asian Conference on Computer Vision <strong>(ACCV)</strong></em>, 2022
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+ <div style="border-collapse:collapse;">
+<table>
+  <tr>
+    <td>
+      <img src=".\assets\fig\dualformer.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        Dual-former: Hybrid Self-attention Transformer for
+        Efficient Image Restoration
+       </strong>
+      </papertitle>
+      <br>
+      <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Erkang Chen.
+      <br>  
+      <em>Arxiv (Under review)</strong></em>, 2022
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+ <div style="border-collapse:collapse;">
+<table>
+  <tr>
+    <td>
+      <img src=".\assets\fig\ECCV.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        Perceiving and Modeling Density for Image Dehazing
+       </strong>
+      </papertitle>
+      <br>
+      Tian Ye*, Mingchao Jiang*, Yunchen Zhang*, Liang Chen, Yun Liu, <strong>Sixiang Chen*</strong>, Erkang Chen.
+      <br>  
+      <em>European Conference on Computer Vision <strong>(ECCV Oral)</strong></em>, 2023
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+ <div style="border-collapse:collapse;">
+<table>
+  <tr>
+    <td>
+      <img src=".\assets\fig\CVPRW.png" alt="image" width="340" style="float:left; margin-right:10px;"> 
+    </td>
+    <td>
+    <div style="text-align: justify;">
+      <papertitle>
+       <strong>
+        Underwater Light Field Retention: Neural Rendering for Underwater Imaging
+       </strong>
+      </papertitle>
+      <br>
+      Tian Ye*, <strong>Sixiang Chen*</strong>, Yun Liu, Yi Ye, Erkang Chen, Yuche Li.
+      <br>  
+      <em>Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong></em>, 2022
+      <br>
+      <a href="Ephemeral182.github.io">[arxiv]</a>
+      <a href="Ephemeral182.github.io">[Code]</a>
+    </td>
+  </tr>
+</table>
+
+<!-- =================================================================================== -->
+
+
 
 ---
 
-## Competition Paper
 
-- [Reshape the Crowning Glory of Maasai Mara](https://caihanlin.com/mypaper/modeling/202302COMAP.pdf)<br>**Hanlin Cai**, Yufei Wu, Wenxuan Luo, Zhezhuang Xu<br>Mathematical Contest In Modeling (COMAP 2023)<br>**Finalist Award** (Top 1% of all 20858 paper).<br>
-
-## Working Manuscript
-
-- RMS Testbed for IoT Cybersecurity Using Machine Learning Based Approach.<br>**Hanlin Cai** (Advisor: [Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) and Chin Hong Wong)<br>[The latest manuscript](https://caihanlin.com/mypaper/202210camb.pdf) (during 2022 Summer Intern at Cambridge University)<br>
 
