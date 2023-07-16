@@ -3,11 +3,7 @@
 <!-- <h4>{{ site.owner.name }}</h4> -->
 
 <p>{{ site.owner.bio }}</p>
-<div class="author__content">
-    <h3 class="author__name">{{ site.owner.description }}</h3>
-    {% if site.owner.description %}<p class="author__bio">{{ site.owner.description }}</p>{% endif %}
-  </div>
-{% if site.owner.description %}{{ site.owner.description }}&#8211;{% endif %}
+{% if site.owner. %}<li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>{% endif %}
 {% if site.owner.email %}<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> Email</a></p>{% endif %}
 
 {% if site.owner.twitter %}<p style="text-indent:0;"><a href="https://twitter.com/{{ site.owner.twitter }}"><i class="icon-twitter"></i> Twitter</a></p>{% endif %}
