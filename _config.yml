@@ -37,7 +37,7 @@ links:
   - title: Resume
     url: /file/resume_of_sixiangchen.pdf
   - title: Publications
-    url: /publications/
+    url: /publications.md
   - title: Projects
     url: /projects/
   - title: Awards
@@ -57,7 +57,7 @@ highlighter: rouge
 
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:title.html #/:categories/:title
+permalink:  /:categories/:title #/page/:title.html
 
 
 kramdown:
