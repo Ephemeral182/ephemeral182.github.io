@@ -1,6 +1,6 @@
 ---
 layout: page
- permalink: /publications/index.html #/publications.html
+permalink: /publications.md/index.html #/publications.html
 title: Publications
 ---
 
