@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/publications.html
-title: Publications
+# permalink: /publications.html #/publications.html
+# title: Publications
 ---
 
 # Publications
