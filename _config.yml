@@ -7,7 +7,7 @@ url: Ephemeral182.github.io
 # Owner/author information
 owner:
   name: Sixiang Chen
-  avatar: Ephemeral182.github.io/csx.jpg
+  avatar: csx.jpg
 #  bio:
   email: ephemeral182@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
@@ -24,7 +24,7 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 # https://search.google.com/search-console/ownership
-google_verify: "google-site-verification=X1LRTauZ1eJD4V3y9I200jDnb--mL3_HYfUnQc8UfVs"
+google_verify: "X1LRTauZ1eJD4V3y9I200jDnb--mL3_HYfUnQc8UfVs"
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 # bing_verify: ""
@@ -33,19 +33,19 @@ google_verify: "google-site-verification=X1LRTauZ1eJD4V3y9I200jDnb--mL3_HYfUnQc8
 # For external links add external: true
 links:
   - title: Story of Me
-    url: /
+    url: \
   - title: Resume
-    url: /file/resume_of_sixiangchen.pdf/
+    url: \file/resume_of_sixiangchen.pdf\
   - title: Publications
-    url: /publications/
+    url: \publications\
   - title: Projects
-    url: /projects/
+    url: \projects\
   - title: Awards
-    url: /awards/
+    url: \awards\
   - title: Hobbies
-    url: /hobbies/
+    url: \hobbies\
   - title: Blogs
-    url: /blogs/
+    url: \blogs\
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
@@ -57,7 +57,7 @@ highlighter: rouge
 
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:  /:categories/:title #/page/:title.html
+permalink:  \:categories\:title #/page/:title.html
 
 
 kramdown:
