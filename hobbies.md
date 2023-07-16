@@ -9,7 +9,7 @@ title: Hobbies
 ## Teaching & Workshops
 
 <div class="third">
-<img src="/images/prelection1.JPG">
+<img src="/images/prelection1.">
 <img src="/images/speech1.JPG">
 <img src="/images/speech3.JPG">
 </div>
