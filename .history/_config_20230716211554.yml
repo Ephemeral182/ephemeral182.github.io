@@ -57,7 +57,7 @@ highlighter: rouge
 
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:  /:categories/:title #/page/:title.html
+permalink:  /:categories:title #/page/:title.html
 
 
 kramdown:
