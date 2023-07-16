@@ -37,15 +37,15 @@ links:
   - title: Resume
     url: /file/resume_of_sixiangchen.pdf/
   - title: Publications
-    url: /publications/
+    url: \publications/
   - title: Projects
-    url: /projects/
+    url: \projects\
   - title: Awards
-    url: /awards/
+    url: \awards\
   - title: Hobbies
-    url: /hobbies/
+    url: \hobbies\
   - title: Blogs
-    url: /blogs/
+    url: \blogs\
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing

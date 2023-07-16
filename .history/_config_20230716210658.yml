@@ -43,9 +43,9 @@ links:
   - title: Awards
     url: /awards/
   - title: Hobbies
-    url: /hobbies/
+    url: /hobbies\
   - title: Blogs
-    url: /blogs/
+    url: /blogs\
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
