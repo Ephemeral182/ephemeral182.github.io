@@ -66,7 +66,7 @@ title: Publications
         <br>
         <strong>Sixiang Chen*</strong>, Tian Ye*, Chenghao Xue*, Haoyu Chen, Yun Liu, Erkang Chen, Lei Zhu.
         <br>  
-        <em>ACM Multimedia <strong>(ACM MM)</em>, 2023
+        <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
         <a href="Ephemeral182.github.io">[Paper]</a>
         <a href="Ephemeral182.github.io">[Code]</a>
@@ -88,7 +88,7 @@ title: Publications
         <br>
         <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen.
         <br>  
-        <em>ACM Multimedia <strong>(ACM MM)</em>, 2023
+        <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
         <a href="Ephemeral182.github.io">[Paper]</a>
         <a href="Ephemeral182.github.io">[Code]</a>
@@ -110,7 +110,7 @@ title: Publications
         <br>
         Tian Ye*,<strong>Sixiang Chen*</strong>, Yun Liu, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue.
         <br>  
-        <em>ACM Multimedia <strong>(ACM MM)</em>, 2023
+        <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
         <a href="Ephemeral182.github.io">[Paper]</a>
         <a href="Ephemeral182.github.io">[Code]</a>
@@ -132,7 +132,7 @@ title: Publications
         <br>
         Yun Liu, Zhongsheng Yan, <strong>Sixiang Chen</strong>, Tian Ye, Wenqi Ren, Erkang Chen.
         <br>  
-        <em>ACM Multimedia <strong>(ACM MM)</em>, 2023
+        <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
         <a href="http://export.arxiv.org/abs/2305.09533#:~:text=propose%20an%20end-to-end%20transformer-based%20framework%20for%20nighttime%20haze,we%20introduce%20two%20powerful%20priors%20into%20the%20transformer">[Paper]</a>
         <a href="Ephemeral182.github.io">[Code]</a>
