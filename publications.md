@@ -31,7 +31,7 @@ title: Publications
       </td>
     </tr>
 
----
+
 
  <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
