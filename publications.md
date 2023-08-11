@@ -6,6 +6,8 @@ title: Publications
 
 # Publications
 
+2 ***ICCV*** 1 ***ECCV*** 4 ***ACM MM*** 1 ***CVPRW*** 2 ***ICASSP*** 3 ***Arxiv*** 
+
 <!-- =================================================================================== -->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
@@ -20,7 +22,7 @@ title: Publications
             </strong>
           </papertitle>
           <br>
-          <strong>Sixiang Chen*</strong>, Tian Ye*, Jinbin Bai, Jun Shi, Erkang Chen, Lei Zhu.
+          <strong><u>Sixiang Chen*</u></strong>, Tian Ye*, Jinbin Bai, Jun Shi, Erkang Chen, Lei Zhu<sup>✉️</sup>.
           <br>  
           <em>International Conference on Computer Vision <strong>(ICCV)</strong></em>, 2023
           <br>
@@ -42,7 +44,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        Tian Ye*,<strong>Sixiang Chen*</strong>, Jinbin Bai, Jun Shi, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu.
+        Tian Ye*,<strong><u>Sixiang Chen*</u></strong>, Jinbin Bai, Jun Shi, Chenghao Xue, Jingjia Jiang, Junjie Yin, Erkang Chen, Yun Liu<sup>✉️</sup>.
         <br>  
         <em>International Conference on Computer Vision <strong>(ICCV)</strong></em>, 2023
         <br>
@@ -64,7 +66,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        <strong>Sixiang Chen*</strong>, Tian Ye*, Chenghao Xue*, Haoyu Chen, Yun Liu, Erkang Chen, Lei Zhu.
+        <strong><u>Sixiang Chen*</u></strong>, Tian Ye*, Chenghao Xue*, Haoyu Chen, Yun Liu, Erkang Chen, Lei Zhu<sup>✉️</sup>.
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
@@ -86,7 +88,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen.
+        <strong><u>Sixiang Chen*</u></strong>, Tian Ye*, Yun Liu, Jinbin Bai, Haoyu Chen, Yunlong Lin, Jun Shi, Erkang Chen<sup>✉️</sup>.
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
@@ -108,7 +110,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        Tian Ye*,<strong>Sixiang Chen*</strong>, Yun Liu, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue.
+        Tian Ye*,<strong><u>Sixiang Chen*</u></strong>, Yun Liu<sup>✉️</sup>, Wenhao Chai, Jinbin Bai, Wenbin Zou, Yunchen Zhang, jiang mingchao, Erkang Chen, Chenghao Xue.
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
@@ -130,7 +132,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        Yun Liu, Zhongsheng Yan, <strong>Sixiang Chen</strong>, Tian Ye, Wenqi Ren, Erkang Chen.
+        Yun Liu, Zhongsheng Yan, <strong><u>Sixiang Chen<sup>✉️</sup></u></strong>, Tian Ye<sup>✉️</sup>, Wenqi Ren, Erkang Chen.
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
@@ -152,7 +154,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        Jingxia Jiang*, Tian Ye*, Jinbin Bai*, <strong>Sixiang Chen</strong>, Wenhao Chai, Jun Shi, Yun Liu, Erkang Chen.
+        Jingxia Jiang*, Tian Ye*, Jinbin Bai*, <strong><u>Sixiang Chen</u></strong>, Wenhao Chai, Jun Shi, Yun Liu, Erkang Chen<sup>✉️</sup>.
         <br>  
         <em>Arxiv (Under review)</em>, 2023
         <br>
@@ -174,7 +176,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        <strong>Sixiang Chen*</strong>, Tian Ye*, Jun Shi, Yun Liu, JingXia Jiang, Erkang Chen, Peng Chen.
+        <strong><u>Sixiang Chen*</u></strong>, Tian Ye*, Jun Shi, Yun Liu, JingXia Jiang, Erkang Chen, Peng Chen<sup>✉️</sup>.
         <br>  
         <em>International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong></em>, 2023
         <br>
@@ -196,7 +198,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Taodong Liao, Jingxia Jiang, Erkang Chen, Peng Chen.
+        <strong><u>Sixiang Chen*</u></strong>, Tian Ye*, Yun Liu, Taodong Liao, Jingxia Jiang, Erkang Chen, Peng Chen<sup>✉️</sup>.
         <br>  
         <em>International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong></em>, 2023
         <br>
@@ -218,7 +220,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Erkang Chen.
+        <strong><u>Sixiang Chen*</u></strong>, Tian Ye*, Yun Liu, Erkang Chen<sup>✉️</sup>.
         <br>  
         <em>Arxiv (Under review)</em>, 2022
         <br>
@@ -240,7 +242,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        Tian Ye*, <strong>Sixiang Chen*</strong>, Yun Liu, Yi Ye, Erkang Chen.
+        Tian Ye*, <strong><u>Sixiang Chen*</u></strong>, Yun Liu, Yi Ye, Erkang Chen<sup>✉️</sup>.
         <br>  
         <em>Asian Conference on Computer Vision <strong>(ACCV)</strong></em>, 2022
         <br>
@@ -263,7 +265,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        <strong>Sixiang Chen*</strong>, Tian Ye*, Yun Liu, Erkang Chen.
+        <strong><u>Sixiang Chen*</u></strong>, Tian Ye*, Yun Liu, Erkang Chen<sup>✉️</sup>.
         <br>  
         <em>Arxiv (Under review)</em>, 2022
         <br>
@@ -285,7 +287,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        Tian Ye*, Mingchao Jiang*, Yunchen Zhang*, Liang Chen, Yun Liu, <strong>Sixiang Chen</strong>, Erkang Chen.
+        Tian Ye*, Mingchao Jiang*, Yunchen Zhang*, Liang Chen, Yun Liu, <strong><u>Sixiang Chen</u></strong>, Erkang Chen<sup>✉️</sup>.
         <br>  
         <em>European Conference on Computer Vision <strong>(ECCV Oral)</strong></em>, 2022
         <br>
@@ -306,7 +308,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        Tian Ye*, <strong>Sixiang Chen*</strong>, Yun Liu, Yi Ye, Erkang Chen, Yuche Li.
+        Tian Ye*, <strong><u>Sixiang Chen*</u></strong>, Yun Liu, Yi Ye, Erkang Chen<sup>✉️</sup>, Yuche Li.
         <br>  
         <em>Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong></em>, 2022
         <br>
