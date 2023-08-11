@@ -31,7 +31,7 @@ title: Publications
       </td>
     </tr>
 
-
+---
 
  <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
@@ -53,7 +53,7 @@ title: Publications
       </td>
       </tr>
 
-
+      
 
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
@@ -132,7 +132,7 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        Yun Liu, Zhongsheng Yan, <strong><u>Sixiang Chen<sup>✉️</sup></u></strong>, Tian Ye<sup>✉️</sup>, Wenqi Ren, Erkang Chen.
+        Yun Liu, Zhongsheng Yan, <strong><u>Sixiang Chen</u><sup>✉️</sup></strong>, Tian Ye<sup>✉️</sup>, Wenqi Ren, Erkang Chen.
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
