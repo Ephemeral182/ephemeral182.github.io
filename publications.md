@@ -6,13 +6,13 @@ title: Publications
 
 # Publications
 
-2 ***ICCV*** 1 ***ECCV*** 4 ***ACM MM*** 1 ***CVPRW*** 2 ***ICASSP*** 3 ***Arxiv*** 
+2&nbsp; ***ICCV*** &nbsp;&nbsp;&nbsp;1&nbsp; ***ECCV*** &nbsp;&nbsp;&nbsp;4&nbsp; ***ACM MM*** &nbsp;&nbsp;&nbsp;1&nbsp; ***CVPRW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICASSP*** &nbsp;&nbsp;&nbsp;3&nbsp; ***Arxiv*** 
 
 <!-- =================================================================================== -->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:40%;max-width:90%" align="center" class="image-wrapper">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/udrs2former.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -34,7 +34,7 @@ title: Publications
 
 
  <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
           <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/AWRCP_framework.jpg" alt="dise"> 
         </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -56,7 +56,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/Uncertainty_MM.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -78,7 +78,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/cpl.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -100,7 +100,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/video.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -122,7 +122,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/Nightformer.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -144,7 +144,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/BMVC.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -166,7 +166,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/dehrformer_00.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -188,7 +188,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/MSP-Former_00.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -210,7 +210,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/snowformer.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -232,7 +232,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/ACCV.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -254,7 +254,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/dualformer.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -277,7 +277,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/ECCV.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -298,7 +298,7 @@ title: Publications
 
 
   <tr>
-        <td style="margin:5px;padding:5px;width:40%;max-width:40%" align="center" class="image-wrapper">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/CVPRW.png" alt="dise"> 
         </td>
       <td width="75%" valign="center" class="text-wrapper"> 
