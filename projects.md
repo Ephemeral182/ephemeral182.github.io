@@ -1,5 +1,5 @@
 ---
-layout: post1
+layout: pqge
 permalink: /project/index.html #/publications.html
 title: Projects
 ---
@@ -20,10 +20,10 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 <div class="post-line"></div>
 
 
-  <div class="post-img-group">
+  <!-- <div class="post-img-group">
     <img class="post-img" src="../assets/img/VideoDesnowing/1.gif" alt="Left Image">
     <img class="post-img" src="../assets/img/VideoDesnowing/2.gif" alt="Right Image">
-  </div>
+  </div> -->
 
 <!-- <img src="../assets/img/VideoDesnowing/1.gif" class="post-img" role="img"> -->
 
@@ -32,10 +32,6 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 Snowfall is a common weather phenomenon that can severely affect computer vision tasks by obscuring objects and scenes. However, existing deep learning-based snow removal methods are designed for single images only. In this paper, we target a more complex task – video snow removal, which aims to restore the clear video from the snowy video. To facilitate this task, we propose the first high-quality video dataset, which simulates realistic physical characteristics of snow and haze using a rendering engine and augmentation techniques. We also develop a deep learning framework for video snow removal. Specifically, we propose a snow-query temporal aggregation module and a snow-aware contrastive learning loss function. The module aggregates features between video frames and removes snow effectively, while the loss function helps identify and eliminate snow features. We conduct extensive experiments and demonstrate that our proposed dataset is more realistic than previous datasets, and the models trained on it achieve better performance in real-world snowing images. Our proposed method outperforms state-of-the-art video and image-based methods on both synthetic and real snowy videos.
 
-
-  <div class="post-img-group">
-    <img class="post-img" style="max-width:125%" src="../assets/img/VideoDesnowing/3.jpg" alt="Left Image">
-  </div>
 
 
 
