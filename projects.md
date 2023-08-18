@@ -43,8 +43,8 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
   </div>
 
 <div class="post-img-group">
-    <img class="post-img" src="https://ephemeral182.github.io/images/udr_overview1.png" alt="Left Image">
-    <img class="post-img" src="https://ephemeral182.github.io/images/udr_overview2.png" alt="Right Image">
+    <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/udr_overview1.png" alt="Left Image">
+    <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/udr_overview2.png" alt="Right Image">
   </div> 
 
 
