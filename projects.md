@@ -5,8 +5,8 @@ title: Projects
 ---
 
 
-<h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:600;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for </h2>
-<h2 class="post-title" style="margin-bottom:20px;margin-top:7px;font-weight:600;">Unified Removal of Raindrops and Rain Streaks</h2> 
+<h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:200;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for </h2>
+<h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2> 
 
 <div class="post-authors" style="margin-bottom:5px;">
 <a href="https://owen718.github.io"><strong>Sixiang Chen</strong></a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp;
@@ -31,7 +31,7 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 <div class="post-img-group">
     <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/real_gif1.gif" alt="Left Image">
-    <iframe class="post-img" style="max-width:100%" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3889b20a-3dd6-11ee-b5bd-6595d9b17862" alt="Right Image"></iframe>
+    <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/real_gif1.gif" alt="Right Image">
   </div> 
 
 
