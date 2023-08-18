@@ -30,8 +30,8 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 <div class="post-line"></div>
 
 <div class="post-img-group">
-    <iframe class="post-img" style="max-width:100%" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=28a5fa3e-3dd5-11ee-b5bd-6595d9b17862" alt="Left Image"></iframe>
-    <iframe class="post-img" style="max-width:100%" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=28a5fa3e-3dd5-11ee-b5bd-6595d9b17862" alt="Right Image"></iframe>
+    <iframe frameborder="0" class="juxtapose" width="100%" height="719.0123456790124" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3889b20a-3dd6-11ee-b5bd-6595d9b17862"></iframe>
+    <iframe frameborder="0" class="juxtapose" width="100%" height="719.0123456790124" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3889b20a-3dd6-11ee-b5bd-6595d9b17862"></iframe>
   </div> 
 
 
