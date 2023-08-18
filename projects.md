@@ -39,7 +39,7 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 
   <div class="post-img-group">
-    <img class="post-img" style="max-width:100%" src="images/uncertainty_map.png" alt="Left Image">
+    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/uncertainty_map.png" alt="Left Image">
   </div>
 
 
