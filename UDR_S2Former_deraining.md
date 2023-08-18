@@ -1,7 +1,7 @@
 ---
 layout: post1
-permalink: /UDR-S2Former_deraining/index.html #/publications.html
-title: Projects
+permalink: /UDR_S2Former_deraining/index.html #/publications.html
+title: UDR_S2Former_derainings
 ---
 
 
@@ -44,13 +44,13 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
                         </li>
                         <li>
                              <a href="/VideoDesnowing#:~:text=Realistic Video DeSnowing Datase">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/dataset.jpg" height="50px">
+                            <img class="post-logo" src="https://ephemeral182.github.io/images/datatset.jpg" height="50px">
                                 <h5><strong>Dataset</strong></h5>
                             </a>
                         </li>                        
                         <li>
                             <a href="https://github.com/haoyuc/VideoDesnowing">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/github.jpg" height="50px">
+                            <img class="post-logo" src="https://ephemeral182.github.io/images/github.png" height="50px">
                                 <h5><strong>Code</strong></h5>
                             </a>
                         </li>
