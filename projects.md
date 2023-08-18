@@ -6,10 +6,20 @@ title: Projects
 
 
 <h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:600;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for </h2>
-<h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2> 
+<h2 class="post-title" style="margin-bottom:20px;margin-top:7px;font-weight:600;">Unified Removal of Raindrops and Rain Streaks</h2> 
 
 <div class="post-authors" style="margin-bottom:5px;">
-<strong>Sixiang Chen*</strong>, Tian Ye*, Jinbin Bai, Erkang Chen, Jun Shi Lei Zhu<sup>✉️</sup>
+<a href="https://owen718.github.io"><strong>Sixiang Chen</strong></a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp;
+<a href="https://noyii.github.io">Jinbin Bai</a><sup>2</sup>*&nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup>3</sup>*&nbsp;&nbsp;&nbsp;
+Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
+<a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>1,5 ✉️</sup>&nbsp;&nbsp;&nbsp;
+<br>
+<sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;&nbsp;
+<sup>2</sup>National University of Singapore&nbsp;&nbsp;&nbsp;<br>
+<sup>3</sup>School of Ocean Information Engineering, Jimei University&nbsp;&nbsp;&nbsp;             
+<sup>4</sup>Xinjiang University&nbsp;&nbsp;&nbsp; 
+<sup>5</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;&nbsp;         
 </div>
 
 <div class="post-authors" style="margin-bottom:20px;">
