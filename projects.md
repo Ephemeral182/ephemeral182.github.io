@@ -42,6 +42,9 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
     <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/uncertainty_map.png" alt="Left Image">
   </div>
 
+  <div class="post-img-group">
+    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/metric.png"  alt="Left Image">
+  </div>
 
 <h2 class="post-section"  style="font-weight:300;"><strong>R</strong>ealistic <strong>V</strong>ideo De<strong>S</strong>nowing <strong>D</strong>ataset</h2>
 
@@ -50,13 +53,12 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 - We use a rendering engine (Unreal Engine 5) and various augmentation techniques to generate snow and haze with diverse and realistic physical properties. This results in more realistic and varied synthesized videos, which improve the model’s performance on real-world data. 
 
 
+
 <div class="post-section"  style="font-weight:700;">Download</div>
 <!-- <div style="font-weight:300;">Train (100 videos):  [Google Drive]  [Baidu Netdisk (password: 7t74)]</div>
 <div style="font-weight:300;">Test (20 videos):  [Google Drive]  [Baidu Netdisk (password: 7t74)] </div> -->
 
-  <div class="post-img-group">
-    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/mertric.png" alt="Left Image">
-  </div>
+
 
 - **Train (80 videos):**  
     [Google Drive]  [Baidu Netdisk (password: 7t74)]
