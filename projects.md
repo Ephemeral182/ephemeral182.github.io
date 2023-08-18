@@ -5,8 +5,8 @@ title: Projects
 ---
 
 
-<h2 class="post-title" style="margin-bottom:7px;margin-top:0;font-weight:700;">Snow Removal in Video: </h2>
-<h2 class="post-title" style="margin-bottom:20px;margin-top:0;">A New Dataset and A Novel Method</h2>
+<h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:700;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for </h2>
+<h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>
 
 <div class="post-authors" style="margin-bottom:5px;">
 <strong>Haoyu Chen</strong>, Jingjing Ren, Jinjin Gu, Hongtao Wu, Xuequan Lu, Haoming Cai, Lei Zhu
