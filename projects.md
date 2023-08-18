@@ -54,6 +54,9 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 <!-- <div style="font-weight:300;">Train (100 videos):  [Google Drive]  [Baidu Netdisk (password: 7t74)]</div>
 <div style="font-weight:300;">Test (20 videos):  [Google Drive]  [Baidu Netdisk (password: 7t74)] </div> -->
 
+  <div class="post-img-group">
+    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/mertric.png" alt="Left Image">
+  </div>
 
 - **Train (80 videos):**  
     [Google Drive]  [Baidu Netdisk (password: 7t74)]
