@@ -9,7 +9,7 @@ title: Projects
 <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>
 
 <div class="post-authors" style="margin-bottom:5px;">
-<strong>Sixiang</strong>, Tian Ye, Jinbin Bai, Erkang Chen, Jun Shi Lei Zhu
+<strong>Sixiang Chen*</strong>, Tian Ye*, Jinbin Bai, Erkang Chen, Jun Shi Lei Zhu<sup>✉️</sup>
 </div>
 
 <div class="post-authors" style="margin-bottom:20px;">
