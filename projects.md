@@ -5,8 +5,8 @@ title: Projects
 ---
 
 
-<h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:300;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for </h2>
-<h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>
+<h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:300;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks</h2>
+  <!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2> -->
 
 <div class="post-authors" style="margin-bottom:5px;">
 <strong>Sixiang Chen*</strong>, Tian Ye*, Jinbin Bai, Erkang Chen, Jun Shi Lei Zhu<sup>✉️</sup>
