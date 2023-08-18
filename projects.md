@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post1
 permalink: /project/index.html #/publications.html
 title: Projects
 ---
