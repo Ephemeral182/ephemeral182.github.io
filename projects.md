@@ -1,13 +1,7 @@
 ---
-layout: post
-title:  "Snow Removal in Video: A New Dataset and A Novel Method"
-info: "Haoyu Chen, Jinjin Gu, Zhi Zhang "
-tech : "Super Resolution"
-type: arXiv
-imgurl: ../assets/img/AAN.jpg
-pdfurl: https://arxiv.org/pdf/2104.09497.pdf
-codeurl: https://github.com/haoyuc/A2N
-text: Among recent advances in SISR, attention mechanisms are crucial for high performance SR models. However, few works really discuss why attention works and how it works. In this work, we attempt to quantify and visualize the static attention mechanisms and show that not all attention modules are equally beneficial. We then propose attention in attention network (AN) for highly accurate image SR. This allows attention modules to specialize to beneficial examples without otherwise penalties and thus greatly improve the capacity of the attention network with little parameter overhead. 
+layout: post1
+permalink: /project/index.html #/publications.html
+title: Projects
 ---
 
 
