@@ -38,6 +38,9 @@ Second, explicit application of the uncertainty-driven ranking strategy can faci
 Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outperforms state-of-the-art methods for all benchmarks.
 
 
+  <div class="post-img-group">
+    <img class="post-img" style="max-width:100%" src="images/uncertainty_map.png" alt="Left Image">
+  </div>
 
 
 <h2 class="post-section"  style="font-weight:300;"><strong>R</strong>ealistic <strong>V</strong>ideo De<strong>S</strong>nowing <strong>D</strong>ataset</h2>
