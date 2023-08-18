@@ -1,5 +1,5 @@
 ---
-layout: pqge
+layout: page
 permalink: /project/index.html #/publications.html
 title: Projects
 ---
