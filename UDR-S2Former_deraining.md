@@ -1,6 +1,6 @@
 ---
 layout: post1
-permalink: /projects/index.html #/publications.html
+permalink: /UDR-S2Former_deraining/index.html #/publications.html
 title: Projects
 ---
 
