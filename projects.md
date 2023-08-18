@@ -85,9 +85,9 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 
 ```
-@inproceedings{chen2023desnow,
+@inproceedings{chen2023deraining,
   title={Snow Removal in Video: A New Dataset and A Novel Method},
-  author={Chen, Haoyu and Ren, Jingjing and Gu, Jinjin and Wu, Hongtao and Lu, Xuequan and Cai, Haoming and Zhu, Lei},
+  author={Chen, Sixiang and Ye, Tian and Bai, Jinbin and Chen, Erkang and Shi, Jun and Zhu, Lei},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2023}
 }
