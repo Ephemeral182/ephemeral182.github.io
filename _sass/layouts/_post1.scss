@@ -62,29 +62,31 @@
     // margin: 0 5px !important;// margin: 0 10px; /* 在左右两侧添加 10px 的间距 */
   }
 
+  &-logo {
+    margin: auto !important;// margin: 0 10px; /* 在左右两侧添加 10px 的间距 */
+    height: 50px !important;
+    margin-bottom: -15px !important;
+  }
+
   &-line {
-    border-top: 0.2rem solid #55657d;
+    border-top: 0.4rem solid #55657d;
     display: block;
     margin: 0 auto 2rem;
-    width: 15rem;
-    max-width: 100%;
+    width: 5rem;
   }
 
   p {
     margin: 0 0 1rem;
     text-align: justify;
-    max-width: 100%;
   }
 
   a:hover {
     text-decoration: underline;
-    max-width: 100%;
   }
 
   img {
     // margin: 0 auto 0.5rem;
     margin: 0 3.5px 0.5rem;
-    max-width: 100%;
   }
 
   img + em {
@@ -94,7 +96,6 @@
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;
-    max-width: 100%;
   }
 }
 

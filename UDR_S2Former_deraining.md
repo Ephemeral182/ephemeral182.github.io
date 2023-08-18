@@ -32,31 +32,31 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
                         <li>
                             <a href="">
                             <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="10px">
+                            <img class="post-logo" style="max-width:10%" src="https://ephemeral182.github.io/images/paper.jpg" >
                                 <h5><strong>arXiv</strong></h5>
                             </a>
                         </li>
                         <li>
                              <a href="">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="10px">
+                            <img class="post-logo" style="max-width:10%" src="https://ephemeral182.github.io/images/paper.jpg" >
                                 <h5><strong>ICCV 2023</strong></h5>
                             </a>
                         </li>
                         <li>
                              <a href="/VideoDesnowing#:~:text=Realistic Video DeSnowing Datase">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/datatset.jpg" height="10px">
+                            <img class="post-logo" style="max-width:10%" src="https://ephemeral182.github.io/images/datatset.jpg" >
                                 <h5><strong>Dataset</strong></h5>
                             </a>
                         </li>                        
                         <li>
                             <a href="https://github.com/haoyuc/VideoDesnowing">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/github.png" height="10px">
+                            <img class="post-logo" style="max-width:10%" src="https://ephemeral182.github.io/images/github.png" >
                                 <h5><strong>Code</strong></h5>
                             </a>
                         </li>
                         <li>
                              <a href="">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/supplementary.jpg" height="10px">
+                            <img class="post-logo" style="max-width:10%" src="https://ephemeral182.github.io/images/supplementary.jpg" >
                                 <h5><strong>Supplementery</strong></h5>
                             </a>
                         </li>
