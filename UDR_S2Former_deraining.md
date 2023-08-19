@@ -199,7 +199,7 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 ```
 @inproceedings{chen2023deraining,
-  title={Snow Removal in Video: A New Dataset and A Novel Method},
+  title={Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks},
   author={Chen, Sixiang and Ye, Tian and Bai, Jinbin and Chen, Erkang and Shi, Jun and Zhu, Lei},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2023}
