@@ -66,7 +66,7 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 <div class="post-line"></div>
 
-<div style="background-color:#f5f5f5a1;box-shadow:3px 6px 3px 0px rgba(0,0,0,0.5)">
+<div style="box-shadow:3px 6px 3px 0px rgba(0,0,0,0.5)">
 <div class="post-img-group">
     <img class="post-img" style="left:0;right:0;margin-bottom:0;max-width:48%" src="https://ephemeral182.github.io/images/real_gif1.gif" alt="Left Image">&nbsp;&nbsp;
     <img class="post-img" style="left:0;right:0;margin-bottom:0;max-width:48%" src="https://ephemeral182.github.io/images/real_gif2.gif" alt="Right Image">
