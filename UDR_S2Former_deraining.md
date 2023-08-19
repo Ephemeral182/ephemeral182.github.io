@@ -161,12 +161,12 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 </div> 
 </div>  -->
 
-<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+<!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
 <img style="padding: 10px; width: 450;text-align: left;" frameborder="0" class="juxtapose" height="455" width="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f1fe1ad4-3e79-11ee-b5bd-6595d9b17862">
 <img style="padding: 10px; width: 450;text-align: right;" frameborder="0" class="juxtapose" height="455" width="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=5b6cf096-3e7d-11ee-b5bd-6595d9b17862">
 </div> 
-</div> 
+</div>  -->
 
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
