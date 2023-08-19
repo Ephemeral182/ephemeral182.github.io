@@ -156,10 +156,10 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
  <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">  -->
 <div class="post-img-group">
-<iframe style="max-width:100%;margin-bottom:0px;text-align: center;" frameborder="0" class="juxtapose" width="10%" height="600"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
+<iframe style="max-width:100%;margin-bottom:0px;text-align: center;" frameborder="0" class="juxtapose" width="100%" height="600"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
 </div> 
 <div class="post-img-group">
-<iframe style="max-width:100%;margin-bottom:0px;text-align: center;" frameborder="0" class="juxtapose" width="100%" height="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=209744e0-3ea4-11ee-b5bd-6595d9b17862"></iframe>
+<iframe style="max-width:100%;margin-bottom:0px;text-align: center;" frameborder="0" class="juxtapose" width="100%" height="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8a376612-3ea6-11ee-b5bd-6595d9b17862"></iframe>
 </div> 
 <!-- </div>  -->
 
