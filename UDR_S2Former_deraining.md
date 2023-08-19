@@ -122,12 +122,30 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
     padding-left: 25px;
     margin-bottom: 10px;
     padding-top: 20px;
-">Experiments</h2>
+">Quantitative Comparison</h2>
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
   <div class="post-img-group">
     <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/metric.png"  alt="Left Image">
   </div>
   </div>
+
+
+<h2 class="post-section" style="
+    text-align: center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+">Visual Comparison</h2>
+<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+  <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/udr_visual1.png"  alt="Left Image">
+  </div>
+    <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/udr_visual2.png"  alt="Left Image">
+  </div>
+  </div>
+
+
 <h2 class="post-section"  style="font-weight:300;"><strong>R</strong>ealistic <strong>V</strong>ideo De<strong>S</strong>nowing <strong>D</strong>ataset</h2>
 
 - <strong>RVSD</strong> contains a total of 110 pairs of videos. 
