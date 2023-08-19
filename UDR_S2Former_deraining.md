@@ -68,13 +68,13 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
-    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%" src="https://ephemeral182.github.io/images/real_gif1.gif" alt="Left Image"><!--&nbsp;&nbsp;!-->
-    <img class="post-img" style="left:0;right:0;margin-bottom:px;max-width:50%" src="https://ephemeral182.github.io/images/real_gif2.gif" alt="Right Image">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:48%" src="https://ephemeral182.github.io/images/real_gif1.gif" alt="Left Image"><!--&nbsp;&nbsp;!-->
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:48%" src="https://ephemeral182.github.io/images/real_gif2.gif" alt="Right Image">
   </div> 
   <div class="post-img-group">
-      <img class="post-img" style="left:0;right:0;margin-bottom:0;max-width:495px" src="https://ephemeral182.github.io/images/350.gif" alt="Left Image Image">
+      <img class="post-img" style="left:0;right:0;margin-bottom:0;max-width:700px" src="https://ephemeral182.github.io/images/350.gif" alt="Left Image Image">
   </div> 
-    </div> 
+  </div> 
 
   <!-- <div class="post-img-group">
     <img class="post-img" src="../assets/img/VideoDesnowing/1.gif" alt="Left Image">
