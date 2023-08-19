@@ -9,7 +9,7 @@ title: UDR_S2Former_derainings
 <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2> 
 
 <div class="post-authors" style="margin-bottom:5px;">
-<a href="https://owen718.github.io"><strong>Sixiang Chen</strong></a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp;
+<a href="https://ephemeral182.github.io"><strong>Sixiang Chen</strong></a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp;
 <a href="https://noyii.github.io">Jinbin Bai</a><sup>2</sup>*&nbsp;&nbsp;&nbsp;
 <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup>3</sup>*&nbsp;&nbsp;&nbsp;
 Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
@@ -80,16 +80,23 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 <!-- <img src="../assets/img/VideoDesnowing/1.gif" class="post-img" role="img"> -->
 
+<div style="background-color:#f0f1f3a6;">
+<h2 class="post-section" style="
+    padding-left: 25px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+">Abstract</h2>
+<p style="
+    padding: 25px;
+    padding-top: 10px;
 
-<h2 class="post-section">Abstract</h2>
-
-In the real world, image degradations caused by rain often exhibit a combination of rain streaks and raindrops, thereby increasing the challenges of recovering the underlying clean image. Note that the rain streaks and raindrops have diverse shapes, sizes, and locations in the captured image, and thus modeling the correlation relationship between irregular degradations caused by rain artifacts is a necessary prerequisite for image deraining. 
+">In the real world, image degradations caused by rain often exhibit a combination of rain streaks and raindrops, thereby increasing the challenges of recovering the underlying clean image. Note that the rain streaks and raindrops have diverse shapes, sizes, and locations in the captured image, and thus modeling the correlation relationship between irregular degradations caused by rain artifacts is a necessary prerequisite for image deraining. 
 This paper aims to present an efficient and flexible mechanism to learn and model degradation relationships in a global view, thereby achieving a unified removal of intricate rain scenes. 
 To do so, we propose a <u>S</u>parse <u>S</u>ampling Trans<u>former</u> based on <u>U</u>ncertainty-<u>D</u>riven <u>R</u>anking, dubbed **UDR-S<sup>2</sup>Former**. 
 Compared to previous methods, our UDR-S<sup>2</sup>Former has three merits. First, it can adaptively sample relevant image degradation information to model underlying degradation relationships. 
 Second, explicit application of the uncertainty-driven ranking strategy can facilitate the network to attend to degradation features and understand the reconstruction process. 
-Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outperforms state-of-the-art methods for all benchmarks.
-
+Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outperforms state-of-the-art methods for all benchmarks.<>"
+</div>
 
   <div class="post-img-group">
     <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/uncertainty_map.png" alt="Left Image">
