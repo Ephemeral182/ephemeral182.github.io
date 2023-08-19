@@ -138,7 +138,7 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 ">Visual Comparison</h2>
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
   <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/udr_visual1.png"  alt="Left Image">
+    <img class="post-img" style="max-width:100%;margin-bottom:50px;" src="https://ephemeral182.github.io/images/udr_visual1.png"  alt="Left Image">
   </div>
     <div class="post-img-group">
     <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/udr_visual2.png"  alt="Left Image">
