@@ -98,13 +98,14 @@ Second, explicit application of the uncertainty-driven ranking strategy can faci
 Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outperforms state-of-the-art methods for all benchmarks.</p>
 
 </div>
-<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+
 <h2 class="post-section" style="
     text-align: center;
     padding-left: 25px;
     margin-bottom: 10px;
     padding-top: 20px;
 ">Method</h2>
+<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
   <div class="post-img-group">
     <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/uncertainty_map.png" alt="Left Image">
   </div>
@@ -115,16 +116,16 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
     <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/udr_overview2.png" alt="Right Image">
   </div> 
   </div>
-<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+
 <h2 class="post-section" style="
     text-align: center;
     padding-left: 25px;
     margin-bottom: 10px;
     padding-top: 20px;
 ">Experiments</h2>
-
+<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
   <div class="post-img-group">
-    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/metric.png"  alt="Left Image">
+    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/metric.png"  alt="Left Image">
   </div>
   </div>
 <h2 class="post-section"  style="font-weight:300;"><strong>R</strong>ealistic <strong>V</strong>ideo De<strong>S</strong>nowing <strong>D</strong>ataset</h2>
