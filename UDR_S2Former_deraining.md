@@ -155,20 +155,22 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
   </div>
 
  <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">  -->
-<div class="post-img-group">
+<!-- <div class="post-img-group">
 <iframe style="max-width:100%;margin-bottom:0px;text-align: center;" frameborder="0" class="juxtapose" width="100%" height="600"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
 </div> 
 <div class="post-img-group">
 <iframe style="max-width:100%;margin-bottom:0px;text-align: center;" frameborder="0" class="juxtapose" width="100%" height="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8a376612-3ea6-11ee-b5bd-6595d9b17862"></iframe>
-</div> 
+</div>  -->
 <!-- </div>  -->
 
-<!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
-<div class="post-img-group">
-<img style="padding: 10px; width: 450;text-align: left;" frameborder="0" class="juxtapose" height="455" width="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=ae97ac46-3ea2-11ee-b5bd-6595d9b17862">
-<img style="padding: 10px; width: 450;text-align: right;" frameborder="0" class="juxtapose" height="455" width="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=5b6cf096-3e7d-11ee-b5bd-6595d9b17862">
-</div> 
-</div>  -->
+<table style="border: 0px black solid; ">
+                    <tbody>
+                        <tr>
+                            <td style="padding: 10px; width: 340;text-align: left;"><iframe frameborder="0" class="juxtapose" height="455" width="300" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe></td>
+                            <td style="padding: 10px; width: 340;text-align: right;"><iframe frameborder="0" class="juxtapose" height="455" width="300" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=8a376612-3ea6-11ee-b5bd-6595d9b17862"></iframe></td>
+                        </tr>
+                    </tbody>
+                </table>
 
 <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
