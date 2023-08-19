@@ -150,14 +150,14 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
     <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/udr_visual4.png"  alt="Left Image">
   </div>
     <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/udr_visual5.png"  alt="Left Image">
+    <img class="post-img" style="max-width:100%;margin-bottom:30px;" src="https://ephemeral182.github.io/images/udr_visual5.png"  alt="Left Image">
   </div>
   </div>
 
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
-    <iframe class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%" frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=7810526c-3e71-11ee-b5bd-6595d9b17862" alt="Right Image"></iframe>&nbsp;&nbsp;
-    <iframe class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%" frameborder="0" class="juxtapose"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=efe6e290-3e73-11ee-b5bd-6595d9b17862" alt="Right Image"></iframe>
+    <iframe class="post-img" style="left:0;right:0;margin-bottom:0px" frameborder="0" class="juxtapose" width="1920" height="1200" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=7810526c-3e71-11ee-b5bd-6595d9b17862" alt="Right Image"></iframe>&nbsp;&nbsp;
+    <iframe class="post-img" style="left:0;right:0;margin-bottom:0px" frameborder="0" class="juxtapose" width="1920" height="1200"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=efe6e290-3e73-11ee-b5bd-6595d9b17862" alt="Right Image"></iframe>
   </div> 
   </div> 
 
