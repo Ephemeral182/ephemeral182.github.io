@@ -30,32 +30,32 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <ul class="nav nav-pills nav-justified" style="box-shadow:0 0">
                         <li>
-                            <a href="">
+                            <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
                             <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
                             <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
                                 <h5><strong>arXiv</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="">
+                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
                                 <h5><strong>ICCV 2023</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="/VideoDesnowing#:~:text=Realistic Video DeSnowing Datase">
+                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/datatset.jpg" height="50px">
                                 <h5><strong>Dataset</strong></h5>
                             </a>
                         </li>                        
                         <li>
-                            <a href="https://github.com/haoyuc/VideoDesnowing">
+                            <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/github.png" height="50px">
                                 <h5><strong>Code</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="">
+                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/supplementary.jpg" height="50px">
                                 <h5><strong>Supplementery</strong></h5>
                             </a>
