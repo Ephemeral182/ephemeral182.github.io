@@ -170,12 +170,12 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
-    <img class="post-img" style="left:0;right:0;margin-bottom:0px;height:150" src="https://ephemeral182.github.io/images/real3.gif" alt="Left Image"><!--&nbsp;&nbsp;!-->
-    <img class="post-img" style="left:0;right:0;margin-bottom:0px;height:150" src="https://ephemeral182.github.io/images/real4.gif" alt="Right Image">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%;height:150" src="https://ephemeral182.github.io/images/real3.gif" alt="Left Image"><!--&nbsp;&nbsp;!-->
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%;height:150" src="https://ephemeral182.github.io/images/real4.gif" alt="Right Image">
   </div> 
    </div> 
 
-<h2 class="post-section"  style="font-weight:300;"><strong>R</strong>ealistic <strong>V</strong>ideo De<strong>S</strong>nowing <strong>D</strong>ataset</h2>
+<!-- <h2 class="post-section"  style="font-weight:300;"><strong>R</strong>ealistic <strong>V</strong>ideo De<strong>S</strong>nowing <strong>D</strong>ataset</h2>
 
 - <strong>RVSD</strong> contains a total of 110 pairs of videos. 
 - Each pair contains <strong>snowy</strong> and  <strong>hazy</strong> videos and corresponding snow-free and haze-free ground truth videos. 
@@ -189,10 +189,10 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 
 
-- **Train (80 videos):**  
+<!-- - **Train (80 videos):**  
     [Google Drive]  [Baidu Netdisk (password: 7t74)]
 - **Test (30 videos):**  
-    [Google Drive]  [Baidu Netdisk (password: 7t74)]
+    [Google Drive]  [Baidu Netdisk (password: 7t74)] --> 
 
 <h2 class="post-section">Citation</h2>
 
