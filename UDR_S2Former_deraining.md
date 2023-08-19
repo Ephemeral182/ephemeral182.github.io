@@ -77,12 +77,7 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
   </div> 
 
 
- <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)"> 
-<div class="post-img-group">
-<iframe style="max-width:50%;margin-bottom:0px;text-align: left;" frameborder="0" class="juxtapose" width="50%" height="600"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
-<iframe style="max-width:50%;margin-bottom:0px;text-align: right;" frameborder="0" class="juxtapose" width="50%" height="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=209744e0-3ea4-11ee-b5bd-6595d9b17862"></iframe>
-</div> 
-</div>  -->
+
   <!-- <div class="post-img-group">
     <img class="post-img" src="../assets/img/VideoDesnowing/1.gif" alt="Left Image">
     <img class="post-img" src="../assets/img/VideoDesnowing/2.gif" alt="Right Image">
@@ -161,12 +156,12 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
   </div>
   </div>
 
- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)"> 
+ <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">  -->
 <div class="post-img-group">
 <iframe style="max-width:50%;margin-bottom:0px;text-align: left;" frameborder="0" class="juxtapose" width="50%" height="600"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
 <iframe style="max-width:50%;margin-bottom:0px;text-align: right;" frameborder="0" class="juxtapose" width="50%" height="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=209744e0-3ea4-11ee-b5bd-6595d9b17862"></iframe>
 </div> 
-</div> 
+
 
 <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
