@@ -5,8 +5,8 @@ title: UDR_S2Former_derainings
 ---
 
 
-<h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:400;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for </h2>
-<h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2> 
+<h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:400;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks</h2>
+<!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>  -->
 
 <div class="post-authors" style="margin-bottom:5px;">
 <a href="https://ephemeral182.github.io"><strong>Sixiang Chen</strong></a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp;
@@ -97,6 +97,12 @@ Compared to previous methods, our UDR-S<sup>2</sup>Former has three merits. Firs
 Second, explicit application of the uncertainty-driven ranking strategy can facilitate the network to attend to degradation features and understand the reconstruction process. 
 Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outperforms state-of-the-art methods for all benchmarks.</p>
 
+<h2 class="post-section" style="
+    text-align: center;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+">Method</h2>
 
 </div>
 
@@ -109,6 +115,12 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
     <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/udr_overview2.png" alt="Right Image">
   </div> 
 
+<h2 class="post-section" style="
+    text-align: center;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+">Experiments</h2>
 
   <div class="post-img-group">
     <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/metric.png"  alt="Left Image">
