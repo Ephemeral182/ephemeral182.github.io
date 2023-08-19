@@ -96,6 +96,7 @@ To do so, we propose a <u>S</u>parse <u>S</u>ampling Trans<u>former</u> based on
 Compared to previous methods, our UDR-S<sup>2</sup>Former has three merits. First, it can adaptively sample relevant image degradation information to model underlying degradation relationships. 
 Second, explicit application of the uncertainty-driven ranking strategy can facilitate the network to attend to degradation features and understand the reconstruction process. 
 Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outperforms state-of-the-art methods for all benchmarks.
+</p>
 </div>
 
   <div class="post-img-group">
