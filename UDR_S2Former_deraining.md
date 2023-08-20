@@ -26,6 +26,29 @@ Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
 International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 </div>
 
+<button id="likeBtn" class="like-button">Star</button>
+
+<script>
+  // 获取按钮元素
+  var likeBtn = document.getElementById('likeBtn');
+
+  // 定义初始状态为未点赞
+  var isLiked = false;
+
+  // 点击按钮时切换点赞状态和样式
+  likeBtn.addEventListener('click', function() {
+    isLiked = !isLiked; // 切换点赞状态
+
+    if (isLiked) {
+      likeBtn.classList.add('liked'); // 添加 liked 类
+      likeBtn.textContent = '已点赞'; // 修改按钮文本
+    } else {
+      likeBtn.classList.remove('liked'); // 移除 liked 类
+      likeBtn.textContent = '点赞'; // 修改按钮文本
+    }
+  });
+</script>
+
 <div style="margin-bottom: 0.7em;" class="post-authors">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <ul class="nav nav-pills nav-justified" style="box-shadow:0 0">
