@@ -3,7 +3,7 @@ layout: post1
 permalink: /UDR_S2Former_deraining/index.html #/publications.html
 title: UDR_S2Former_derainings
 ---
-<!-- 
+
 <script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-analytics.js"></script>
 
@@ -45,8 +45,7 @@ title: UDR_S2Former_derainings
   likeBtn.addEventListener('click', function() {
     increaseLikeCount();
   });
-</script> -->
-
+</script>
 
 <style>
   .like-button {
@@ -87,67 +86,42 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 
 
-<html>
-<head>
-  <title>点赞按钮</title>
-  <style>
-    .like-button {
-      background-color: #eee;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
+<button id="likeBtn" class="like-button">Star</button>
+<span id="likeCount">0</span> stars
+
+<script>
+  // 获取按钮元素和点赞数量元素
+  var likeBtn = document.getElementById('likeBtn');
+  var likeCountElement = document.getElementById('likeCount');
+
+  // 从存储中获取点赞数量，默认为0
+  var likeCount = parseInt(localStorage.getItem('likeCount')) || 0;
+
+  // 更新点赞数量显示
+  likeCountElement.textContent = likeCount;
+
+  // 定义初始状态为未点赞
+  var isLiked = false;
+
+  // 点击按钮时切换点赞状态和样式，并更新点赞数量
+  likeBtn.addEventListener('click', function() {
+    isLiked = !isLiked; // 切换点赞状态
+
+    if (isLiked) {
+      likeBtn.classList.add('liked'); // 添加 liked 类
+      likeCount++; // 累加点赞数量
+    } else {
+      likeBtn.classList.remove('liked'); // 移除 liked 类
+      likeCount--; // 减少点赞数量
     }
 
-    .liked {
-      background-color: #ff0000;
-      color: #fff;
-    }
-  </style>
-</head>
-<body>
-  <button id="likeBtn" class="like-button">点赞</button>
-  <span id="likeCount">0</span> 个赞
+    // 更新点赞数量显示
+    likeCountElement.textContent = likeCount;
 
-  <script>
-    // 获取按钮元素和点赞数量元素
-    var likeBtn = document.getElementById('likeBtn');
-    var likeCountElement = document.getElementById('likeCount');
-
-    // 获取点赞数量的函数
-    function getLikeCount() {
-      fetch('/api/likes')
-        .then(response => response.json())
-        .then(data => {
-          likeCountElement.textContent = data;
-        })
-        .catch(error => {
-          console.error('Failed to retrieve like count', error);
-        });
-    }
-
-    // 增加点赞数量的函数
-    function increaseLikeCount() {
-      fetch('/api/likes', { method: 'POST' })
-        .then(response => response.json())
-        .then(data => {
-          likeCountElement.textContent = data;
-        })
-        .catch(error => {
-          console.error('Failed to update like count', error);
-        });
-    }
-
-    // 初始化页面时获取点赞数量
-    getLikeCount();
-
-    // 点击按钮时增加点赞数量
-    likeBtn.addEventListener('click', function() {
-      increaseLikeCount();
-    });
-  </script>
-</body>
-</html>
+    // 将点赞数量保存到存储
+    localStorage.setItem('likeCount', likeCount.toString());
+  });
+</script>
 
 <div style="margin-bottom: 0.7em;" class="post-authors">
                 <div class="col-md-8 col-md-offset-2 text-center">
