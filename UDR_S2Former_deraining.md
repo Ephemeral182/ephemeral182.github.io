@@ -33,6 +33,7 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 50%; /* 圆形按钮 */
   }
 
   .liked {
@@ -41,26 +42,40 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
   }
 </style>
 
-<button id="likeBtn" class="like-button">Star</button>
+<button id="likeBtn" class="like-button">点赞</button>
+<span id="likeCount">0</span> 个赞
 
 <script>
-  // 获取按钮元素
+  // 获取按钮元素和点赞数量元素
   var likeBtn = document.getElementById('likeBtn');
+  var likeCountElement = document.getElementById('likeCount');
+
+  // 从存储中获取点赞数量，默认为0
+  var likeCount = parseInt(localStorage.getItem('likeCount')) || 0;
+
+  // 更新点赞数量显示
+  likeCountElement.textContent = likeCount;
 
   // 定义初始状态为未点赞
   var isLiked = false;
 
-  // 点击按钮时切换点赞状态和样式
+  // 点击按钮时切换点赞状态和样式，并更新点赞数量
   likeBtn.addEventListener('click', function() {
     isLiked = !isLiked; // 切换点赞状态
 
     if (isLiked) {
       likeBtn.classList.add('liked'); // 添加 liked 类
-      likeBtn.textContent = '已点赞'; // 修改按钮文本
+      likeCount++; // 累加点赞数量
     } else {
       likeBtn.classList.remove('liked'); // 移除 liked 类
-      likeBtn.textContent = '点赞'; // 修改按钮文本
+      likeCount--; // 减少点赞数量
     }
+
+    // 更新点赞数量显示
+    likeCountElement.textContent = likeCount;
+
+    // 将点赞数量保存到存储
+    localStorage.setItem('likeCount', likeCount.toString());
   });
 </script>
 
