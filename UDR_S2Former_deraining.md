@@ -3,7 +3,7 @@ layout: post1
 permalink: /UDR_S2Former_deraining/index.html #/publications.html
 title: UDR_S2Former_derainings
 ---
-
+<!-- 
 <script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-analytics.js"></script>
 
@@ -45,7 +45,7 @@ title: UDR_S2Former_derainings
   likeBtn.addEventListener('click', function() {
     increaseLikeCount();
   });
-</script>
+</script> -->
 
 
 <style>
@@ -87,7 +87,6 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 
 
-<!DOCTYPE html>
 <html>
 <head>
   <title>点赞按钮</title>
