@@ -87,7 +87,7 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 
 
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>点赞按钮</title>
@@ -148,23 +148,7 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
     });
   </script>
 </body>
-</html> -->
-<button id="likeBtn" class="like-button">点赞</button>
-<span id="likeCount">0</span> 个赞
-
-<script>
-  // 获取按钮元素和点赞数量元素
-  var likeBtn = document.getElementById('likeBtn');
-  var likeCountElement = document.getElementById('likeCount');
-
-  // 初始化页面时获取点赞数量
-  getLikeCount();
-
-  // 点击按钮时增加点赞数量
-  likeBtn.addEventListener('click', function() {
-    increaseLikeCount();
-  });
-</script>
+</html>
 
 <div style="margin-bottom: 0.7em;" class="post-authors">
                 <div class="col-md-8 col-md-offset-2 text-center">
