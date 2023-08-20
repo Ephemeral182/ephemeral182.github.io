@@ -4,6 +4,21 @@ permalink: /UDR_S2Former_deraining/index.html #/publications.html
 title: UDR_S2Former_derainings
 ---
 
+<style>
+  .like-button {
+    background-color: #eee;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%; /* 圆形按钮 */
+  }
+
+  .liked {
+    background-color: #ff0000;
+    color: #fff;
+  }
+</style>
 
 <h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:400;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks</h2>
 <!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>  -->
@@ -26,24 +41,10 @@ Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
 International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 </div>
 
-<style>
-  .like-button {
-    background-color: #eee;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50%; /* 圆形按钮 */
-  }
 
-  .liked {
-    background-color: #ff0000;
-    color: #fff;
-  }
-</style>
 
-<button id="likeBtn" class="like-button">点赞</button>
-<span id="likeCount">0</span> 个赞
+<button id="likeBtn" class="like-button">Star</button>
+<span id="likeCount">0</span> stars
 
 <script>
   // 获取按钮元素和点赞数量元素
