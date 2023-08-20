@@ -4,6 +4,50 @@ permalink: /UDR_S2Former_deraining/index.html #/publications.html
 title: UDR_S2Former_derainings
 ---
 
+<script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-analytics.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAZWX__0RAw4QxwQrx1ZYlyC7C1ie3GCf0",
+    authDomain: "udr-s2former.firebaseapp.com",
+    projectId: "udr-s2former",
+    storageBucket: "udr-s2former.appspot.com",
+    messagingSenderId: "829058068674",
+    appId: "1:829058068674:web:bc7ed916b70cd7d2e10b5b",
+    measurementId: "G-WY1V2CGEXL"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+
+  var database = firebase.database();
+
+  function getLikeCount() {
+    var likesRef = database.ref('likes/count');
+    likesRef.on('value', function(snapshot) {
+      var count = snapshot.val();
+      likeCountElement.textContent = count;
+    });
+  }
+
+  function increaseLikeCount() {
+    var likesRef = database.ref('likes/count');
+    likesRef.transaction(function(currentCount) {
+      return (currentCount || 0) + 1;
+    });
+  }
+
+  var likeBtn = document.getElementById('likeBtn');
+  var likeCountElement = document.getElementById('likeCount');
+
+  getLikeCount();
+
+  likeBtn.addEventListener('click', function() {
+    increaseLikeCount();
+  });
+</script>
+
+
 <style>
   .like-button {
     background-color: #eee;
@@ -43,40 +87,82 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 
 
 
-<button id="likeBtn" class="like-button">Star</button>
-<span id="likeCount">0</span> stars
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>点赞按钮</title>
+  <style>
+    .like-button {
+      background-color: #eee;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .liked {
+      background-color: #ff0000;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <button id="likeBtn" class="like-button">点赞</button>
+  <span id="likeCount">0</span> 个赞
+
+  <script>
+    // 获取按钮元素和点赞数量元素
+    var likeBtn = document.getElementById('likeBtn');
+    var likeCountElement = document.getElementById('likeCount');
+
+    // 获取点赞数量的函数
+    function getLikeCount() {
+      fetch('/api/likes')
+        .then(response => response.json())
+        .then(data => {
+          likeCountElement.textContent = data;
+        })
+        .catch(error => {
+          console.error('Failed to retrieve like count', error);
+        });
+    }
+
+    // 增加点赞数量的函数
+    function increaseLikeCount() {
+      fetch('/api/likes', { method: 'POST' })
+        .then(response => response.json())
+        .then(data => {
+          likeCountElement.textContent = data;
+        })
+        .catch(error => {
+          console.error('Failed to update like count', error);
+        });
+    }
+
+    // 初始化页面时获取点赞数量
+    getLikeCount();
+
+    // 点击按钮时增加点赞数量
+    likeBtn.addEventListener('click', function() {
+      increaseLikeCount();
+    });
+  </script>
+</body>
+</html> -->
+<button id="likeBtn" class="like-button">点赞</button>
+<span id="likeCount">0</span> 个赞
 
 <script>
   // 获取按钮元素和点赞数量元素
   var likeBtn = document.getElementById('likeBtn');
   var likeCountElement = document.getElementById('likeCount');
 
-  // 从存储中获取点赞数量，默认为0
-  var likeCount = parseInt(localStorage.getItem('likeCount')) || 0;
+  // 初始化页面时获取点赞数量
+  getLikeCount();
 
-  // 更新点赞数量显示
-  likeCountElement.textContent = likeCount;
-
-  // 定义初始状态为未点赞
-  var isLiked = false;
-
-  // 点击按钮时切换点赞状态和样式，并更新点赞数量
+  // 点击按钮时增加点赞数量
   likeBtn.addEventListener('click', function() {
-    isLiked = !isLiked; // 切换点赞状态
-
-    if (isLiked) {
-      likeBtn.classList.add('liked'); // 添加 liked 类
-      likeCount++; // 累加点赞数量
-    } else {
-      likeBtn.classList.remove('liked'); // 移除 liked 类
-      likeCount--; // 减少点赞数量
-    }
-
-    // 更新点赞数量显示
-    likeCountElement.textContent = likeCount;
-
-    // 将点赞数量保存到存储
-    localStorage.setItem('likeCount', likeCount.toString());
+    increaseLikeCount();
   });
 </script>
 
