@@ -26,6 +26,21 @@ Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
 International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 </div>
 
+<style>
+  .like-button {
+    background-color: #eee;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .liked {
+    background-color: #ff0000;
+    color: #fff;
+  }
+</style>
+
 <button id="likeBtn" class="like-button">Star</button>
 
 <script>
