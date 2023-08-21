@@ -10,9 +10,9 @@ title: UDR_S2Former_derainings
 
 <div class="post-authors" style="margin-bottom:5px;">
 <a href="https://ephemeral182.github.io"><strong>Sixiang Chen</strong></a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp;
-<a href="https://noyii.github.io">Jinbin Bai</a><sup>2</sup>*&nbsp;&nbsp;&nbsp;
-<a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup>3</sup>*&nbsp;&nbsp;&nbsp;
-Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
+<a href="https://noyii.github.io">Jinbin Bai</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
+Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
 <a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>1,5 ✉️</sup>&nbsp;&nbsp;&nbsp;
 <br>
 <sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;&nbsp;
