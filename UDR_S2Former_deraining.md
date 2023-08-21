@@ -85,10 +85,58 @@ Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
 International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 </div>
 
+<button id="likeBtn" class="like-button">点赞</button>
+<span id="likeCount">0</span> 个赞
+<span id="likeStatus"></span>
 
+<script>
+// 获取当前用户的唯一标识符
+function getUserId() {
+  var user = firebase.auth().currentUser;
+  if (user) {
+    return user.uid;
+  } else {
+    // 如果用户未登录或获取不到当前用户的信息，您可以根据需求返回一个默认的唯一标识符或执行其他逻辑
+    return null;
+  }
+}
 
-<button id="likeBtn" class="like-button">Star</button>
+// 切换点赞状态
+function toggleLikeStatus() {
+  var userId = getUserId();
+  if (userId) {
+    var likedRef = database.ref('likes/users/' + userId);
+    likedRef.transaction(function(currentStatus) {
+      return !currentStatus;
+    });
+  } else {
+    // 如果无法获取当前用户的唯一标识符，您可以根据需求执行其他逻辑
+  }
+}
+
+// 检查当前用户是否已点赞
+function checkUserLiked() {
+  var userId = getUserId();
+  if (userId) {
+    var likedRef = database.ref('likes/users/' + userId);
+    likedRef.on('value', function(snapshot) {
+      var userLiked = snapshot.val();
+      if (userLiked) {
+        likeBtn.classList.add('liked');
+        document.getElementById('likeStatus').textContent = '已点赞';
+      } else {
+        likeBtn.classList.remove('liked');
+        document.getElementById('likeStatus').textContent = '';
+      }
+    });
+  } else {
+    // 如果无法获取当前用户的唯一标识符，您可以根据需求执行其他逻辑
+  }
+}
+</script>
+<!-- <button id="likeBtn" class="like-button">Star</button>
 <span id="likeCount">0</span> stars
+
 
 <script>
   // 获取按钮元素和点赞数量元素
@@ -122,7 +170,7 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
     // 将点赞数量保存到存储
     localStorage.setItem('likeCount', likeCount.toString());
   });
-</script>
+</script> -->
 
 <div style="margin-bottom: 0.7em;" class="post-authors">
                 <div class="col-md-8 col-md-offset-2 text-center">
