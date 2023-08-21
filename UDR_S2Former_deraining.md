@@ -179,11 +179,16 @@ checkUserLiked();
 
 likeBtn.addEventListener('click', function() {
   likeBtn.disabled = true; // 禁用按钮
+
   hasUserLiked().then(function(isLiked) {
     if (!isLiked) {
       toggleLikeStatus();
       increaseLikeCount();
       updateLikeStatus(true);
+
+      // 在按钮点击后添加反应代码
+      // 例如，显示感谢信息或切换按钮样式等
+      console.log('感谢您的点赞！');
     }
   });
 });
