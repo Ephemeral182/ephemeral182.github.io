@@ -4,6 +4,28 @@ permalink: /publications/index.html #/publications.html
 title: Publications
 ---
 
+<style>
+  /* 自定义链接样式 */
+  .custom-link—project {
+    color: rgb(162,96,247);
+  }
+</style>
+
+<style>
+  /* 自定义链接样式 */
+  .custom-link—code {
+    color: rgb(103, 100, 248);
+  }
+</style>
+
+<style>
+  /* 自定义链接样式 */
+  .custom-link—paper {
+    color: rgb(39, 207, 236);
+  }
+</style>
+
+
 # Publications
 
 2&nbsp; ***ICCV*** &nbsp;&nbsp;&nbsp;1&nbsp; ***ECCV*** &nbsp;&nbsp;&nbsp;4&nbsp; ***ACM MM*** &nbsp;&nbsp;&nbsp;1&nbsp; ***CVPRW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICASSP*** &nbsp;&nbsp;&nbsp;3&nbsp; ***Arxiv*** 
@@ -26,9 +48,9 @@ title: Publications
           <br>  
           <em>International Conference on Computer Vision <strong>(ICCV)</strong></em>, 2023
           <br>
-          <a href="Ephemeral182.github.io">[Paper]</a>
-          <a href="Ephemeral182.github.io">[Code]</a>
-          <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">[Project]</a>
+          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+          <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/" class="custom-link—project">[Project]</a>
       </td>
     </tr>
 
