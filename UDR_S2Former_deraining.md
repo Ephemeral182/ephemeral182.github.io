@@ -11,6 +11,7 @@ title: UDR_S2Former_derainings
   var firebaseConfig = {
     apiKey: "AIzaSyAZWX__0RAw4QxwQrx1ZYlyC7C1ie3GCf0",
     authDomain: "udr-s2former.firebaseapp.com",
+    databaseURL: "https://udr-s2former-default-rtdb.firebaseio.com",
     projectId: "udr-s2former",
     storageBucket: "udr-s2former.appspot.com",
     messagingSenderId: "829058068674",
