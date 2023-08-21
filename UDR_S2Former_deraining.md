@@ -7,7 +7,7 @@ title: UDR_S2Former_derainings
 <script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-analytics.js"></script>
 
-<script>
+<!-- <script>
   var firebaseConfig = {
     apiKey: "AIzaSyAZWX__0RAw4QxwQrx1ZYlyC7C1ie3GCf0",
     authDomain: "udr-s2former.firebaseapp.com",
@@ -62,7 +62,7 @@ title: UDR_S2Former_derainings
     background-color: #ff0000;
     color: #fff;
   }
-</style>
+</style> -->
 
 <h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:400;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks</h2>
 <!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>  -->
@@ -86,12 +86,19 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 </div>
 
 <button id="likeBtn">点赞</button>
-<span id="likeCount"></span>
+<span id="likeCount"></span> 赞了
 
 <script>
 // 初始化 Firebase
 var firebaseConfig = {
-  // 将您的 Firebase 配置信息填写在这里
+   apiKey: "AIzaSyAZWX__0RAw4QxwQrx1ZYlyC7C1ie3GCf0",
+    authDomain: "udr-s2former.firebaseapp.com",
+    databaseURL: "https://udr-s2former-default-rtdb.firebaseio.com",
+    projectId: "udr-s2former",
+    storageBucket: "udr-s2former.appspot.com",
+    messagingSenderId: "829058068674",
+    appId: "1:829058068674:web:bc7ed916b70cd7d2e10b5b",
+    measurementId: "G-WY1V2CGEXL"
 };
 firebase.initializeApp(firebaseConfig);
 var database = firebase.database();
@@ -127,16 +134,6 @@ function toggleLikeStatus() {
     likedRef.transaction(function(currentStatus) {
       return !currentStatus;
     });
-  }
-}
-
-// 更新点赞状态的显示
-function updateLikeStatus(isLiked) {
-  var likeBtn = document.getElementById('likeBtn');
-  if (isLiked) {
-    likeBtn.classList.add('liked');
-  } else {
-    likeBtn.classList.remove('liked');
   }
 }
 
