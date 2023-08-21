@@ -255,7 +255,7 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 
 
- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)"> 
+ <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">  -->
 <div class="post-img-group">
 <iframe style="max-width:50%;margin-top:0px;text-align: left;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
 <iframe style="max-width:50%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=209744e0-3ea4-11ee-b5bd-6595d9b17862"></iframe>
@@ -265,9 +265,9 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 <iframe style="max-width:50%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0ded7a4a-3f3e-11ee-b5bd-6595d9b17862"></iframe>
 </div> 
 <div class="post-img-group">
-<iframe style="max-width:100%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="100%" height="369" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2ad2a594-3f3f-11ee-b5bd-6595d9b17862"></iframe>
+<iframe style="max-width:100%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="100%" height="371" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2ad2a594-3f3f-11ee-b5bd-6595d9b17862"></iframe>
 </div>
-</div>
+
 
 <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
