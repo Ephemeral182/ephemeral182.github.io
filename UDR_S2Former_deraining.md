@@ -100,19 +100,6 @@ function getUserId() {
   }
 }
 
-// 判断用户是否已经点赞
-function hasUserLiked() {
-  var userId = getUserId();
-  if (userId) {
-    var likedRef = database.ref('likes/users/' + userId);
-    return likedRef.once('value').then(function(snapshot) {
-      return snapshot.exists();
-    });
-  } else {
-    return Promise.resolve(false);
-  }
-}
-
 // 切换点赞状态
 function toggleLikeStatus() {
   var userId = getUserId();
@@ -136,10 +123,11 @@ function updateLikeStatus(isLiked) {
   }
 }
 
-// 检查当前用户是否已点赞
-function checkUserLiked() {
-  hasUserLiked().then(function(isLiked) {
-    updateLikeStatus(isLiked);
+// 获取点赞数量
+function getLikeCount() {
+  var likesRef = database.ref('likes/count');
+  return likesRef.once('value').then(function(snapshot) {
+    return snapshot.val() || 0;
   });
 }
 
@@ -159,19 +147,40 @@ function decreaseLikeCount() {
   });
 }
 
+// 检查当前用户的点赞状态和点赞数量
+function checkUserLiked() {
+  var userId = getUserId();
+  if (userId) {
+    var likedRef = database.ref('likes/users/' + userId);
+    likedRef.on('value', function(snapshot) {
+      var isLiked = snapshot.val() || false;
+      updateLikeStatus(isLiked);
+    });
+  }
+
+  getLikeCount().then(function(count) {
+    likeCountElement.textContent = count;
+  });
+}
+
 var likeBtn = document.getElementById('likeBtn');
 var likeCountElement = document.getElementById('likeCount');
 
 checkUserLiked();
 
 likeBtn.addEventListener('click', function() {
-  hasUserLiked().then(function(isLiked) {
-    if (!isLiked) {
-      toggleLikeStatus();
-      increaseLikeCount();
-      updateLikeStatus(true); // 更新点赞状态的显示
-    }
-  });
+  var userId = getUserId();
+  if (userId) {
+    toggleLikeStatus();
+    getLikeCount().then(function(count) {
+      if (likeBtn.classList.contains('liked')) {
+        decreaseLikeCount();
+      } else {
+        increaseLikeCount();
+      }
+      likeCountElement.textContent = count;
+    });
+  }
 });
 </script>
 
