@@ -7,7 +7,7 @@ title: Publications
 <style>
   /* 自定义链接样式 */
   .custom-link—project {
-    color: rgb(162,96,247);
+    color: rgb(255,86,188);
   }
 </style>
 
@@ -71,8 +71,8 @@ title: Publications
         <br>  
         <em>International Conference on Computer Vision <strong>(ICCV)</strong></em>, 2023
         <br>
-        <a href="Ephemeral182.github.io">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -93,8 +93,8 @@ title: Publications
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
-        <a href="Ephemeral182.github.io">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -115,8 +115,8 @@ title: Publications
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
-        <a href="Ephemeral182.github.io">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+       <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -137,8 +137,8 @@ title: Publications
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
-        <a href="Ephemeral182.github.io">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -159,8 +159,8 @@ title: Publications
         <br>  
         <em>ACM Multimedia <strong>(ACM MM)</strong></em>, 2023
         <br>
-        <a href="http://export.arxiv.org/abs/2305.09533#:~:text=propose%20an%20end-to-end%20transformer-based%20framework%20for%20nighttime%20haze,we%20introduce%20two%20powerful%20priors%20into%20the%20transformer">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="http://export.arxiv.org/abs/2305.09533#:~:text=propose%20an%20end-to-end%20transformer-based%20framework%20for%20nighttime%20haze,we%20introduce%20two%20powerful%20priors%20into%20the%20transformer" class="custom-link—paper">[Paper]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -181,8 +181,8 @@ title: Publications
         <br>  
         <em>Arxiv (Under review)</em>, 2023
         <br>
-        <a href="https://arxiv.org/abs/2305.08824#:~:text=In%20this%20work%2C%20we%20propose%20the%20Five%20A,The%20FA%20Net%20employs%20a%20two-stage%20enhancement%20structure.">[Paper]</a>
-        <a href="https://github.com/Owen718/FiveAPlus-Network">[Code]</a>
+        <a href="https://arxiv.org/abs/2305.08824#:~:text=In%20this%20work%2C%20we%20propose%20the%20Five%20A,The%20FA%20Net%20employs%20a%20two-stage%20enhancement%20structure." class="custom-link—paper">[Paper]</a>
+        <a href="https://github.com/Owen718/FiveAPlus-Network" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -203,8 +203,8 @@ title: Publications
         <br>  
         <em>International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong></em>, 2023
         <br>
-        <a href="https://ieeexplore.ieee.org/abstract/document/10096828">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10096828" class="custom-link—paper">[Paper]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -225,8 +225,8 @@ title: Publications
         <br>  
         <em>International Conference on Acoustics, Speech, and Signal Processing <strong>(ICASSP)</strong></em>, 2023
         <br>
-        <a href="https://ieeexplore.ieee.org/abstract/document/10095605">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="https://ieeexplore.ieee.org/abstract/document/10095605" class="custom-link—paper">[Paper]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -247,8 +247,8 @@ title: Publications
         <br>  
         <em>Arxiv (Under review)</em>, 2022
         <br>
-        <a href="https://arxiv.org/abs/2208.09703#:~:text=SnowFormer%3A%20Context%20Interaction%20Transformer%20with%20Scale-awareness%20for%20Single,image%20desnowing%20is%20a%20challenging%20image%20restoration%20task.">[Paper]</a>
-        <a href="https://github.com/Ephemeral182/SnowFormer">[Code]</a>
+        <a href="https://arxiv.org/abs/2208.09703#:~:text=SnowFormer%3A%20Context%20Interaction%20Transformer%20with%20Scale-awareness%20for%20Single,image%20desnowing%20is%20a%20challenging%20image%20restoration%20task." class="custom-link—paper">[Paper]</a>
+        <a href="https://github.com/Ephemeral182/SnowFormer" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -269,8 +269,8 @@ title: Publications
         <br>  
         <em>Asian Conference on Computer Vision <strong>(ACCV)</strong></em>, 2022
         <br>
-        <a href="Ephemeral182.github.io">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -292,8 +292,8 @@ title: Publications
         <br>  
         <em>Arxiv (Under review)</em>, 2022
         <br>
-        <a href="https://www.semanticscholar.org/paper/Dual-former%3A-Hybrid-Self-attention-Transformer-for-Chen-Ye/6eef8436384da63d4bb400e5a39a3be1b65d07ab#:~:text=Dual-former%20is%20presented%20whose%20critical%20insight%20is%20to,achieves%20superior%20performance%20on%20multiple%20image%20restoration%20tasks.">[Paper]</a>
-        <a href="Ephemeral182.github.io">[Code]</a>
+        <a href="https://www.semanticscholar.org/paper/Dual-former%3A-Hybrid-Self-attention-Transformer-for-Chen-Ye/6eef8436384da63d4bb400e5a39a3be1b65d07ab#:~:text=Dual-former%20is%20presented%20whose%20critical%20insight%20is%20to,achieves%20superior%20performance%20on%20multiple%20image%20restoration%20tasks." class="custom-link—paper">[Paper]</a>
+        <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -314,8 +314,8 @@ title: Publications
         <br>  
         <em>European Conference on Computer Vision <strong>(ECCV Oral)</strong></em>, 2022
         <br>
-        <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8">[Paper]</a>
-        <a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing">[Code]</a>
+        <a href="https://link.springer.com/chapter/10.1007/978-3-031-19800-7_8" class="custom-link—paper">[Paper]</a>
+        <a href="https://github.com/Owen718/ECCV22-Perceiving-and-Modeling-Density-for-Image-Dehazing" class="custom-link—code">[Code]</a>
       </td>
       </tr>
 
@@ -335,8 +335,8 @@ title: Publications
         <br>  
         <em>Conference on Computer Vision and Pattern Recognition Workshop <strong>(CVPRW)</strong></em>, 2022
         <br>
-        <a href="https://ieeexplore.ieee.org/document/9857150">[Paper]</a>
-        <a href="https://github.com/Ephemeral182/UWNR">[Code]</a>
+        <a href="https://ieeexplore.ieee.org/document/9857150" class="custom-link—paper">[Paper]</a>
+        <a href="https://github.com/Ephemeral182/UWNR" class="custom-link—code">[Code]</a>
       </td>
       </tr>
   </tbody>
