@@ -130,6 +130,7 @@ function updateLikeStatus(isLiked) {
   if (isLiked) {
     likeBtn.classList.add('liked');
     likeStatusElement.textContent = '已点赞';
+    likeBtn.disabled = true; // 禁用按钮
   } else {
     likeBtn.classList.remove('liked');
     likeStatusElement.textContent = '';
@@ -177,6 +178,7 @@ var likeCountElement = document.getElementById('likeCount');
 checkUserLiked();
 
 likeBtn.addEventListener('click', function() {
+  likeBtn.disabled = true; // 禁用按钮
   hasUserLiked().then(function(isLiked) {
     if (!isLiked) {
       toggleLikeStatus();
