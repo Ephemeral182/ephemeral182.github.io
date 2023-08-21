@@ -96,8 +96,20 @@ function getUserId() {
   if (user) {
     return user.uid;
   } else {
-    // 如果用户未登录或获取不到当前用户的信息，您可以根据需求返回一个默认的唯一标识符或执行其他逻辑
     return null;
+  }
+}
+
+// 判断用户是否已经点赞
+function hasUserLiked() {
+  var userId = getUserId();
+  if (userId) {
+    var likedRef = database.ref('likes/users/' + userId);
+    return likedRef.once('value').then(function(snapshot) {
+      return snapshot.exists();
+    });
+  } else {
+    return Promise.resolve(false);
   }
 }
 
@@ -109,68 +121,59 @@ function toggleLikeStatus() {
     likedRef.transaction(function(currentStatus) {
       return !currentStatus;
     });
+  }
+}
+
+// 更新点赞状态的显示
+function updateLikeStatus(isLiked) {
+  var likeStatusElement = document.getElementById('likeStatus');
+  if (isLiked) {
+    likeBtn.classList.add('liked');
+    likeStatusElement.textContent = '已点赞';
   } else {
-    // 如果无法获取当前用户的唯一标识符，您可以根据需求执行其他逻辑
+    likeBtn.classList.remove('liked');
+    likeStatusElement.textContent = '';
   }
 }
 
 // 检查当前用户是否已点赞
 function checkUserLiked() {
-  var userId = getUserId();
-  if (userId) {
-    var likedRef = database.ref('likes/users/' + userId);
-    likedRef.on('value', function(snapshot) {
-      var userLiked = snapshot.val();
-      if (userLiked) {
-        likeBtn.classList.add('liked');
-        document.getElementById('likeStatus').textContent = '已点赞';
-      } else {
-        likeBtn.classList.remove('liked');
-        document.getElementById('likeStatus').textContent = '';
-      }
-    });
-  } else {
-    // 如果无法获取当前用户的唯一标识符，您可以根据需求执行其他逻辑
-  }
-}
-</script>
-<!-- <button id="likeBtn" class="like-button">Star</button>
-<span id="likeCount">0</span> stars
-
-
-<script>
-  // 获取按钮元素和点赞数量元素
-  var likeBtn = document.getElementById('likeBtn');
-  var likeCountElement = document.getElementById('likeCount');
-
-  // 从存储中获取点赞数量，默认为0
-  var likeCount = parseInt(localStorage.getItem('likeCount')) || 0;
-
-  // 更新点赞数量显示
-  likeCountElement.textContent = likeCount;
-
-  // 定义初始状态为未点赞
-  var isLiked = false;
-
-  // 点击按钮时切换点赞状态和样式，并更新点赞数量
-  likeBtn.addEventListener('click', function() {
-    isLiked = !isLiked; // 切换点赞状态
-
-    if (isLiked) {
-      likeBtn.classList.add('liked'); // 添加 liked 类
-      likeCount++; // 累加点赞数量
-    } else {
-      likeBtn.classList.remove('liked'); // 移除 liked 类
-      likeCount--; // 减少点赞数量
-    }
-
-    // 更新点赞数量显示
-    likeCountElement.textContent = likeCount;
-
-    // 将点赞数量保存到存储
-    localStorage.setItem('likeCount', likeCount.toString());
+  hasUserLiked().then(function(isLiked) {
+    updateLikeStatus(isLiked);
   });
-</script> -->
+}
+
+// 增加点赞数量的函数
+function increaseLikeCount() {
+  var likesRef = database.ref('likes/count');
+  likesRef.transaction(function(currentCount) {
+    return (currentCount || 0) + 1;
+  });
+}
+
+// 减少点赞数量的函数
+function decreaseLikeCount() {
+  var likesRef = database.ref('likes/count');
+  likesRef.transaction(function(currentCount) {
+    return Math.max((currentCount || 0) - 1, 0);
+  });
+}
+
+var likeBtn = document.getElementById('likeBtn');
+var likeCountElement = document.getElementById('likeCount');
+
+checkUserLiked();
+
+likeBtn.addEventListener('click', function() {
+  hasUserLiked().then(function(isLiked) {
+    if (!isLiked) {
+      toggleLikeStatus();
+      increaseLikeCount();
+      updateLikeStatus(true); // 更新点赞状态的显示
+    }
+  });
+});
+</script>
 
 <div style="margin-bottom: 0.7em;" class="post-authors">
                 <div class="col-md-8 col-md-offset-2 text-center">
