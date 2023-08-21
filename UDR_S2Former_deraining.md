@@ -85,11 +85,17 @@ Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
 International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 </div>
 
-<button id="likeBtn" class="like-button">点赞</button>
-<span id="likeCount">0</span> 个赞
-<span id="likeStatus"></span>
+<button id="likeBtn">点赞</button>
+<span id="likeCount"></span>
 
 <script>
+// 初始化 Firebase
+var firebaseConfig = {
+  // 将您的 Firebase 配置信息填写在这里
+};
+firebase.initializeApp(firebaseConfig);
+var database = firebase.database();
+
 // 获取当前用户的唯一标识符
 function getUserId() {
   var user = firebase.auth().currentUser;
@@ -126,18 +132,15 @@ function toggleLikeStatus() {
 
 // 更新点赞状态的显示
 function updateLikeStatus(isLiked) {
-  var likeStatusElement = document.getElementById('likeStatus');
+  var likeBtn = document.getElementById('likeBtn');
   if (isLiked) {
     likeBtn.classList.add('liked');
-    likeStatusElement.textContent = '已点赞';
-    likeBtn.disabled = true; // 禁用按钮
   } else {
     likeBtn.classList.remove('liked');
-    likeStatusElement.textContent = '';
   }
 }
 
-// 获取点赞数量
+// 获取点赞总数
 function getLikeCount() {
   var likesRef = database.ref('likes/count');
   return likesRef.once('value').then(function(snapshot) {
@@ -145,7 +148,7 @@ function getLikeCount() {
   });
 }
 
-// 增加点赞数量的函数
+// 增加点赞总数
 function increaseLikeCount() {
   var likesRef = database.ref('likes/count');
   likesRef.transaction(function(currentCount) {
@@ -153,42 +156,37 @@ function increaseLikeCount() {
   });
 }
 
-// 减少点赞数量的函数
-function decreaseLikeCount() {
-  var likesRef = database.ref('likes/count');
-  likesRef.transaction(function(currentCount) {
-    return Math.max((currentCount || 0) - 1, 0);
-  });
+// 更新点赞总数的显示
+function updateLikeCount(count) {
+  var likeCountElement = document.getElementById('likeCount');
+  likeCountElement.textContent = count;
 }
 
-// 检查当前用户的点赞状态和点赞数量
+// 检查当前用户的点赞状态和点赞总数
 function checkUserLiked() {
   hasUserLiked().then(function(isLiked) {
     updateLikeStatus(isLiked);
   });
 
   getLikeCount().then(function(count) {
-    likeCountElement.textContent = count;
+    updateLikeCount(count);
   });
 }
 
 var likeBtn = document.getElementById('likeBtn');
-var likeCountElement = document.getElementById('likeCount');
 
 checkUserLiked();
 
 likeBtn.addEventListener('click', function() {
-  likeBtn.disabled = true; // 禁用按钮
-
   hasUserLiked().then(function(isLiked) {
     if (!isLiked) {
       toggleLikeStatus();
       increaseLikeCount();
       updateLikeStatus(true);
 
-      // 在按钮点击后添加反应代码
-      // 例如，显示感谢信息或切换按钮样式等
-      console.log('感谢您的点赞！');
+      getLikeCount().then(function(count) {
+        updateLikeCount(count);
+      });
     }
   });
 });
