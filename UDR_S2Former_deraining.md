@@ -4,65 +4,6 @@ permalink: /UDR_S2Former_deraining/index.html #/publications.html
 title: UDR_S2Former_derainings
 ---
 
-<script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.2.0/firebase-analytics.js"></script>
-
-<!-- <script>
-  var firebaseConfig = {
-    apiKey: "AIzaSyAZWX__0RAw4QxwQrx1ZYlyC7C1ie3GCf0",
-    authDomain: "udr-s2former.firebaseapp.com",
-    databaseURL: "https://udr-s2former-default-rtdb.firebaseio.com",
-    projectId: "udr-s2former",
-    storageBucket: "udr-s2former.appspot.com",
-    messagingSenderId: "829058068674",
-    appId: "1:829058068674:web:bc7ed916b70cd7d2e10b5b",
-    measurementId: "G-WY1V2CGEXL"
-  };
-
-  firebase.initializeApp(firebaseConfig);
-
-  var database = firebase.database();
-
-  function getLikeCount() {
-    var likesRef = database.ref('likes/count');
-    likesRef.on('value', function(snapshot) {
-      var count = snapshot.val();
-      likeCountElement.textContent = count;
-    });
-  }
-
-  function increaseLikeCount() {
-    var likesRef = database.ref('likes/count');
-    likesRef.transaction(function(currentCount) {
-      return (currentCount || 0) + 1;
-    });
-  }
-
-  var likeBtn = document.getElementById('likeBtn');
-  var likeCountElement = document.getElementById('likeCount');
-
-  getLikeCount();
-
-  likeBtn.addEventListener('click', function() {
-    increaseLikeCount();
-  });
-</script>
-
-<style>
-  .like-button {
-    background-color: #eee;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 50%; /* 圆形按钮 */
-  }
-
-  .liked {
-    background-color: #ff0000;
-    color: #fff;
-  }
-</style> -->
 
 <h2 class="post-title" style="margin-bottom:7px;margin-top:20px;font-weight:400;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks</h2>
 <!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>  -->
@@ -85,109 +26,6 @@ Jun Shi<sup>4</sup>*&nbsp;&nbsp;&nbsp;
 International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
 </div>
 
-<button id="likeBtn">点赞</button>
-<span id="likeCount"></span> 赞了
-
-<script>
-// 初始化 Firebase
-var firebaseConfig = {
-   apiKey: "AIzaSyAZWX__0RAw4QxwQrx1ZYlyC7C1ie3GCf0",
-    authDomain: "udr-s2former.firebaseapp.com",
-    databaseURL: "https://udr-s2former-default-rtdb.firebaseio.com",
-    projectId: "udr-s2former",
-    storageBucket: "udr-s2former.appspot.com",
-    messagingSenderId: "829058068674",
-    appId: "1:829058068674:web:bc7ed916b70cd7d2e10b5b",
-    measurementId: "G-WY1V2CGEXL"
-};
-firebase.initializeApp(firebaseConfig);
-var database = firebase.database();
-
-// 获取当前用户的唯一标识符
-function getUserId() {
-  var user = firebase.auth().currentUser;
-  if (user) {
-    return user.uid;
-  } else {
-    return null;
-  }
-}
-
-// 判断用户是否已经点赞
-function hasUserLiked() {
-  var userId = getUserId();
-  if (userId) {
-    var likedRef = database.ref('likes/users/' + userId);
-    return likedRef.once('value').then(function(snapshot) {
-      return snapshot.exists();
-    });
-  } else {
-    return Promise.resolve(false);
-  }
-}
-
-// 切换点赞状态
-function toggleLikeStatus() {
-  var userId = getUserId();
-  if (userId) {
-    var likedRef = database.ref('likes/users/' + userId);
-    likedRef.transaction(function(currentStatus) {
-      return !currentStatus;
-    });
-  }
-}
-
-// 获取点赞总数
-function getLikeCount() {
-  var likesRef = database.ref('likes/count');
-  return likesRef.once('value').then(function(snapshot) {
-    return snapshot.val() || 0;
-  });
-}
-
-// 增加点赞总数
-function increaseLikeCount() {
-  var likesRef = database.ref('likes/count');
-  likesRef.transaction(function(currentCount) {
-    return (currentCount || 0) + 1;
-  });
-}
-
-// 更新点赞总数的显示
-function updateLikeCount(count) {
-  var likeCountElement = document.getElementById('likeCount');
-  likeCountElement.textContent = count;
-}
-
-// 检查当前用户的点赞状态和点赞总数
-function checkUserLiked() {
-  hasUserLiked().then(function(isLiked) {
-    updateLikeStatus(isLiked);
-  });
-
-  getLikeCount().then(function(count) {
-    updateLikeCount(count);
-  });
-}
-
-var likeBtn = document.getElementById('likeBtn');
-
-checkUserLiked();
-
-likeBtn.addEventListener('click', function() {
-  hasUserLiked().then(function(isLiked) {
-    if (!isLiked) {
-      toggleLikeStatus();
-      increaseLikeCount();
-      updateLikeStatus(true);
-
-      getLikeCount().then(function(count) {
-        updateLikeCount(count);
-      });
-    }
-  });
-});
-</script>
 
 <div style="margin-bottom: 0.7em;" class="post-authors">
                 <div class="col-md-8 col-md-offset-2 text-center">
@@ -321,7 +159,7 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 
 
- <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">  -->
+ <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">  
 <div class="post-img-group">
 <iframe style="max-width:50%;margin-top:0px;text-align: left;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
 <iframe style="max-width:50%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=209744e0-3ea4-11ee-b5bd-6595d9b17862"></iframe>
@@ -333,7 +171,7 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 <div class="post-img-group">
 <iframe style="max-width:100%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="100%" height="371" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2ad2a594-3f3f-11ee-b5bd-6595d9b17862"></iframe>
 </div>
-
+</div>
 
 <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
