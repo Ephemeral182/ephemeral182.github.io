@@ -7,7 +7,7 @@ title: Publications
 <style>
   /* 自定义链接样式 */
   .custom-link—project {
-    color: rgb(255,86,188);
+    color: rgb(255,115,227);
   }
 </style>
 
