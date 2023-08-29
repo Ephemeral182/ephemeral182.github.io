@@ -28,7 +28,7 @@ title: Publications
 
 # Publications
 
-2&nbsp; ***ICCV*** &nbsp;&nbsp;&nbsp;1&nbsp; ***ECCV*** &nbsp;&nbsp;&nbsp;4&nbsp; ***ACM MM*** &nbsp;&nbsp;&nbsp;1&nbsp; ***CVPRW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICASSP*** &nbsp;&nbsp;&nbsp;3&nbsp; ***Arxiv*** 
+2&nbsp; ***ICCV*** &nbsp;&nbsp;&nbsp;1&nbsp; ***ECCV*** &nbsp;&nbsp;&nbsp;4&nbsp; ***ACM MM*** &nbsp;&nbsp;&nbsp;1&nbsp; ***CVPRW*** &nbsp;&nbsp;&nbsp;1&nbsp; ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICASSP*** &nbsp;&nbsp;&nbsp;2&nbsp; ***Arxiv*** 
 
 <!-- =================================================================================== -->
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -179,7 +179,7 @@ title: Publications
         <br>
         Jingxia Jiang*, Tian Ye*, Jinbin Bai*, <strong><u>Sixiang Chen</u></strong>, Wenhao Chai, Jun Shi, Yun Liu, Erkang Chen<sup>✉️</sup>.
         <br>  
-        <em>Arxiv (Under review)</em>, 2023
+        <em>British Machine Vision Conference (BMVC)</em>, 2023
         <br>
         <a href="https://arxiv.org/abs/2305.08824#:~:text=In%20this%20work%2C%20we%20propose%20the%20Five%20A,The%20FA%20Net%20employs%20a%20two-stage%20enhancement%20structure." class="custom-link—paper">[Paper]</a>
         <a href="https://github.com/Owen718/FiveAPlus-Network" class="custom-link—code">[Code]</a>

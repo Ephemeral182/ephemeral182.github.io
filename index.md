@@ -33,6 +33,7 @@ Here is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communica
 ---
 
 ## News and Updates
+- **Aug. 2023：**&#128640; Serendipitously, one papers have been accepted by **BMVC'2023**.
 - **Jul. 2023：** &#127881; Luckily, four papers have been accepted by **ACM MM'2023**.
 - **Jul. 2023：** &#127942; To my good fortune, two papers have been accepted by **ICCV'2023**.
 - **Jul. 2023：** &#128640; I start to serve as a reviewer in **TMM**.
