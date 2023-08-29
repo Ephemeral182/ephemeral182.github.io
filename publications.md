@@ -48,8 +48,8 @@ title: Publications
           <br>  
           <em>International Conference on Computer Vision <strong>(ICCV)</strong></em>, 2023
           <br>
-          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
-          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+          <a href="https://arxiv.org/abs/2308.14153" class="custom-link—paper">[Paper]</a>
+          <a href="https://github.com/Ephemeral182/UDR-S2Former_deraining" class="custom-link—code">[Code]</a>
           <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/" class="custom-link—project">[Project]</a>
       </td>
     </tr>

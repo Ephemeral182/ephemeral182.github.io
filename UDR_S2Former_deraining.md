@@ -31,7 +31,7 @@ International Conference on Computer Vision <strong>(ICCV)</strong>, 2023
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <ul class="nav nav-pills nav-justified" style="box-shadow:0 0">
                         <li>
-                            <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
+                            <a href="https://arxiv.org/abs/2308.14153">
                             <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
                             <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
                                 <h5><strong>arXiv</strong></h5>
