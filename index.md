@@ -6,6 +6,7 @@ layout: page
 
 <img src="https://ephemeral182.github.io/csx2.jpg" class="floatpic" width="360" height="480">
 
+<img src="https://ephemeral182.github.io/csx2.jpg" class="floatpic" width="360" height="480">
 
 Here is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communication Engineering from the School of Ocean Information Engineering at Jimei University, where I was extremely fortunate to be supervised by ***[Dr. Erkang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ)*** and ***[Dr. Yun Liu](https://scholar.google.com.hk/citations?user=9fjHp-EAAAAJ&hl=zh-CN)*** (Southwest University). My research interests lie in the low-level field of computer vision. I am currently a research assistant under the supervision of ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** at Hong Kong University of Science and Technology (Guangzhou campus).
 
