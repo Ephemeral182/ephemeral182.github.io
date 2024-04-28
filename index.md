@@ -8,7 +8,7 @@ layout: page
 
 
 
-Here is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communication Engineering from the School of Ocean Information Engineering at Jimei University, where I was extremely fortunate to be supervised by ***[Dr. Erkang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ)*** and ***[Dr. Yun Liu](https://scholar.google.com.hk/citations?user=9fjHp-EAAAAJ&hl=zh-CN)*** (Southwest University). My research interests lie in the low-level field of computer vision. I am currently a research assistant under the supervision of ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** at Hong Kong University of Science and Technology (Guangzhou campus).
+My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communication Engineering from the School of Ocean Information Engineering at Jimei University, where I was extremely fortunate to be supervised by ***[Dr. Erkang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ)*** and ***[Dr. Yun Liu](https://scholar.google.com.hk/citations?user=9fjHp-EAAAAJ&hl=zh-CN)*** (Southwest University). My research interests lie in the low-level field of computer vision. I am currently a research assistant under the supervision of ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** at Hong Kong University of Science and Technology (Guangzhou campus). I am also an incoming PhD student at HKUST@[ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** and ***[Prof. Fugee Tsung](https://www.ieda.ust.hk/dfaculty/tsung/)***
 
 
 
@@ -25,16 +25,18 @@ Here is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communica
 
 ## Research Interests
 
-- Performing image restoration under adverse conditions.
-- Vision Transformer for effective image processing.
-- Efficient neural network for low-level applications.
+- Perform image restoration under real-world adverse conditions.
+- Efficient neural network for low-level applications (ViTs, Diffusions, Mambas).
+- Explore the applications of AIGC (Artificial Intelligence Generated Content) technology
 
 <br>
 
 ---
 
 ## News and Updates
-- **Aug. 2023：**&#128640; Serendipitously, one papers have been accepted by **BMVC'2023**.
+- **Apr. 2024：**&#127942; Luckily, one paper have been accepted by **CVPR'2024** as a **Highlight**.
+- **Nov. 2023：**&#127881; Serendipitously, one paper have been accepted by **AAAI'2024**.
+- **Aug. 2023：**&#128640; Serendipitously, one paper have been accepted by **BMVC'2023**.
 - **Jul. 2023：** &#127881; Luckily, four papers have been accepted by **ACM MM'2023**.
 - **Jul. 2023：** &#127942; To my good fortune, two papers have been accepted by **ICCV'2023**.
 - **Jul. 2023：** &#128640; I start to serve as a reviewer in **TMM**.
@@ -44,7 +46,7 @@ Here is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communica
 - **Dec. 2022：** One paper submits to **Arxiv'2023 (Under review)** .
 - **Sept. 2022：**&#127881; Fortunately, one paper has been accepted by **ACCV'2022**.
 - **Sept. 2022：** One paper has been submited to **Arxiv'2023 (Under review)** .
-- **Jul. 2022：** &#127752; Fortunately, one paper has been accepted as **oral presentation** by **ECCV'2022**.
+- **Jul. 2022：** &#127752; Fortunately, one paper has been accepted as an **oral presentation** by **ECCV'2022**.
 - **Jun. 2022：** &#127873; Serendipitously, one paper has been accepted by **CVPRW'2022**. 
 
 ---
@@ -52,8 +54,9 @@ Here is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communica
 ## Academic Service & Awards
 
 **Program Committee / Reviewer:**
+ - European Conference on Computer Vision (**ECCV'2024**)
  - IEEE Transactions on Multimedia (**TMM**)
- -  ACM Multimedia (**ACM MM'2023**)
+ -  ACM Multimedia (**ACM MM'2023 / 2024**)
  -  International Conference on Computer Vision (**ICCV'2023**)
  -  International Conference on Robotics and Automation (**ICRA'2023**)
  - Asian Conference on Computer Vision (**ACCV'2022**)

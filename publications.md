@@ -28,9 +28,31 @@ title: Publications
 
 # Publications
 
-2&nbsp; ***ICCV*** &nbsp;&nbsp;&nbsp;1&nbsp; ***ECCV*** &nbsp;&nbsp;&nbsp;4&nbsp; ***ACM MM*** &nbsp;&nbsp;&nbsp;1&nbsp; ***CVPRW*** &nbsp;&nbsp;&nbsp;1&nbsp; ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICASSP*** &nbsp;&nbsp;&nbsp;2&nbsp; ***Arxiv*** 
+4&nbsp; ***CVPR*** / ***ICCV*** / ***ECCV*** &nbsp;&nbsp;&nbsp;5&nbsp; ***AAAI*** / ***IJCAI*** / ***ACM MM*** 1&nbsp; ***CVPRW*** / ***ICCVW*** / ***ECCVW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ACCV*** / ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICME*** / ***ICASSP*** &nbsp;&nbsp;&nbsp;
 
 <!-- =================================================================================== -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
+        <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/CVPR24.png" alt="dise"> 
+      </td>
+      <td width="75%" valign="center" class="text-wrapper"> 
+          <papertitle>
+            <strong>
+              Learning Diffusion Texture Priors for Image Restoration
+            </strong>
+          </papertitle>
+          <br>
+          Tian Ye, <strong><u>Sixiang Chen</u></strong>, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu<sup>✉️</sup>.
+          <br>  
+          <em>Computer Vision and Pattern Recognition <strong>(CVPR Highlight)</strong></em>, 
+          <br>
+          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+      </td>
+    </tr>
+
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
@@ -288,11 +310,11 @@ title: Publications
         </strong>
         </papertitle>
         <br>
-        <strong><u>Sixiang Chen*</u></strong>, Tian Ye*, Yun Liu, Erkang Chen<sup>✉️</sup>.
+        <strong><u>Sixiang Chen</u></strong>, Tian Ye, Yun Liu, Erkang Chen<sup>✉️</sup>.
         <br>  
-        <em>Arxiv (Under review)</em>, 2022
+        <em>Digital Signal Processing</em>, 2024
         <br>
-        <a href="https://www.semanticscholar.org/paper/Dual-former%3A-Hybrid-Self-attention-Transformer-for-Chen-Ye/6eef8436384da63d4bb400e5a39a3be1b65d07ab#:~:text=Dual-former%20is%20presented%20whose%20critical%20insight%20is%20to,achieves%20superior%20performance%20on%20multiple%20image%20restoration%20tasks." class="custom-link—paper">[Paper]</a>
+        <a href="https://www.sciencedirect.com/science/article/pii/S1051200424001106" class="custom-link—paper">[Paper]</a>
         <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
