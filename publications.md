@@ -46,7 +46,7 @@ title: Publications
           <br>
           Tian Ye, <strong><u>Sixiang Chen</u></strong>, Wenhao Chai, Zhaohu Xing, Jing Qin, Ge Lin, Lei Zhu<sup>✉️</sup>.
           <br>  
-          <em>Computer Vision and Pattern Recognition <strong>(CVPR Highlight)</strong></em>, 
+          <em>Computer Vision and Pattern Recognition <strong>(CVPR Highlight)</strong></em>, 2024
           <br>
           <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
           <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
