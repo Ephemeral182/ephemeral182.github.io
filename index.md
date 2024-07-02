@@ -34,20 +34,23 @@ My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Commun
 ---
 
 ## News and Updates
-- **Apr. 2024：**&#127942; Luckily, one paper has been accepted by **CVPR'2024** as a **Highlight**.
+- **Jul. 2024：**&#128640; Fortunately, two papers have been accepted by **ECCV'2024**.
+- **Jun. 2024：**&#127873; Serendipitously, one paper has been accepted by **MICCAI'2024**. 
+- **Jun. 2024：**&#127942; I start to serve as a reviewer in **TCSVT**.
+- **Apr. 2024：**&#127752; Luckily, one paper has been accepted by **CVPR'2024** as a **Highlight**.
 - **Nov. 2023：**&#127881; Serendipitously, one paper has been accepted by **AAAI'2024**.
 - **Aug. 2023：**&#128640; Serendipitously, one paper has been accepted by **BMVC'2023**.
-- **Jul. 2023：** &#127881; Luckily, four papers have been accepted by **ACM MM'2023**.
-- **Jul. 2023：** &#127942; To my good fortune, two papers have been accepted by **ICCV'2023**.
-- **Jul. 2023：** &#128640; I start to serve as a reviewer in **TMM**.
+- **Jul. 2023：**&#127881; Luckily, four papers have been accepted by **ACM MM'2023**.
+- **Jul. 2023：**&#127942; To my good fortune, two papers have been accepted by **ICCV'2023**.
+- **Jul. 2023：**&#128640; I start to serve as a reviewer in **TMM**.
 - **Jun. 2023：**&#127881; I am awarded the honor of **outstanding graduate** from Jimei University.
 - **May 2023：** One paper has been presented in **Arxiv'2023 (Under review)** .
 - **Feb. 2023：**&#128640; Luckily, two papers are accepted to **ICASSP'2023**.
 - **Dec. 2022：** One paper submits to **Arxiv'2023 (Under review)** .
 - **Sept. 2022：**&#127881; Fortunately, one paper has been accepted by **ACCV'2022**.
 - **Sept. 2022：** One paper has been submited to **Arxiv'2023 (Under review)** .
-- **Jul. 2022：** &#127752; Fortunately, one paper has been accepted as an **oral presentation** by **ECCV'2022**.
-- **Jun. 2022：** &#127873; Serendipitously, one paper has been accepted by **CVPRW'2022**. 
+- **Jul. 2022：**&#127752; Fortunately, one paper has been accepted as an **oral presentation** by **ECCV'2022**.
+- **Jun. 2022：**&#127873; Serendipitously, one paper has been accepted by **CVPRW'2022**. 
 
 ---
 
@@ -55,6 +58,7 @@ My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Commun
 
 **Program Committee / Reviewer:**
  - European Conference on Computer Vision (**ECCV'2024**)
+ - IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)
  - IEEE Transactions on Multimedia (**TMM**)
  -  ACM Multimedia (**ACM MM'2023 / 2024**)
  -  International Conference on Computer Vision (**ICCV'2023**)

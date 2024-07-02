@@ -28,9 +28,75 @@ title: Publications
 
 # Publications
 
-4&nbsp; ***CVPR*** / ***ICCV*** / ***ECCV*** &nbsp;&nbsp;&nbsp;5&nbsp; ***AAAI*** / ***IJCAI*** / ***ACM MM*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***CVPRW*** / ***ICCVW*** / ***ECCVW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ACCV*** / ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICME*** / ***ICASSP*** &nbsp;&nbsp;&nbsp;
+6&nbsp; ***CVPR*** / ***ICCV*** / ***ECCV*** &nbsp;&nbsp;&nbsp;5&nbsp; ***AAAI*** / ***IJCAI*** / ***ACM MM*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***MICCAI*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***CVPRW*** / ***ICCVW*** / ***ECCVW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ACCV*** / ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICME*** / ***ICASSP*** &nbsp;&nbsp;&nbsp;
 
 <!-- =================================================================================== -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
+        <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/eccv_adverse.png" alt="dise"> 
+      </td>
+      <td width="75%" valign="center" class="text-wrapper"> 
+          <papertitle>
+            <strong>
+              Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint
+            </strong>
+          </papertitle>
+          <br>
+          <strong><u>Sixiang Chen</u></strong>, Tian Ye, Kai Zhang, Zhaohu Xing, Yunlong Lin, Lei Zhu<sup>✉️</sup>.
+          <br>  
+          <em>European Conference on Computer Vision <strong>(ECCV)</strong></em>, 2024
+          <br>
+          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+      </td>
+    </tr>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
+        <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/eccv_snow.png" alt="dise"> 
+      </td>
+      <td width="75%" valign="center" class="text-wrapper"> 
+          <papertitle>
+            <strong>
+              Semi-Supervised Video Desnowing Network via Temporal Decoupling Experts and Distribution-Driven Contrastive Regularization
+            </strong>
+          </papertitle>
+          <br>
+          Hongtao Wu, Yijun Yang, Angelica Aviles-Rivero, Jingjing Ren, <strong><u>Sixiang Chen</u></strong>, Haoyu Chen, Lei Zhu<sup>✉️</sup>.
+          <br>  
+          <em>European Conference on Computer Vision <strong>(ECCV)</strong></em>, 2024
+          <br>
+          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+      </td>
+    </tr>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
+        <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/miccai24.png" alt="dise"> 
+      </td>
+      <td width="75%" valign="center" class="text-wrapper"> 
+          <papertitle>
+            <strong>
+              Cross-conditioned Diffusion Model for medical image-to-image translation
+            </strong>
+          </papertitle>
+          <br>
+          Zhaohu Xing, Sicheng Yang, <strong><u>Sixiang Chen</u></strong>, Tian Ye, Lei Zhu<sup>✉️</sup>.
+          <br>  
+          <em>Medical Image Computing and Computer Assisted Intervention <strong>(MICCAI)</strong></em>, 2024
+          <br>
+          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+      </td>
+    </tr>
+
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
