@@ -36,8 +36,9 @@ My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Commun
 ## News and Updates
 - **Jul. 2024：**&#128640; Fortunately, two papers have been accepted by **ECCV'2024**.
 - **Jun. 2024：**&#127873; Serendipitously, one paper has been accepted by **MICCAI'2024**. 
-- **Jun. 2024：**&#127942; I start to serve as a reviewer in **TCSVT**.
-- **Apr. 2024：**&#127752; Luckily, one paper has been accepted by **CVPR'2024** as a **Highlight**.
+- **Jun. 2024：**&#127752; I start to serve as a reviewer in **TCSVT**.
+- **May 2024：**&#127752; I start to serve as a reviewer in **NIPS'2024**.
+- **Apr. 2024：**&#127942; Luckily, one paper has been accepted by **CVPR'2024** as a **Highlight**.
 - **Nov. 2023：**&#127881; Serendipitously, one paper has been accepted by **AAAI'2024**.
 - **Aug. 2023：**&#128640; Serendipitously, one paper has been accepted by **BMVC'2023**.
 - **Jul. 2023：**&#127881; Luckily, four papers have been accepted by **ACM MM'2023**.
@@ -57,6 +58,7 @@ My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Commun
 ## Academic Service & Awards
 
 **Program Committee / Reviewer:**
+ - Conference on Neural Information Processing Systems (**NIPS'2024**)
  - European Conference on Computer Vision (**ECCV'2024**)
  - IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**)
  - IEEE Transactions on Multimedia (**TMM**)
