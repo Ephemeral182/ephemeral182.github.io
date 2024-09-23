@@ -12,7 +12,7 @@ title: T3_DiffWeather
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
-<h2 class="post-title" style="font-size: 24px; line-height: 1.3; margin-bottom: 20px;">
+<h2 class="post-title" style="line-height: 1.3; margin-bottom: 20px;">
   <span style="color: #228be6; display: block; text-align: center; margin-bottom: 7px;">Teaching Tailored to Talent:</span>
   <span style="display: block; text-align: center;">Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</span>
 </h2>
