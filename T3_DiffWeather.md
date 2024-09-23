@@ -48,7 +48,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 <div style="margin-bottom: 0.7em;" class="post-authors">
                 <div class="col-md-8 col-md-offset-2 text-center">
-                    <ul class="nav nav-pills nav-justified" style="box-shadow:0 0">
+                    <ul class="nav nav-pills nav-justified" >
                         <li>
                             <a href="https://ephemeral182.github.io">
                             <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
@@ -240,7 +240,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 <!-- <img src="../assets/img/VideoDesnowing/1.gif" class="post-img" role="img"> -->
 
 
-<div class="fade-in" style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<div class="fade-in" style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px;">
   <h2 class="post-section" style="
       text-align: center;
       margin-bottom: 0px;
@@ -266,7 +266,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
       margin-bottom: 10px;
       padding-top: 20px;
   ">Method</h2>
-  <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+  <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)"> -->
     <div class="post-img-group" style="width: 100%; overflow: hidden;">
       <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
     </div>
@@ -390,12 +390,12 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     margin-bottom: 10px;
     padding-top: 20px;
 ">Quantitative Comparison</h2>
-<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+<!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)"> -->
   <div class="post-img-group">
     <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_metric.png"  alt="Left Image">
   </div>
-  </div>
-  </div>
+  <!-- </div> -->
+  <!-- </div> -->
 
 <div class="fade-in">
 <h2 class="post-section" style="
@@ -426,7 +426,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 
 
- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">  
+ <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">   -->
 <div class="post-img-group">
 <iframe style="max-width:50%;margin-top:0px;text-align: left;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
 <iframe style="max-width:50%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=209744e0-3ea4-11ee-b5bd-6595d9b17862"></iframe>
@@ -439,7 +439,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 <iframe style="max-width:100%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="100%" height="371" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2ad2a594-3f3f-11ee-b5bd-6595d9b17862"></iframe>
 </div>
 </div>
-</div>
+<!-- </div> -->
 
 <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
 <div class="post-img-group">
