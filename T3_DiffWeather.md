@@ -299,29 +299,40 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 <style>
 .scroll-container {
   width: 100%;
-  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
   margin-bottom: 20px;
+  -webkit-overflow-scrolling: touch; /* 为iOS设备添加平滑滚动 */
+  scrollbar-width: thin; /* 为Firefox设置细滚动条 */
+  scrollbar-color: #888 #f1f1f1; /* 为Firefox设置滚动条颜色 */
 }
+
+.scroll-container::-webkit-scrollbar {
+  height: 10px; /* 滚动条高度 */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 滚动条轨道颜色 */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #888; /* 滚动条滑块颜色 */
+  border-radius: 5px; /* 滚动条滑块圆角 */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* 鼠标悬停时滚动条滑块颜色 */
+}
+
 .scroll-content {
-  display: flex;
-  animation: scroll 60s linear infinite;
-  width: fit-content; /* 确保容器宽度适应所有图片 */
+  display: inline-flex;
+  padding: 10px 0;
 }
+
 .scroll-content img {
   height: 300px;
   margin-right: 20px;
   flex-shrink: 0;
-}
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-50% - 10px)); /* 滚动半个容器宽度 */
-  }
-}
-.scroll-container:hover .scroll-content {
-  animation-play-state: paused;
 }
 </style>
 
@@ -334,13 +345,6 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   ">Visual Comparison</h2>
   <div class="scroll-container">
     <div class="scroll-content">
-      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png" alt="Image 1">
-      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real.png" alt="Image 2">
-      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison2.png" alt="Image 3">
-      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison3.png" alt="Image 4">
-      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison4.png" alt="Image 5">
-      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png" alt="Image 6">
-      <!-- 重复图片以实现无缝循环 -->
       <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png" alt="Image 1">
       <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real.png" alt="Image 2">
       <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison2.png" alt="Image 3">
