@@ -294,7 +294,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   </div>
   <!-- </div> -->
   <!-- </div> -->
-
+  
 <style>
 .scroll-container {
   width: 100%;
@@ -303,11 +303,11 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 }
 .scroll-content {
   display: flex;
-  animation: scroll 20s linear infinite;
+  animation: scroll 15s linear infinite; /* 减少到15秒 */
 }
 .scroll-content img {
-  height: 300px; /* 调整图片高度 */
-  margin-right: 20px; /* 图片之间的间距 */
+  height: 300px;
+  margin-right: 20px;
   flex-shrink: 0;
 }
 @keyframes scroll {
@@ -315,7 +315,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-100% - 20px));
+    transform: translateX(calc(-50% - 10px)); /* 调整为滚动半个容器宽度 */
   }
 }
 .scroll-container:hover .scroll-content {
@@ -338,8 +338,13 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
       <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison3.png" alt="Image 4">
       <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison4.png" alt="Image 5">
       <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png" alt="Image 6">
-      <!-- 添加第一张图片的副本以实现无缝循环 -->
+      <!-- 重复图片以实现无缝循环 -->
       <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png" alt="Image 1">
+      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real.png" alt="Image 2">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison2.png" alt="Image 3">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison3.png" alt="Image 4">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison4.png" alt="Image 5">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png" alt="Image 6">
     </div>
   </div>
 </div>
