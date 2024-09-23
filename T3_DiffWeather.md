@@ -19,7 +19,7 @@ Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</h2>
 
 <div class="post-authors" style="margin-bottom:5px;">
 <a href="https://ephemeral182.github.io">Sixiang Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+Kai Zhang<sup>1</sup>&nbsp;&nbsp;&nbsp;
 <a href="https://ge-xing.github.io/">Zhaohu Xing</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 <a href="https://lyl1015.github.io/">Yunlong Lin<sup>2</sup>&nbsp;&nbsp;&nbsp;
 <a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>1,3 ✉️</sup>&nbsp;&nbsp;&nbsp;
