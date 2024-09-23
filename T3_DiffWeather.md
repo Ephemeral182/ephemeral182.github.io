@@ -1,6 +1,6 @@
 ---
 layout: post1
-permalink: / T3-DiffWeather/index.html #/publications.html
+permalink: /T3-DiffWeather/index.html #/publications.html
 title: T3_DiffWeather
 ---
 
