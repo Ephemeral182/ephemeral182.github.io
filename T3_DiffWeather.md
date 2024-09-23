@@ -276,6 +276,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   </div>
 </div>
 
+<div class="fade-in">
 <h2 class="post-section" style="
     text-align: center;
     padding-left: 25px;
@@ -328,6 +329,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 </div> 
 <div class="post-img-group">
 <iframe style="max-width:100%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="100%" height="371" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2ad2a594-3f3f-11ee-b5bd-6595d9b17862"></iframe>
+</div>
 </div>
 </div>
 
