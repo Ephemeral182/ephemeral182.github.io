@@ -4,143 +4,353 @@ permalink: /T3-DiffWeather/index.html #/publications.html
 title: T3_DiffWeather
 ---
 
-<link rel="stylesheet" href="assets/css/bulma-carousel.min.css">
-<link rel="stylesheet" href="assets/css/bulma-slider.min.css">
-<link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
-<link rel="stylesheet" href="assets/css/academicons.min.css">
-<link rel="stylesheet" href="assets/css/index.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="assets/css/academicons.min.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
-<h2 class="post-title" style="color: #228be6; margin-bottom:7px; margin-top:20px; font-weight:400;">
-  Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint
-</h2>
+<h2 class="post-title" ><span style="color: #228be6; margin-bottom:7px;margin-top:20px;font-weight:400;">Teaching Tailored to Talent:</span> 
+
+Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</h2>
+<!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>  -->
 
 <div class="post-authors" style="margin-bottom:5px;">
-  <a href="https://ephemeral182.github.io">Sixiang Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-  <a href="https://owen718.github.io">Tian Ye</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-  Kai Zhang<sup>1</sup>&nbsp;&nbsp;&nbsp;
-  <a href="https://ge-xing.github.io/">Zhaohu Xing</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-  <a href="https://lyl1015.github.io/">Yunlong Lin</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
-  <a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>1,3 ✉️</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://ephemeral182.github.io">Sixiang Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+Kai Zhang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://ge-xing.github.io/">Zhaohu Xing</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://lyl1015.github.io/">Yunlong Lin<sup>2</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>1,3 ✉️</sup>&nbsp;&nbsp;&nbsp;
+<br>
+<sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;&nbsp;
+<sup>2</sup>Xiamen University&nbsp;&nbsp;&nbsp;<br>
+<sup>3</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;&nbsp;         
 </div>
 
-<div class="post-affiliations" style="margin-bottom:20px;">
-  <sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;&nbsp;
-  <sup>2</sup>Xiamen University&nbsp;&nbsp;&nbsp;<br>
-  <sup>3</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;&nbsp;         
+<div class="post-authors" style="margin-bottom:20px;">
+European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milano
 </div>
 
-<div class="post-conference" style="margin-bottom:20px;">
-  European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milano
-</div>
 
-<div class="post-icons">
-  <ul class="nav nav-pills nav-justified">
-    <li>
-      <a href="https://ephemeral182.github.io">
-        <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
-        <h5><strong>arXiv</strong></h5>
-      </a>
-    </li>
-    <li>
-      <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
-        <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
-        <h5><strong>ECCV 2024</strong></h5>
-      </a>
-    </li>
-    <li>
-      <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
-        <img class="post-logo" src="https://ephemeral182.github.io/images/datatset.jpg" height="50px">
-        <h5><strong>Dataset</strong></h5>
-      </a>
-    </li>
-    <li>
-      <a href="https://ephemeral182.github.io">
-        <img class="post-logo" src="https://ephemeral182.github.io/images/github.png" height="50px">
-        <h5><strong>Code</strong></h5>
-      </a>
-    </li>
-    <li>
-      <a href="https://ephemeral182.github.io/">
-        <img class="post-logo" src="https://ephemeral182.github.io/images/supplementary.jpg" height="50px">
-        <h5><strong>Supplementary</strong></h5>
-      </a>
-    </li>
-  </ul>
-</div>
+<div style="margin-bottom: 0.7em;" class="post-authors">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <ul class="nav nav-pills nav-justified" style="box-shadow:0 0">
+                        <li>
+                            <a href="https://ephemeral182.github.io">
+                            <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
+                            <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
+                                <h5><strong>arXiv</strong></h5>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
+                            <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
+                                <h5><strong>ECCV 2024</strong></h5>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
+                            <img class="post-logo" src="https://ephemeral182.github.io/images/datatset.jpg" height="50px">
+                                <h5><strong>Dataset</strong></h5>
+                            </a>
+                        </li>                        
+                        <li>
+                            <a href="https://ephemeral182.github.io">
+                            <img class="post-logo" src="https://ephemeral182.github.io/images/github.png" height="50px">
+                                <h5><strong>Code</strong></h5>
+                            </a>
+                        </li>
+                        <li>
+                             <a href="https://ephemeral182.github.io/">
+                            <img class="post-logo" src="https://ephemeral182.github.io/images/supplementary.jpg" height="50px">
+                                <h5><strong>Supplementery</strong></h5>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
 
 <div class="post-line"></div>
 
+<!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+<div class="post-img-group">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%" src="https://ephemeral182.github.io/images/real_gif1.gif" alt="Left Image">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%" src="https://ephemeral182.github.io/images/real_gif2.gif" alt="Right Image">
+  </div> 
+  <div class="post-img-group">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0;width:100%" src="https://ephemeral182.github.io/images/350.gif" alt="Left Image">
+  </div> 
+  </div>  -->
+
+
 <section class="section">
-  <div class="container">
-    <div class="content has-text-centered">
-      <h2 class="title is-3">Visual Comparisons</h2>
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-          <div id="example1" class="bal-container-small">
-            <div class="bal-after">
-              <img src="images/eccv_24/eccv_adverse_real.png">
-              <div class="bal-afterPosition afterLabel">Ours</div>
-            </div>
-            <div class="bal-before" style="width:50.5%;">
-              <div class="bal-before-inset">
-                <img src="images/eccv_24/eccv_adverse_real.png">
-                <div class="bal-beforePosition beforeLabel">Input</div>
-              </div>
-            </div>
-            <div class="bal-handle" style="left:50.5%;">
-              <span class="handle-left-arrow"></span>
-              <span class="handle-right-arrow"></span>
-            </div>
-          </div>
-          <!-- 添加更多图片或其他视觉比较部分 -->
+    <div class="container ">
+      <div class=" has-text-centered">
+         <!-- <h2 class="title is-3">Visual Comparisons</h2> -->
+        <div class="content has-text-justified">
+          <p>
+
+  </p>
         </div>
+        <div class="columns is-centered">
+          <!-- Visual Effects. -->
+          <div class="column">
+            <div class="content">
+              <div class="columns is-centered">
+                <div class="column is-full-width">
+                  <div id="example1" class="bal-container-small">
+
+  <div class="bal-after">
+                      <img src="images/eccv_24/eccv_adverse_real.png">
+                      <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                        Ours
+                      </div>
+                    </div>
+
+  <div class="bal-before" style="width:50.4968152866242%;">
+                      <div class="bal-before-inset" style="width: 539px;">
+                        <img src="images/eccv_24/eccv_adverse_real.png">
+                        <div class="bal-beforePosition beforeLabel">
+                          Input
+                        </div>
+                      </div>
+                    </div>
+
+  <div class="bal-handle" style="left:50.4968152866242%;">
+                      <span class=" handle-left-arrow"></span>
+                      <span class="handle-right-arrow"></span>
+                    </div>
+
+  </div>
+
+
+  <div id="example2" class="bal-container-small">
+
+  <div class="bal-after">
+    <img src="images/eccv_24/eccv_adverse_real.png">
+    <div class="bal-afterPosition afterLabel">
+      Ours
+    </div>
+  </div>
+
+  <div class="bal-before" style="width: 50%;">
+    <div class="bal-before-inset" style="width: 539px;">
+      <img src="images/eccv_24/eccv_adverse_real.png">
+      <div class="bal-beforePosition beforeLabel">
+        Input
       </div>
     </div>
   </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <h2 class="post-section" style="text-align: center; padding-top: 20px;">Abstract</h2>
-    <p style="padding: 25px; padding-top: 10px;">
-      Recent advancements in adverse weather restoration have shown potential, yet the unpredictable and varied combinations of weather degradations in the real world pose significant challenges...
-    </p>
+  <div class="bal-handle" style="left: 50%;">
+    <span class=" handle-left-arrow"></span>
+    <span class="handle-right-arrow"></span>
   </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <h2 class="post-section" style="text-align: center; padding-top: 20px;">Method</h2>
-    <div class="post-img-group">
-      <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/eccv_adverse.png" alt="Method Image">
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!--/ Visual Effects. -->
+
+<!-- Matting. -->
+<div class="column">
+<div class="columns is-centered">
+<div class="column content">
+
+<div id="example4" class="bal-container-small">
+  <div class="bal-after">
+    <img src="images/eccv_24/eccv_adverse_real.png">
+    <div class="bal-afterPosition afterLabel" style="z-index:1;">
+      Ours
     </div>
   </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <h2 class="post-section" style="text-align: center; padding-top: 20px;">Quantitative Comparison</h2>
-    <div class="post-img-group">
-      <img class="post-img" style="max-width:100%;" src="https://ephemeral182.github.io/images/eccv_adverse_metric.png" alt="Metric Image">
+  <div class="bal-before" style="width:62.10191082802548%;">
+    <div class="bal-before-inset" style="width: 539px;">
+      <img src="images/eccv_24/eccv_adverse_real.png">
+      <div class="bal-beforePosition beforeLabel">
+        Input
+      </div>
     </div>
   </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <h2 class="post-section" style="text-align: center; padding-top: 20px;">Visual Comparison</h2>
-    <div class="post-img-group">
-      <img class="post-img" style="max-width:100%;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png" alt="Syn Image">
-      <img class="post-img" style="max-width:100%;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real.png" alt="Real Image">
+  <div class="bal-handle" style="left:62.10191082802548%;">
+    <span class=" handle-left-arrow"></span>
+    <span class="handle-right-arrow"></span>
+  </div>
+
+</div>
+
+<div id="example5" class="bal-container-small">
+  <div class="bal-after">
+    <img src="images/eccv_24/eccv_adverse_real.png">
+    <div class="bal-afterPosition afterLabel" style="z-index:1;">
+      Ours
     </div>
   </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <h2 class="post-section">Citation</h2>
-    <pre>
+  <div class="bal-before" style="width:56.77179962894249%;">
+    <div class="bal-before-inset" style="width: 628px;">
+      <img src="images/eccv_24/eccv_adverse_real.png">
+      <div class="bal-beforePosition beforeLabel">
+        Input
+      </div>
+    </div>
+  </div>
+
+  <div class="bal-handle" style="left:56.77179962894249%;">
+    <span class=" handle-left-arrow"></span>
+    <span class="handle-right-arrow"></span>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </section>
+
+
+
+  <!-- <div class="post-img-group">
+    <img class="post-img" src="../assets/img/VideoDesnowing/1.gif" alt="Left Image">
+    <img class="post-img" src="../assets/img/VideoDesnowing/2.gif" alt="Right Image">
+  </div> -->
+
+<!-- <img src="../assets/img/VideoDesnowing/1.gif" class="post-img" role="img"> -->
+
+
+<div style="background-color:#f0f1f3a6;">
+<h2 class="post-section" style="
+    padding-left: 25px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+">Abstract</h2>
+<p style="
+    padding: 25px;
+    padding-top: 10px;
+">Recent advancements in adverse weather restoration have shown potential, yet the unpredictable and varied combinations of weather degradations in the real world pose significant challenges. Previous methods typically struggle with dynamically handling intricate degradation combinations and carrying on background reconstruction precisely, leading to performance and generalization limitations. Drawing inspiration from prompt learning and the "<u>T</u>eaching <u>T</u>ailored to <u>T</u>alent" concept, we introduce a novel pipeline, <i><strong>T<sup>3</sup>-DiffWeather</strong></i>. Specifically, we employ a prompt pool that allows the network to autonomously combine sub-prompts to construct weather-prompts, harnessing the necessary attributes to adaptively tackle unforeseen weather input. Moreover, from a scene modeling perspective, we incorporate general prompts constrained by Depth-Anything feature to provide the scene-specific condition for the diffusion process. Furthermore, by incorporating contrastive prompt loss, we ensures distinctive representations for both types of prompts by a mutual pushing strategy. Experimental results demonstrate that our method achieves state-of-the-art performance across various synthetic and real-world datasets, markedly outperforming existing diffusion techniques in terms of computational efficiency.
+
+</div>
+
+<h2 class="post-section" style="
+    text-align: center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+">Method</h2>
+<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+  <div class="post-img-group">
+    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/eccv_adverse.png" alt="Left Image">
+  </div>
+
+
+<!-- <div class="post-img-group">
+    <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/udr_overview1.png" alt="Left Image">
+    <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/udr_overview2.png" alt="Right Image">
+  </div> 
+  </div> -->
+
+<h2 class="post-section" style="
+    text-align: center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+">Quantitative Comparison</h2>
+<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+  <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_adverse_metric.png"  alt="Left Image">
+  </div>
+  </div>
+
+
+<h2 class="post-section" style="
+    text-align: center;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+">Visual Comparison</h2>
+<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+  <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:2px;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png"  alt="Left Image">
+  </div>
+    <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real.png"  alt="Left Image">
+  </div>
+    <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison2.png"  alt="Left Image">
+  </div>
+    <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:10px;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison3.png"  alt="Left Image">
+  </div>
+  <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:10px;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison4.png"  alt="Left Image">
+    </div>
+    <div class="post-img-group">
+    <img class="post-img" style="max-width:100%;margin-bottom:10px;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png"  alt="Left Image">
+  </div>
+
+
+
+ <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">  
+<div class="post-img-group">
+<iframe style="max-width:50%;margin-top:0px;text-align: left;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
+<iframe style="max-width:50%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=209744e0-3ea4-11ee-b5bd-6595d9b17862"></iframe>
+</div> 
+<div class="post-img-group">
+<iframe style="max-width:50%;margin-top:0px;text-align: left;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c58fedd2-3f3d-11ee-b5bd-6595d9b17862"></iframe>
+<iframe style="max-width:50%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0ded7a4a-3f3e-11ee-b5bd-6595d9b17862"></iframe>
+</div> 
+<div class="post-img-group">
+<iframe style="max-width:100%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="100%" height="371" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2ad2a594-3f3f-11ee-b5bd-6595d9b17862"></iframe>
+</div>
+</div>
+
+<!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+<div class="post-img-group">
+<img style="padding: 10px; width: 450;text-align: left;" frameborder="0" class="juxtapose" height="455" width="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=ae97ac46-3ea2-11ee-b5bd-6595d9b17862">
+<img style="padding: 10px; width: 450;text-align: right;" frameborder="0" class="juxtapose" height="455" width="600" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=5b6cf096-3e7d-11ee-b5bd-6595d9b17862">
+</div> 
+</div>  -->
+
+<!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+<div class="post-img-group">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%;height:70" src="https://ephemeral182.github.io/images/real3.gif" alt="Left Image"><!--&nbsp;&nbsp;
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%;height:70" src="https://ephemeral182.github.io/images/real4.gif" alt="Right Image">
+  </div> 
+</div>  -->
+
+<!-- <h2 class="post-section"  style="font-weight:300;"><strong>R</strong>ealistic <strong>V</strong>ideo De<strong>S</strong>nowing <strong>D</strong>ataset</h2>
+
+- <strong>RVSD</strong> contains a total of 110 pairs of videos. 
+- Each pair contains <strong>snowy</strong> and  <strong>hazy</strong> videos and corresponding snow-free and haze-free ground truth videos. 
+- We use a rendering engine (Unreal Engine 5) and various augmentation techniques to generate snow and haze with diverse and realistic physical properties. This results in more realistic and varied synthesized videos, which improve the model’s performance on real-world data. 
+
+
+
+<div class="post-section"  style="font-weight:700;">Download</div>
+<!-- <div style="font-weight:300;">Train (100 videos):  [Google Drive]  [Baidu Netdisk (password: 7t74)]</div>
+<div style="font-weight:300;">Test (20 videos):  [Google Drive]  [Baidu Netdisk (password: 7t74)] </div> -->
+
+
+
+<!-- - **Train (80 videos):**  
+    [Google Drive]  [Baidu Netdisk (password: 7t74)]
+- **Test (30 videos):**  
+    [Google Drive]  [Baidu Netdisk (password: 7t74)] --> 
+
+<h2 class="post-section">Citation</h2>
+
+
+```
 @InProceedings{chen2024teaching,
     title     = {Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint},
     author    = {Chen, Sixiang and Ye, Tian and Zhang, Kai and Xing, Zhaohu and Lin, Yunlong and Zhu, Lei}, 
@@ -148,6 +358,4 @@ title: T3_DiffWeather
     year      = {2024},
     organization={Springer}
 }
-    </pre>
-  </div>
-</section>
+```
