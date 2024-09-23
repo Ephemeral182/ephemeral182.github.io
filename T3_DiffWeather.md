@@ -10,11 +10,11 @@ title: T3_DiffWeather
   <link rel="stylesheet" href="assets/css/academicons.min.css">
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <!-- 
-  body {
-    background-color: #c2ddff; /* 浅蓝色 */
-  } -->
-  <style>
+<style>
+body {
+  background-color: #1a3c6e; /* 深蓝色背景 */
+  color: #ffffff; /* 白色文字，确保可读性 */
+}
   .fade-in {
     opacity: 0;
     transform: translateY(20px);
@@ -301,27 +301,28 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
-  margin-bottom: 20px;
-  -webkit-overflow-scrolling: touch; /* 为iOS设备添加平滑滚动 */
-  scrollbar-width: thin; /* 为Firefox设置细滚动条 */
-  scrollbar-color: #888 #f1f1f1; /* 为Firefox设置滚动条颜色 */
+  margin-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+  position: relative;
 }
 
 .scroll-container::-webkit-scrollbar {
-  height: 10px; /* 滚动条高度 */
+  height: 10px;
 }
 
 .scroll-container::-webkit-scrollbar-track {
-  background: #f1f1f1; /* 滚动条轨道颜色 */
+  background: #f1f1f1;
 }
 
 .scroll-container::-webkit-scrollbar-thumb {
-  background: #888; /* 滚动条滑块颜色 */
-  border-radius: 5px; /* 滚动条滑块圆角 */
+  background: #888;
+  border-radius: 5px;
 }
 
 .scroll-container::-webkit-scrollbar-thumb:hover {
-  background: #555; /* 鼠标悬停时滚动条滑块颜色 */
+  background: #555;
 }
 
 .scroll-content {
@@ -333,6 +334,24 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   height: 300px;
   margin-right: 20px;
   flex-shrink: 0;
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.scroll-instruction {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 20px;
 }
 </style>
 
@@ -352,7 +371,9 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
       <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison4.png" alt="Image 5">
       <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png" alt="Image 6">
     </div>
+    <div class="scroll-hint">Scroll ➜</div>
   </div>
+  <div class="scroll-instruction">Scroll horizontally to view more images</div>
 </div>
 
 
