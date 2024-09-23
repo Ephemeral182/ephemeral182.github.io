@@ -48,7 +48,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 <div style="margin-bottom: 0.7em;" class="post-authors">
                 <div class="col-md-8 col-md-offset-2 text-center">
-                    <ul class="nav nav-pills nav-justified" >
+                    <ul class="nav nav-pills nav-justified">
                         <li>
                             <a href="https://ephemeral182.github.io">
                             <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
@@ -277,111 +277,6 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 </div>
 
 
-<style>
-  .table-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  table {
-    border-collapse: collapse;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-  th, td {
-    border: 1px solid #ddd;
-    padding: 4px;
-    text-align: center;
-  }
-  .gray-row {
-    background-color: #f0f0f0;
-  }
-  .bold {
-    font-weight: bold;
-  }
-  .underline {
-    text-decoration: underline;
-  }
-  .star {
-    font-size: 1.5em;
-    color: gold;
-  }
-  .gray-venue {
-    color: #888;
-    font-size: 0.8em;
-  }
-  .highlight {
-    background-color: #ffff00;
-  }
-</style>
-
-<div class="table-container fade-in">
-  <div style="width: 41%;">
-    <h4 class="bold underline">Desnowing</h4>
-    <table>
-      <tr class="gray-row">
-        <th rowspan="2">Method</th>
-        <th colspan="2">Snow100K-S</th>
-        <th colspan="2">Snow100K-L</th>
-      </tr>
-      <tr class="gray-row">
-        <th>PSNR ↑</th>
-        <th>SSIM ↑</th>
-        <th>PSNR ↑</th>
-        <th>SSIM ↑</th>
-      </tr>
-      <!-- Add rows here based on the LaTeX data -->
-      <tr class="gray-row">
-        <td><span class="star">★</span> T³-DiffWeather (Ours)</td>
-        <td class="bold">37.51</td>
-        <td class="bold">0.9664</td>
-        <td class="bold">32.37</td>
-        <td class="bold">0.9355</td>
-      </tr>
-    </table>
-  </div>
-  
-  <div style="width: 29%;">
-    <h4 class="bold underline">Deraining & Dehazing</h4>
-    <table>
-      <tr class="gray-row">
-        <th rowspan="2">Method</th>
-        <th colspan="2">Outdoor-Rain</th>
-      </tr>
-      <tr class="gray-row">
-        <th>PSNR ↑</th>
-        <th>SSIM ↑</th>
-      </tr>
-      <!-- Add rows here based on the LaTeX data -->
-      <tr class="gray-row">
-        <td><span class="star">★</span> T³-DiffWeather (Ours)</td>
-        <td class="bold">31.99</td>
-        <td class="bold">0.9365</td>
-      </tr>
-    </table>
-  </div>
-  
-  <div style="width: 29%;">
-    <h4 class="bold underline">Raindrop Removal</h4>
-    <table>
-      <tr class="gray-row">
-        <th rowspan="2">Method</th>
-        <th colspan="2">RainDrop</th>
-      </tr>
-      <tr class="gray-row">
-        <th>PSNR ↑</th>
-        <th>SSIM ↑</th>
-      </tr>
-      <!-- Add rows here based on the LaTeX data -->
-      <tr class="gray-row">
-        <td><span class="star">★</span> T³-DiffWeather (Ours)</td>
-        <td class="bold">32.66</td>
-        <td class="bold">0.9411</td>
-      </tr>
-    </table>
-  </div>
-</div>
-
 
 <div class="fade-in">
 <h2 class="post-section" style="
@@ -404,7 +299,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     margin-bottom: 10px;
     padding-top: 20px;
 ">Visual Comparison</h2>
-<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+<!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)"> -->
   <div class="post-img-group">
     <img class="post-img" style="max-width:100%;margin-bottom:2px;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png"  alt="Left Image">
   </div>
@@ -438,7 +333,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 <div class="post-img-group">
 <iframe style="max-width:100%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="100%" height="371" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2ad2a594-3f3f-11ee-b5bd-6595d9b17862"></iframe>
 </div>
-</div>
+<!-- </div> -->
 <!-- </div> -->
 
 <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
