@@ -303,7 +303,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 }
 .scroll-content {
   display: flex;
-  animation: scroll 15s linear infinite; /* 减少到15秒 */
+  animation: scroll 60s linear infinite; /* 减少到15秒 */
 }
 .scroll-content img {
   height: 300px;
