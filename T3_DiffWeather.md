@@ -274,7 +274,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
       <strong>Figure 2.</strong> The overview of proposed method. (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
     </div>
   </div>
-</div>
+
 
 
 
@@ -318,7 +318,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     <div class="post-img-group">
     <img class="post-img" style="max-width:100%;margin-bottom:10px;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png"  alt="Left Image">
   </div>
-
+ </div>
 
 
  <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">   -->
