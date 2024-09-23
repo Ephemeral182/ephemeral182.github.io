@@ -12,9 +12,10 @@ title: T3_DiffWeather
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
-<h2 class="post-title" ><span style="color: #228be6; margin-bottom:7px;margin-top:20px;font-weight:400;">Teaching Tailored to Talent:</span> 
-
-Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</h2>
+<h2 class="post-title">
+  <span style="color: #228be6; display: block; text-align: center; margin-bottom: 7px;">Teaching Tailored to Talent:</span>
+  <span style="display: block; text-align: center;">Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</span>
+</h2>
 <!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>  -->
 
 <div class="post-authors" style="margin-bottom:5px;">
@@ -27,7 +28,7 @@ Kai Zhang<sup>1</sup>&nbsp;&nbsp;&nbsp;
 <sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;&nbsp;
 <sup>2</sup>Xiamen University&nbsp;&nbsp;&nbsp;<br>
 <sup>3</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;&nbsp;         
-</div>
+
 
 <div class="post-authors" style="margin-bottom:20px;">
 European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milano
