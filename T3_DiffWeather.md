@@ -247,10 +247,10 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     padding-top: 20px;
 ">Method</h2>
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
-  <div class="post-img-group">
-    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Left Image">
+  <div class="post-img-group" style="width: 100%; overflow: hidden;">
+    <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
   </div>
-  <div style="text-align: center; padding: 10px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; max-width: 80%; margin: 0 auto;">
+  <div style="text-align: center; padding: 10px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; width: 100%; box-sizing: border-box;">
     <strong>Figure 2.</strong> The overview of proposed method. (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
   </div>
 </div>
