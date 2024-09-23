@@ -34,11 +34,11 @@ body {
 <!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>  -->
 
 <div class="post-authors" style="margin-bottom:5px;">
-<a href="https://ephemeral182.github.io">Sixiang Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io">Tian Ye</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://ephemeral182.github.io" style="color: #228be6;">Sixiang Chen</a><sup>1</sup>&nbsp;&nbsp;&nbsp; <a href="https://owen718.github.io" style="color: #228be6;">Tian Ye</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
 Kai Zhang<sup>1</sup>&nbsp;&nbsp;&nbsp;
-<a href="https://ge-xing.github.io/">Zhaohu Xing</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
-<a href="https://lyl1015.github.io/">Yunlong Lin<sup>2</sup>&nbsp;&nbsp;&nbsp;
-<a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>1,3 ✉️</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://ge-xing.github.io/" style="color: #228be6;">Zhaohu Xing</a><sup>1</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://lyl1015.github.io/" style="color: #228be6;">Yunlong Lin</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://sites.google.com/site/indexlzhu/home" style="color: #228be6;">Lei Zhu</a><sup>1,3 ✉️</sup>&nbsp;&nbsp;&nbsp;
 <br>
 <sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;&nbsp;
 <sup>2</sup>Xiamen University&nbsp;&nbsp;&nbsp;<br>
@@ -46,6 +46,8 @@ Kai Zhang<sup>1</sup>&nbsp;&nbsp;&nbsp;
 
 
 <div class="post-authors" style="margin-bottom:20px;">
+
+style="margin-bottom:20px;">
 European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milano
 </div>
 
@@ -54,34 +56,34 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <ul class="nav nav-pills nav-justified">
                         <li>
-                            <a href="https://ephemeral182.github.io">
+                            <a href="https://ephemeral182.github.io" style="color: #ffffff;">
                             <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
                             <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
-                                <h5><strong>arXiv</strong></h5>
+                                <h5 style="color: #ffffff;"><strong>arXiv</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
+                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/" style="color: #ffffff;">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
-                                <h5><strong>ECCV 2024</strong></h5>
+                                <h5 style="color: #ffffff;"><strong>ECCV 2024</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
+                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/" style="color: #ffffff;">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/datatset.jpg" height="50px">
-                                <h5><strong>Dataset</strong></h5>
+                                <h5 style="color: #ffffff;"><strong>Dataset</strong></h5>
                             </a>
                         </li>                        
                         <li>
-                            <a href="https://ephemeral182.github.io">
+                            <a href="https://ephemeral182.github.io" style="color: #ffffff;">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/github.png" height="50px">
-                                <h5><strong>Code</strong></h5>
+                                <h5 style="color: #ffffff;"><strong>Code</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="https://ephemeral182.github.io/">
+                             <a href="https://ephemeral182.github.io/" style="color: #ffffff;">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/supplementary.jpg" height="50px">
-                                <h5><strong>Supplementery</strong></h5>
+                                <h5 style="color: #ffffff;"><strong>Supplementery</strong></h5>
                             </a>
                         </li>
                     </ul>
