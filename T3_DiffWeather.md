@@ -276,6 +276,113 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   </div>
 </div>
 
+
+<style>
+  .table-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  table {
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+  }
+  .gray-row {
+    background-color: #f0f0f0;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .underline {
+    text-decoration: underline;
+  }
+  .star {
+    font-size: 1.5em;
+    color: gold;
+  }
+  .gray-venue {
+    color: #888;
+    font-size: 0.8em;
+  }
+  .highlight {
+    background-color: #ffff00;
+  }
+</style>
+
+<div class="table-container fade-in">
+  <div style="width: 41%;">
+    <h4 class="bold underline">Desnowing</h4>
+    <table>
+      <tr class="gray-row">
+        <th rowspan="2">Method</th>
+        <th colspan="2">Snow100K-S</th>
+        <th colspan="2">Snow100K-L</th>
+      </tr>
+      <tr class="gray-row">
+        <th>PSNR ↑</th>
+        <th>SSIM ↑</th>
+        <th>PSNR ↑</th>
+        <th>SSIM ↑</th>
+      </tr>
+      <!-- Add rows here based on the LaTeX data -->
+      <tr class="gray-row">
+        <td><span class="star">★</span> T³-DiffWeather (Ours)</td>
+        <td class="bold">37.51</td>
+        <td class="bold">0.9664</td>
+        <td class="bold">32.37</td>
+        <td class="bold">0.9355</td>
+      </tr>
+    </table>
+  </div>
+  
+  <div style="width: 29%;">
+    <h4 class="bold underline">Deraining & Dehazing</h4>
+    <table>
+      <tr class="gray-row">
+        <th rowspan="2">Method</th>
+        <th colspan="2">Outdoor-Rain</th>
+      </tr>
+      <tr class="gray-row">
+        <th>PSNR ↑</th>
+        <th>SSIM ↑</th>
+      </tr>
+      <!-- Add rows here based on the LaTeX data -->
+      <tr class="gray-row">
+        <td><span class="star">★</span> T³-DiffWeather (Ours)</td>
+        <td class="bold">31.99</td>
+        <td class="bold">0.9365</td>
+      </tr>
+    </table>
+  </div>
+  
+  <div style="width: 29%;">
+    <h4 class="bold underline">Raindrop Removal</h4>
+    <table>
+      <tr class="gray-row">
+        <th rowspan="2">Method</th>
+        <th colspan="2">RainDrop</th>
+      </tr>
+      <tr class="gray-row">
+        <th>PSNR ↑</th>
+        <th>SSIM ↑</th>
+      </tr>
+      <!-- Add rows here based on the LaTeX data -->
+      <tr class="gray-row">
+        <td><span class="star">★</span> T³-DiffWeather (Ours)</td>
+        <td class="bold">32.66</td>
+        <td class="bold">0.9411</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
 <div class="fade-in">
 <h2 class="post-section" style="
     text-align: center;
