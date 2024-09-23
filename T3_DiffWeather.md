@@ -288,8 +288,9 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_metric.png"  alt="Left Image">
   </div>
   </div>
+  </div>
 
-
+<div class="fade-in">
 <h2 class="post-section" style="
     text-align: center;
     padding-left: 25px;
