@@ -10,10 +10,11 @@ title: T3_DiffWeather
   <link rel="stylesheet" href="assets/css/academicons.min.css">
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <style>
+  <!-- 
   body {
     background-color: #c2ddff; /* 浅蓝色 */
-  }
+  } -->
+  <style>
   .fade-in {
     opacity: 0;
     transform: translateY(20px);
@@ -303,7 +304,8 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 }
 .scroll-content {
   display: flex;
-  animation: scroll 60s linear infinite; /* 减少到15秒 */
+  animation: scroll 60s linear infinite;
+  width: fit-content; /* 确保容器宽度适应所有图片 */
 }
 .scroll-content img {
   height: 300px;
@@ -315,7 +317,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-50% - 10px)); /* 调整为滚动半个容器宽度 */
+    transform: translateX(calc(-50% - 10px)); /* 滚动半个容器宽度 */
   }
 }
 .scroll-container:hover .scroll-content {
