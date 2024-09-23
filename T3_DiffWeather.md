@@ -10,6 +10,17 @@ title: T3_DiffWeather
   <link rel="stylesheet" href="assets/css/academicons.min.css">
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <style>
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
 <h2 class="post-title" style="line-height: 1.3; margin-bottom: 20px;">
@@ -229,7 +240,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 <!-- <img src="../assets/img/VideoDesnowing/1.gif" class="post-img" role="img"> -->
 
 
-<div style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<div class="fade-in" style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
   <h2 class="post-section" style="
       text-align: center;
       margin-bottom: 0px;
@@ -248,18 +259,20 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   </p>
 </div>
 
-<h2 class="post-section" style="
-    text-align: center;
-    padding-left: 25px;
-    margin-bottom: 10px;
-    padding-top: 20px;
-">Method</h2>
-<div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
-  <div class="post-img-group" style="width: 100%; overflow: hidden;">
-    <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
-  </div>
-  <div style="text-align: center; padding: 10px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; width: 100%; box-sizing: border-box;">
-    <strong>Figure 2.</strong> The overview of proposed method. (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
+<div class="fade-in">
+  <h2 class="post-section" style="
+      text-align: center;
+      padding-left: 25px;
+      margin-bottom: 10px;
+      padding-top: 20px;
+  ">Method</h2>
+  <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
+    <div class="post-img-group" style="width: 100%; overflow: hidden;">
+      <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
+    </div>
+    <div style="text-align: center; padding: 10px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; width: 100%; box-sizing: border-box;">
+      <strong>Figure 2.</strong> The overview of proposed method. (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
+    </div>
   </div>
 </div>
 
@@ -363,3 +376,19 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     organization={Springer}
 }
 ````
+
+<script>
+  function handleScroll() {
+    const elements = document.querySelectorAll('.fade-in');
+    elements.forEach(element => {
+      const rect = element.getBoundingClientRect();
+      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      if (rect.top <= windowHeight * 0.75) {
+        element.classList.add('visible');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('load', handleScroll);
+</script>
