@@ -292,33 +292,59 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   <!-- </div> -->
   <!-- </div> -->
 
+<style>
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.scroll-content {
+  display: flex;
+  animation: scroll 60s linear infinite;
+}
+.scroll-content img {
+  height: 300px; /* 调整图片高度 */
+  margin-right: 20px; /* 图片之间的间距 */
+  flex-shrink: 0;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.scroll-container:hover .scroll-content {
+  animation-play-state: paused;
+}
+</style>
+
 <div class="fade-in">
-<h2 class="post-section" style="
-    text-align: center;
-    padding-left: 25px;
-    margin-bottom: 10px;
-    padding-top: 20px;
-">Visual Comparison</h2>
-<!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)"> -->
-  <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:2px;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png"  alt="Left Image">
-  </div>
-    <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real.png"  alt="Left Image">
-  </div>
-    <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison2.png"  alt="Left Image">
-  </div>
-    <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:10px;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison3.png"  alt="Left Image">
-  </div>
-  <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:10px;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison4.png"  alt="Left Image">
+  <h2 class="post-section" style="
+      text-align: center;
+      padding-left: 25px;
+      margin-bottom: 10px;
+      padding-top: 20px;
+  ">Visual Comparison</h2>
+  <div class="scroll-container">
+    <div class="scroll-content">
+      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png" alt="Image 1">
+      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real.png" alt="Image 2">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison2.png" alt="Image 3">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison3.png" alt="Image 4">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison4.png" alt="Image 5">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png" alt="Image 6">
+      <!-- 重复图片以实现无缝循环 -->
+      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_syn.png" alt="Image 1">
+      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real.png" alt="Image 2">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison2.png" alt="Image 3">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison3.png" alt="Image 4">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison4.png" alt="Image 5">
+      <img src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png" alt="Image 6">
     </div>
-    <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:10px;" src="https://ephemeral182.github.io/images/eccv_24/visual_real_comparison5.png"  alt="Left Image">
   </div>
- </div>
+</div>
 
 
  <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">   -->
