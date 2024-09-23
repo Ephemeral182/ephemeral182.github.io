@@ -26,9 +26,9 @@ title: T3_DiffWeather
 </style>
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
-<h2 class="post-title" style="line-height: 1.3; margin-bottom: 20px;">
-  <span style="color: #228be6; display: block; text-align: center; margin-bottom: 7px;">Teaching Tailored to Talent:</span>
-  <span style="display: block; text-align: center;">Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</span>
+<h2 class="post-title" style="line-height: 1.3; margin-bottom: 20px; font-size: 2em;">
+  <span style="color: #228be6; display: block; text-align: center; margin-bottom: 7px; font-size: 1.2em;">Teaching Tailored to Talent:</span>
+  <span style="display: block; text-align: center; font-size: 1.1em;">Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint</span>
 </h2>
 <!-- <h2 class="post-title" style="margin-bottom:20px;margin-top:7px;">Unified Removal of Raindrops and Rain Streaks</h2>  -->
 
@@ -294,7 +294,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   </div>
   <!-- </div> -->
   <!-- </div> -->
-  
+
 <style>
 .scroll-container {
   width: 100%;
