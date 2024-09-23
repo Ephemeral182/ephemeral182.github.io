@@ -11,6 +11,9 @@ title: T3_DiffWeather
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <style>
+  body {
+    background-color: #c2ddff; /* 浅蓝色 */
+  }
   .fade-in {
     opacity: 0;
     transform: translateY(20px);
