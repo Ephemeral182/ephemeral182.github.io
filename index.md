@@ -8,7 +8,7 @@ layout: page
 
 
 
-My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communication Engineering from the School of Ocean Information Engineering at Jimei University, where I was extremely fortunate to be supervised by ***[Dr. Erkang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ)*** and ***[Dr. Yun Liu](https://scholar.google.com.hk/citations?user=9fjHp-EAAAAJ&hl=zh-CN)*** (Southwest University). My research interests lie in the low-level field of computer vision. I am currently a research assistant under the supervision of ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** at Hong Kong University of Science and Technology (Guangzhou campus). I am also an incoming PhD student at HKUST@[ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** and ***[Prof. Fugee Tsung](https://www.ieda.ust.hk/dfaculty/tsung/)***.
+My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communication Engineering from the School of Ocean Information Engineering at Jimei University, where I was extremely fortunate to be supervised by ***[Dr. Erkang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ)*** and ***[Dr. Yun Liu](https://scholar.google.com.hk/citations?user=9fjHp-EAAAAJ&hl=zh-CN)*** (Southwest University). My research interests lie in the low-level field of computer vision. I am currently a PhD student at HKUST@[ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** and ***[Prof. Fugee Tsung](https://www.ieda.ust.hk/dfaculty/tsung/)***.
 
 
 
@@ -17,8 +17,8 @@ My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Commun
 ## Education
 
 - **Sept. 2019 - Jun. 2023: Jimei University** (B.Eng.)
-- **Aug. 2023 - : Hong Kong University of Science and Technology** (RA)
-
+- **Aug. 2023 - Aug. 2024: Hong Kong University of Science and Technology (Guangzhou)** (RA)
+- **Sept. 2024 - Present: Hong Kong University of Science and Technology (Guangzhou)** (PhD)
 <br>
 
 ---
@@ -34,6 +34,7 @@ My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Commun
 ---
 
 ## News and Updates
+- **Aug. 2024：**&#127752; I start to serve as a reviewer in **ICLR'2025**.
 - **Jul. 2024：**&#128640; Fortunately, two papers have been accepted by **ECCV'2024**.
 - **Jun. 2024：**&#127873; Serendipitously, one paper has been accepted by **MICCAI'2024**. 
 - **Jun. 2024：**&#127752; I start to serve as a reviewer in **TCSVT**.
