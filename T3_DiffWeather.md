@@ -238,7 +238,6 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     padding: 25px;
     padding-top: 10px;
 ">Recent advancements in adverse weather restoration have shown potential, yet the unpredictable and varied combinations of weather degradations in the real world pose significant challenges. Previous methods typically struggle with dynamically handling intricate degradation combinations and carrying on background reconstruction precisely, leading to performance and generalization limitations. Drawing inspiration from prompt learning and the "<u>T</u>eaching <u>T</u>ailored to <u>T</u>alent" concept, we introduce a novel pipeline, <i><strong>T<sup>3</sup>-DiffWeather</strong></i>. Specifically, we employ a prompt pool that allows the network to autonomously combine sub-prompts to construct weather-prompts, harnessing the necessary attributes to adaptively tackle unforeseen weather input. Moreover, from a scene modeling perspective, we incorporate general prompts constrained by Depth-Anything feature to provide the scene-specific condition for the diffusion process. Furthermore, by incorporating contrastive prompt loss, we ensures distinctive representations for both types of prompts by a mutual pushing strategy. Experimental results demonstrate that our method achieves state-of-the-art performance across various synthetic and real-world datasets, markedly outperforming existing diffusion techniques in terms of computational efficiency.
-
 </div>
 
 <h2 class="post-section" style="
@@ -249,15 +248,12 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 ">Method</h2>
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
   <div class="post-img-group">
-    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/eccv_adverse.png" alt="Left Image">
+    <img class="post-img" style="max-width:100%" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse.png" alt="Left Image">
   </div>
-
-
-<!-- <div class="post-img-group">
-    <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/udr_overview1.png" alt="Left Image">
-    <img class="post-img" style="max-width:50%" src="https://ephemeral182.github.io/images/udr_overview2.png" alt="Right Image">
-  </div> 
-  </div> -->
+  <div style="text-align: center; padding: 10px; font-family: 'Arial', sans-serif; font-size: 14px; color: #333; max-width: 80%; margin: 0 auto;">
+    <strong>Figure 2.</strong> The overview of proposed method. (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
+  </div>
+</div>
 
 <h2 class="post-section" style="
     text-align: center;
@@ -267,7 +263,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 ">Quantitative Comparison</h2>
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
   <div class="post-img-group">
-    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_adverse_metric.png"  alt="Left Image">
+    <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_metric.png"  alt="Left Image">
   </div>
   </div>
 
@@ -332,7 +328,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 - <strong>RVSD</strong> contains a total of 110 pairs of videos. 
 - Each pair contains <strong>snowy</strong> and  <strong>hazy</strong> videos and corresponding snow-free and haze-free ground truth videos. 
-- We use a rendering engine (Unreal Engine 5) and various augmentation techniques to generate snow and haze with diverse and realistic physical properties. This results in more realistic and varied synthesized videos, which improve the model’s performance on real-world data. 
+- We use a rendering engine (Unreal Engine 5) and various augmentation techniques to generate snow and haze with diverse and realistic physical properties. This results in more realistic and varied synthesized videos, which improve the model's performance on real-world data. 
 
 
 
