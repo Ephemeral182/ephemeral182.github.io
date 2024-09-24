@@ -209,7 +209,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
   </div>
   <div style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px; padding: 20px; text-align: center; font-family: 'Arial', sans-serif; font-size: 14px; color: #444; width: 100%; box-sizing: border-box;">
-    <strong>Figure 2.</strong> The overview of proposed method. (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
+    <strong>Figure 2. The overview of proposed method.</strong>  (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
   </div>
 </div>
 
@@ -222,10 +222,10 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
       padding-top: 20px;
   ">Observations</h2>
   <div class="post-img-group" style="width: 100%; overflow: hidden;">
-    <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
+    <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/observation1.png" alt="Method Overview">
   </div>
   <div style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px; padding: 20px; text-align: center; font-family: 'Arial', sans-serif; font-size: 14px; color: #444; width: 100%; box-sizing: border-box;">
-    <strong>Figure 2.</strong> The overview of proposed method. (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
+    <strong>t-SNE visualization of different feature distributions.</strong>  (a). Scenes with different contents also have significant commonalities compared to degradations. And there are some differences and commonalities between degradations and degradations. (b). Degradation residuals can represent degradations to a certain extent and be distinguished from the background. 
   </div>
 </div>
 
