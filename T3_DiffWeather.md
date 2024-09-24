@@ -104,18 +104,13 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 
 <div class="fade-in">
-  <h2 class="post-section" style="
-      text-align: center;
-      padding-left: 25px;
-      margin-bottom: 10px;
-      padding-top: 20px;
-  ">Visual Comparison</h2>
   <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
     <div style="position: relative; width: 100%; max-width: 800px; overflow: hidden;">
       <img src="https://ephemeral182.github.io/images/eccv_24/ban1_clean.jpg" style="width: 100%; display: block;" alt="Clean Image">
       <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
         <img src="https://ephemeral182.github.io/images/eccv_24/ban1_deg.jpg" style="width: 200%; max-width: none; display: block;" alt="Degraded Image">
       </div>
+      <div style="position: absolute; top: 0; left: 50%; width: 4px; height: 100%; background: rgba(255,255,255,0.7);"></div>
       <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: rgba(255,255,255,0.7); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
         <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #333; margin-right: 5px;"></div>
         <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #333; margin-left: 5px;"></div>
