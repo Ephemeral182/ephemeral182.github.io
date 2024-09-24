@@ -4,14 +4,14 @@
   width: 80%;
 }
 
-main,
-footer,
-.nav-container {
-  display: block;
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
-}
+// main,
+// footer,
+// .nav-container {
+//   display: block;
+//   margin: 0 auto;
+//   max-width: 800px;
+//   width: 80%;
+// }
 
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
@@ -62,7 +62,7 @@ footer,
 
   a {
     color: $default-color;
-    font-family: $sans-serif;
+    // font-family: $sans-serif;
   }
 }
 
@@ -81,7 +81,7 @@ footer,
 }
 
 footer {
-  font-family: Lato, sans-serif;
+  // font-family: Lato, sans-serif;
   // font-family: $serif-secondary;
   padding: 2rem 0;
   text-align: center;
