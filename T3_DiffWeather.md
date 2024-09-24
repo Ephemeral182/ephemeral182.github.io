@@ -104,7 +104,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 <div class="fade-in">
   <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-    <div style="position: relative; width: 100%; max-width: 800px; overflow: hidden;">
+    <div style="position: relative; width: 50%; max-width: 400px; overflow: hidden;">
       <img src="https://ephemeral182.github.io/images/eccv_24/ban1_clean.jpg" style="width: 100%; display: block;" alt="Clean Image">
       <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
         <img src="https://ephemeral182.github.io/images/eccv_24/ban1_deg.jpg" style="width: 200%; max-width: none; display: block;" alt="Degraded Image">
@@ -115,10 +115,8 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
         <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #333; margin-left: 5px;"></div>
       </div>
     </div>
-  </div>
-  
-  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-    <div style="position: relative; width: 100%; max-width: 800px; overflow: hidden;">
+
+  <div style="position: relative; width: 50%; max-width: 400px; overflow: hidden;">
       <img src="https://ephemeral182.github.io/images/eccv_24/ban2_clean.jpg" style="width: 100%; display: block;" alt="Clean Image 2">
       <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
         <img src="https://ephemeral182.github.io/images/eccv_24/ban2_deg.jpg" style="width: 200%; max-width: none; display: block;" alt="Degraded Image 2">
