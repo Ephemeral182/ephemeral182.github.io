@@ -199,10 +199,10 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 <div class="fade-in">
   <h2 class="post-section" style="
       text-align: center;
-      margin-bottom: 0px;
+      padding-left: 25px;
+      color: #228be6;
+      margin-bottom: 10px;
       padding-top: 20px;
-      color: #333;
-      font-weight: 600;
   ">Method</h2>
   <div class="post-img-group" style="width: 100%; overflow: hidden;">
     <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
@@ -216,13 +216,13 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 
 <div class="fade-in">
-  <h2 class="post-section" style="
-      text-align: center;
-      margin-bottom: 0px;
-      padding-top: 20px;
-      color: #333;
-      font-weight: 600;
-  ">Quantitative Comparison</h2>
+<h2 class="post-section" style="
+    text-align: center;
+    padding-left: 25px;
+    color: #228be6;
+    margin-bottom: 10px;
+    padding-top: 20px;
+">Quantitative Comparison</h2>
 <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)"> -->
   <div class="post-img-group">
     <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_metric.png"  alt="Left Image">
@@ -292,10 +292,10 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 <div class="fade-in">
   <h2 class="post-section" style="
       text-align: center;
-      margin-bottom: 0px;
+      padding-left: 25px;
+      color: #228be6;
+      margin-bottom: 10px;
       padding-top: 20px;
-      color: #333;
-      font-weight: 600;
   ">Visual Comparison</h2>
   <div class="scroll-container">
     <div class="scroll-content">
@@ -418,13 +418,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 - **Test (30 videos):**  
     [Google Drive]  [Baidu Netdisk (password: 7t74)] --> 
 
-  <h2 class="post-section" style="
-      text-align: center;
-      margin-bottom: 0px;
-      padding-top: 20px;
-      color: #333;
-      font-weight: 600;
-  ">Citation</h2>
+<h2 class="post-section" style="color:#228be6;">Citation</h2>
 
 
 ````
