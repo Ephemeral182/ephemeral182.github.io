@@ -310,18 +310,76 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 </div>
 
 
- <!-- <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">   -->
-<div class="post-img-group">
-<iframe style="max-width:50%;margin-top:0px;text-align: left;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1486a714-3ea3-11ee-b5bd-6595d9b17862"></iframe>
-<iframe style="max-width:50%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=209744e0-3ea4-11ee-b5bd-6595d9b17862"></iframe>
-</div> 
-<div class="post-img-group">
-<iframe style="max-width:50%;margin-top:0px;text-align: left;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250"  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c58fedd2-3f3d-11ee-b5bd-6595d9b17862"></iframe>
-<iframe style="max-width:50%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="50%" height="250" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0ded7a4a-3f3e-11ee-b5bd-6595d9b17862"></iframe>
-</div> 
-<div class="post-img-group">
-<iframe style="max-width:100%;margin-bottom:0px;text-align: right;margin: 0;padding: 0;display: flex;" frameborder="0" class="juxtapose" width="100%" height="371" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=2ad2a594-3f3f-11ee-b5bd-6595d9b17862"></iframe>
+<div class="fade-in">
+  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <!-- First Image Set -->
+    <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban3_clean.jpg" style="width: 100%; height: 100%; display: block;" alt="Clean Image">
+      <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
+        <img src="https://ephemeral182.github.io/images/eccv_24/ban3_deg.jpg" style="width: 200%; max-width: none; height: 100%; display: block;" alt="Degraded Image">
+      </div>
+      <div style="position: absolute; top: 0; left: 50%; width: 4px; height: 100%; background: rgba(255,255,255,0.7);"></div>
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: rgba(255,255,255,0.7); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+        <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #333; margin-right: 5px;"></div>
+        <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #333; margin-left: 5px;"></div>
+      </div>
+    </div>
+
+<!-- Second Image Set -->
+  <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban4_clean.jpg" style="width: 100%; height: 100%; display: block;" alt="Clean Image 2">
+      <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
+        <img src="https://ephemeral182.github.io/images/eccv_24/ban4_deg.jpg" style="width: 200%; max-width: none; height: 100%; display: block;" alt="Degraded Image 2">
+      </div>
+      <div style="position: absolute; top: 0; left: 50%; width: 4px; height: 100%; background: rgba(255,255,255,0.7);"></div>
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: rgba(255,255,255,0.7); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+        <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #333; margin-right: 5px;"></div>
+        <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #333; margin-left: 5px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Caption -->
+  <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px;">
+    Left: Input Image, Right: Our Result
+  </div>
 </div>
+
+<div class="fade-in">
+  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <!-- First Image Set -->
+    <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban5_clean.jpg" style="width: 100%; height: 100%; display: block;" alt="Clean Image">
+      <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
+        <img src="https://ephemeral182.github.io/images/eccv_24/ban5_deg.jpg" style="width: 200%; max-width: none; height: 100%; display: block;" alt="Degraded Image">
+      </div>
+      <div style="position: absolute; top: 0; left: 50%; width: 4px; height: 100%; background: rgba(255,255,255,0.7);"></div>
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: rgba(255,255,255,0.7); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+        <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #333; margin-right: 5px;"></div>
+        <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #333; margin-left: 5px;"></div>
+      </div>
+    </div>
+
+<!-- Second Image Set -->
+  <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban6_clean.jpg" style="width: 100%; height: 100%; display: block;" alt="Clean Image 2">
+      <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
+        <img src="https://ephemeral182.github.io/images/eccv_24/ban6_deg.jpg" style="width: 200%; max-width: none; height: 100%; display: block;" alt="Degraded Image 2">
+      </div>
+      <div style="position: absolute; top: 0; left: 50%; width: 4px; height: 100%; background: rgba(255,255,255,0.7);"></div>
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: rgba(255,255,255,0.7); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+        <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #333; margin-right: 5px;"></div>
+        <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 10px solid #333; margin-left: 5px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Caption -->
+  <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px;">
+    Left: Input Image, Right: Our Result
+  </div>
+</div>
+
 <!-- </div> -->
 <!-- </div> -->
 
