@@ -25,15 +25,16 @@ body {
     transform: translateY(0);
   }
 .cursor-shadow {
-  position: fixed;
+  position: absolute; /* 改为绝对定位 */
   pointer-events: none;
-  width: 25px; /* 调整光标宽度 */
-  height: 25px; /* 调整光标高度 */
+  width: 30px; /* 调整光标宽度 */
+  height: 30px; /* 调整光标高度 */
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.4); /* 留影效果的颜色 */
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.3); /* 增加阴影效果 */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.3); /* 增加阴影效果 */
   transform: translate(-50%, -50%);
   transition: background 0.3s ease, transform 0.2s ease; /* 添加变换效果 */
+  opacity: 1; /* 确保留影始终可见 */
 }
 .cursor-shadow:hover {
   background: rgba(255, 255, 255, 0.7);
@@ -50,9 +51,8 @@ body {
   // 更新光标位置
   document.addEventListener('mousemove', (e) => {
     cursor.style.left = e.pageX + 'px';
-    cursor.style.top = (e.pageY + 10) + 'px'; // 留影位置稍微向下偏移
+    cursor.style.top = e.pageY + 'px'; // 保持光标位置与鼠标一致
   });
-cursor.style.opacity = 1; // 确保留影始终可见
 </script>
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
