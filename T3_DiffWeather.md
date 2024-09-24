@@ -112,8 +112,8 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   ">Visual Comparison</h2>
   <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
     <div style="display: flex; width: 100%; max-width: 800px;">
-      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real_input.png" style="width: 50%; object-fit: cover;" alt="Input Image">
-      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real_output.png" style="width: 50%; object-fit: cover;" alt="Output Image">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban1_deg.jpg" style="width: 50%; object-fit: cover;" alt="Input Image">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban1_clean.jpg" style="width: 50%; object-fit: cover;" alt="Output Image">
     </div>
   </div>
   <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px;">
