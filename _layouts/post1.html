@@ -1,18 +1,22 @@
 ---
-layout: base
+layout: base 
 ---
-
-<!-- 添加 title 标签 -->
-{% comment %}
-<div class="headline-wrap">
-  <h1 itemprop="headline">{{ page.title }}</h1>
-</div><!--/ .headline-wrap -->
-{% endcomment %}
+<title>{{ page.title | default: site.title }}</title>
 
 <div class="post1">
+  <!-- <h2 class="post-title">{{ page.title }}</h2>
+  <div class="post-line"></div> -->
+
   {{ content }}
+
 </div>
 
 <div class="pagination">
+  <!-- {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left next">Prev</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right next">Next</a>
+  {% endif %} -->
   <a href="#" class="top">Top</a>
 </div>
