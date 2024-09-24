@@ -104,137 +104,39 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 
 <section class="section">
-    <div class="container ">
-      <div class=" has-text-centered">
-         <!-- <h2 class="title is-3">Visual Comparisons</h2> -->
-        <div class="content has-text-justified">
-          <p>
-
-  </p>
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <div class="columns is-centered">
+            <div class="column is-full-width">
+              <div id="example1" class="bal-container-small">
+                <div class="bal-after">
+                  <img src="https://ephemeral182.github.io/images/eccv_24/ban1_deg.jpg">
+                  <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                    Ours
+                  </div>
+                </div>
+                <div class="bal-before" style="width:50%;">
+                  <div class="bal-before-inset">
+                    <img src="https://ephemeral182.github.io/images/eccv_24/ban1_clean.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                      Input
+                    </div>
+                  </div>
+                </div>
+                <div class="bal-handle" style="left:50%;">
+                  <span class="handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="columns is-centered">
-          <!-- Visual Effects. -->
-          <div class="column">
-            <div class="content">
-              <div class="columns is-centered">
-                <div class="column is-full-width">
-                  <div id="example1" class="bal-container-small">
-
-  <div class="bal-after">
-                      <img src="images/eccv_24/eccv_adverse_real.png">
-                      <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                        Ours
-                      </div>
-                    </div>
-
-  <div class="bal-before" style="width:50.4968152866242%;">
-                      <div class="bal-before-inset" style="width: 539px;">
-                        <img src="images/eccv_24/eccv_adverse_real.png">
-                        <div class="bal-beforePosition beforeLabel">
-                          Input
-                        </div>
-                      </div>
-                    </div>
-
-  <div class="bal-handle" style="left:50.4968152866242%;">
-                      <span class=" handle-left-arrow"></span>
-                      <span class="handle-right-arrow"></span>
-                    </div>
-
-  </div>
-
-
-  <div id="example2" class="bal-container-small">
-
-  <div class="bal-after">
-    <img src="images/eccv_24/eccv_adverse_real.png">
-    <div class="bal-afterPosition afterLabel">
-      Ours
-    </div>
-  </div>
-
-  <div class="bal-before" style="width: 50%;">
-    <div class="bal-before-inset" style="width: 539px;">
-      <img src="images/eccv_24/eccv_adverse_real.png">
-      <div class="bal-beforePosition beforeLabel">
-        Input
       </div>
     </div>
   </div>
-
-  <div class="bal-handle" style="left: 50%;">
-    <span class=" handle-left-arrow"></span>
-    <span class="handle-right-arrow"></span>
-  </div>
-
-  </div>
-</div>
-</div>
-</div>
-</div>
-
-
-<!--/ Visual Effects. -->
-
-<!-- Matting. -->
-<div class="column">
-<div class="columns is-centered">
-<div class="column content">
-
-<div id="example4" class="bal-container-small">
-  <div class="bal-after">
-    <img src="images/eccv_24/eccv_adverse_real.png">
-    <div class="bal-afterPosition afterLabel" style="z-index:1;">
-      Ours
-    </div>
-  </div>
-
-  <div class="bal-before" style="width:62.10191082802548%;">
-    <div class="bal-before-inset" style="width: 539px;">
-      <img src="images/eccv_24/eccv_adverse_real.png">
-      <div class="bal-beforePosition beforeLabel">
-        Input
-      </div>
-    </div>
-  </div>
-
-  <div class="bal-handle" style="left:62.10191082802548%;">
-    <span class=" handle-left-arrow"></span>
-    <span class="handle-right-arrow"></span>
-  </div>
-
-</div>
-
-<div id="example5" class="bal-container-small">
-  <div class="bal-after">
-    <img src="images/eccv_24/eccv_adverse_real.png">
-    <div class="bal-afterPosition afterLabel" style="z-index:1;">
-      Ours
-    </div>
-  </div>
-
-  <div class="bal-before" style="width:56.77179962894249%;">
-    <div class="bal-before-inset" style="width: 628px;">
-      <img src="images/eccv_24/eccv_adverse_real.png">
-      <div class="bal-beforePosition beforeLabel">
-        Input
-      </div>
-    </div>
-  </div>
-
-  <div class="bal-handle" style="left:56.77179962894249%;">
-    <span class=" handle-left-arrow"></span>
-    <span class="handle-right-arrow"></span>
-  </div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-  </section>
+</section>
 
 
 
