@@ -215,10 +215,10 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   <!-- {{ edit_1 }} -->
   
   <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-    <div style="position: relative; width: 75%; max-width: 480px; height: 300px; overflow: hidden;"> <!-- 调整左边图的宽度 -->
+    <div style="position: relative; width: 75%; max-width: 600px; height: 300px; overflow: hidden;"> <!-- 调整左边图的宽度 -->
       <img src="https://ephemeral182.github.io/images/eccv_24/prompt_pool.png" style="width: 100%; height: 100%; display: block;" alt="Sub-Prompt Selection">
     </div>
-    <div style="position: relative; width: 25%; max-width: 320px; height: 300px; overflow: hidden;"> <!-- 调整右边图的宽度 -->
+    <div style="position: relative; width: 25%; max-width: 200px; height: 300px; overflow: hidden;"> <!-- 调整右边图的宽度 -->
       <img src="https://ephemeral182.github.io/images/eccv_24/depth.png" style="width: 100%; height: 100%; display: block;" alt="Weather-Prompt Visualization">
     </div>
   </div>
