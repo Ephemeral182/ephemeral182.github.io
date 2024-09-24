@@ -223,9 +223,10 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     </div>
   </div>
   <div style="background-color:#f0f1f3a6; margin-bottom: 20px; border-radius: 10px; padding: 20px; text-align: center; color: #333;"> <!-- 修改字体颜色 --> <!-- 添加背景 -->
-     <strong>Left: The selection frequency of sub-prompts.</strong> Some similar selection frequencies reflect the network's ability to adaptively exploit common attributes in some similarity between tasks (e.g. rain and raindrop). At the same time, the unique prompt frequencies highlight the flexibility to adapt to the specific characteristics of each weather condition. <br>
-     <strong>Mid: t-SNE visualization of weather-prompts for different weather conditions.</strong>
-    <br><strong>Right: Motivation of Depth-Anything as a constraint.</strong> Depth-Anything has degradation-independent performance, and the intermediate features have better robustness than the previous pre-trained network.
+     <strong>Left Figure: The selection frequency of sub-prompts.</strong> Some similar selection frequencies reflect the network's ability to adaptively exploit common attributes in some similarity between tasks (e.g. rain and raindrop). At the same time, the unique prompt frequencies highlight the flexibility to adapt to the specific characteristics of each weather condition. <br>
+     <strong>Mid Figure: t-SNE visualization of weather-prompts for different weather conditions.</strong>
+    <br>
+    <strong>Right Figure: Motivation of Depth-Anything as a constraint.</strong> Depth-Anything has degradation-independent performance, and the intermediate features have better robustness than the previous pre-trained network.
   </div>
 
 
@@ -241,7 +242,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
   </div>
   <div style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px; padding: 20px; text-align: center; font-family: 'Arial', sans-serif; font-size: 14px; color: #444; width: 100%; box-sizing: border-box;">
-    <strong>Figure 2. The overview of proposed method.</strong>  (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
+    <strong>Figure 3. The overview of proposed method.</strong>  (a) showcases our pipeline, which adopts an innovative strategy focused on learning degradation residual and employs the information-rich condition to guide the diffusion process. (b) illustrates the utilization of our prompt pool, which empowers the network to autonomously select attributes needed to construct adaptive weather-prompts. (c) depicts the general prompts directed by Depth-Anything constraint to supply scene information that aids in reconstructing residuals. (d) shows the contrastive prompt loss, which exerts constraints on prompts driven by two distinct motivations, enhancing their representations.
   </div>
 </div>
 
