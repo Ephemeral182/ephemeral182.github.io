@@ -47,7 +47,6 @@ Kai Zhang<sup>1</sup>&nbsp;&nbsp;&nbsp;
 
 <div class="post-authors" style="margin-bottom:20px;">
 
-style="margin-bottom:20px;">
 European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milano
 </div>
 
