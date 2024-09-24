@@ -3,7 +3,11 @@ layout: base
 ---
 
 <!-- 添加 title 标签 -->
-<title>{{ page.title | default: site.title }}</title>
+{% comment %}
+<div class="headline-wrap">
+  <h1 itemprop="headline">{{ page.title }}</h1>
+</div><!--/ .headline-wrap -->
+{% endcomment %}
 
 <div class="post1">
   {{ content }}
