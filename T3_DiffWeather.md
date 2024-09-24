@@ -216,15 +216,15 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   
   <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
     <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
-      <img src="https://ephemeral182.github.io/images/eccv_24/sub_prompt_selection.png" style="width: 100%; height: 100%; display: block;" alt="Sub-Prompt Selection">
+      <img src="https://ephemeral182.github.io/images/eccv_24/prompt_pool.png" style="width: 100%; height: 100%; display: block;" alt="Sub-Prompt Selection">
     </div>
     <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
-      <img src="https://ephemeral182.github.io/images/eccv_24/weather_prompt_visualization.png" style="width: 100%; height: 100%; display: block;" alt="Weather-Prompt Visualization">
+      <img src="https://ephemeral182.github.io/images/eccv_24/depth.png" style="width: 100%; height: 100%; display: block;" alt="Weather-Prompt Visualization">
     </div>
   </div>
   <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px;">
     Left: <strong>The selection frequency of sub-prompts.</strong> Some similar selection frequencies reflect the network's ability to adaptively exploit common attributes in some similarity between tasks (e.g. rain and raindrop). At the same time, the unique prompt frequencies highlight the flexibility to adapt to the specific characteristics of each weather condition. <br>
-    Right: <strong>t-SNE visualization of weather-prompts for different weather conditions.</strong>
+    Mid: <strong>t-SNE visualization of weather-prompts for different weather conditions.</strong>
   </div>
 </div>
 
