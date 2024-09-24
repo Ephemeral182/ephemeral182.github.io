@@ -420,8 +420,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 <h2 class="post-section" style="color:#228be6;">Citation</h2>
 
-
-````
+<pre>
 @InProceedings{chen2024teaching,
     title     = {Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint},
     author    = {Chen, Sixiang and Ye, Tian and Zhang, Kai and Xing, Zhaohu and Lin, Yunlong and Zhu, Lei}, 
@@ -429,7 +428,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     year      = {2024},
     organization={Springer}
 }
-````
+</pre>
 
 <script>
   function handleScroll() {
