@@ -35,12 +35,23 @@ body {
   transform: translate(-50%, -50%);
   transition: background 0.3s ease;
 }
-
-/* 鼠标悬停时的效果 */
+.cursor-shadow {
+  position: fixed;
+  pointer-events: none;
+  width: 30px; /* 增加光标宽度 */
+  height: 30px; /* 增加光标高度 */
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4); /* 调整留影效果的颜色 */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.3); /* 增加阴影效果 */
+  transform: translate(-50%, -50%);
+  transition: background 0.3s ease, transform 0.2s ease; /* 添加变换效果 */
+}
 .cursor-shadow:hover {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
+  transform: translate(-50%, -50%) scale(1.1); /* 鼠标悬停时放大 */
 }
 </style>
+
 <script>
   // 创建光标元素
   const cursor = document.createElement('div');
