@@ -212,21 +212,21 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     <strong>Figure 1. t-SNE visualization of different feature distributions.</strong>  (a). Scenes with different contents also have significant commonalities compared to degradations. And there are some differences and commonalities between degradations and degradations. (b). Degradation residuals can represent degradations to a certain extent and be distinguished from the background. 
   </div>
   
-  {{ edit_1 }}
+  <!-- {{ edit_1 }} -->
   
   <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-    <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+    <div style="position: relative; width: 60%; max-width: 480px; height: 300px; overflow: hidden;"> <!-- 调整左边图的宽度 -->
       <img src="https://ephemeral182.github.io/images/eccv_24/prompt_pool.png" style="width: 100%; height: 100%; display: block;" alt="Sub-Prompt Selection">
     </div>
-    <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+    <div style="position: relative; width: 40%; max-width: 320px; height: 300px; overflow: hidden;"> <!-- 调整右边图的宽度 -->
       <img src="https://ephemeral182.github.io/images/eccv_24/depth.png" style="width: 100%; height: 100%; display: block;" alt="Weather-Prompt Visualization">
     </div>
   </div>
-  <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px;">
-    Left: <strong>The selection frequency of sub-prompts.</strong> Some similar selection frequencies reflect the network's ability to adaptively exploit common attributes in some similarity between tasks (e.g. rain and raindrop). At the same time, the unique prompt frequencies highlight the flexibility to adapt to the specific characteristics of each weather condition. <br>
-    Mid: <strong>t-SNE visualization of weather-prompts for different weather conditions.</strong>
+  <div style="background-color:#f0f1f3a6; margin-bottom: 20px; border-radius: 10px; padding: 20px; text-align: center;"> <!-- 添加背景 -->
+     <strong>Left: The selection frequency of sub-prompts.</strong> Some similar selection frequencies reflect the network's ability to adaptively exploit common attributes in some similarity between tasks (e.g. rain and raindrop). At the same time, the unique prompt frequencies highlight the flexibility to adapt to the specific characteristics of each weather condition. <br>
+     <strong>Mid: t-SNE visualization of weather-prompts for different weather conditions.</strong>
+    <strong>Right: Motivation of Depth-Anything as a constraint.</strong> Depth-Anything has degradation-independent performance, and the intermediate features have better robustness than the previous pre-trained network.
   </div>
-</div>
 
 
 <div class="fade-in">
