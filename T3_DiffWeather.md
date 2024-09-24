@@ -24,7 +24,35 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+  .cursor-shadow {
+  position: fixed;
+  pointer-events: none;
+  width: 20px; /* 光标宽度 */
+  height: 20px; /* 光标高度 */
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5); /* 留影效果的颜色 */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* 留影效果的阴影 */
+  transform: translate(-50%, -50%);
+  transition: background 0.3s ease;
+}
+
+/* 鼠标悬停时的效果 */
+.cursor-shadow:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
 </style>
+<script>
+  // 创建光标元素
+  const cursor = document.createElement('div');
+  cursor.classList.add('cursor-shadow');
+  document.body.appendChild(cursor);
+
+  // 更新光标位置
+  document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.pageX + 'px';
+    cursor.style.top = e.pageY + 'px';
+  });
+</script>
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
 <h2 class="post-title" style="line-height: 1.3; margin-bottom: 20px; font-size: 1.6em;">
