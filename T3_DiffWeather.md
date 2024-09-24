@@ -204,6 +204,38 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
       color: #228be6;
       margin-bottom: 10px;
       padding-top: 20px;
+  ">Observations</h2>
+  <div class="post-img-group" style="width: 100%; overflow: hidden;">
+    <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/observation1.png" alt="Method Overview">
+  </div>
+  <div style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px; padding: 20px; text-align: center; font-family: 'Arial', sans-serif; font-size: 14px; color: #444; width: 100%; box-sizing: border-box;">
+    <strong>Figure 1. t-SNE visualization of different feature distributions.</strong>  (a). Scenes with different contents also have significant commonalities compared to degradations. And there are some differences and commonalities between degradations and degradations. (b). Degradation residuals can represent degradations to a certain extent and be distinguished from the background. 
+  </div>
+  
+  {{ edit_1 }}
+  
+  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+      <img src="https://ephemeral182.github.io/images/eccv_24/sub_prompt_selection.png" style="width: 100%; height: 100%; display: block;" alt="Sub-Prompt Selection">
+    </div>
+    <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+      <img src="https://ephemeral182.github.io/images/eccv_24/weather_prompt_visualization.png" style="width: 100%; height: 100%; display: block;" alt="Weather-Prompt Visualization">
+    </div>
+  </div>
+  <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px;">
+    Left: <strong>The selection frequency of sub-prompts.</strong> Some similar selection frequencies reflect the network's ability to adaptively exploit common attributes in some similarity between tasks (e.g. rain and raindrop). At the same time, the unique prompt frequencies highlight the flexibility to adapt to the specific characteristics of each weather condition. <br>
+    Right: <strong>t-SNE visualization of weather-prompts for different weather conditions.</strong>
+  </div>
+</div>
+
+
+<div class="fade-in">
+  <h2 class="post-section" style="
+      text-align: center;
+      padding-left: 25px;
+      color: #228be6;
+      margin-bottom: 10px;
+      padding-top: 20px;
   ">Method</h2>
   <div class="post-img-group" style="width: 100%; overflow: hidden;">
     <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_overview.png" alt="Method Overview">
@@ -213,21 +245,9 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   </div>
 </div>
 
-<div class="fade-in">
-  <h2 class="post-section" style="
-      text-align: center;
-      padding-left: 25px;
-      color: #228be6;
-      margin-bottom: 10px;
-      padding-top: 20px;
-  ">Observations</h2>
-  <div class="post-img-group" style="width: 100%; overflow: hidden;">
-    <img class="post-img" style="width: 100%; height: auto; display: block;" src="https://ephemeral182.github.io/images/eccv_24/observation1.png" alt="Method Overview">
-  </div>
-  <div style="background-color:#f0f1f3a6; margin-bottom: 30px; border-radius: 10px; padding: 20px; text-align: center; font-family: 'Arial', sans-serif; font-size: 14px; color: #444; width: 100%; box-sizing: border-box;">
-    <strong>t-SNE visualization of different feature distributions.</strong>  (a). Scenes with different contents also have significant commonalities compared to degradations. And there are some differences and commonalities between degradations and degradations. (b). Degradation residuals can represent degradations to a certain extent and be distinguished from the background. 
-  </div>
-</div>
+
+
+
 
 
 <div class="fade-in">
