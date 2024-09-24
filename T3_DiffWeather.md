@@ -103,11 +103,11 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
 
 
 <div class="fade-in">
-  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+  <div style="display: flex; justify-content: center; align-items: stretch; margin-bottom: 20px;">
     <div style="position: relative; width: 50%; max-width: 400px; overflow: hidden;">
-      <img src="https://ephemeral182.github.io/images/eccv_24/ban1_clean.jpg" style="width: 100%; display: block;" alt="Clean Image">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban1_clean.jpg" style="width: 100%; height: auto; display: block;" alt="Clean Image">
       <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
-        <img src="https://ephemeral182.github.io/images/eccv_24/ban1_deg.jpg" style="width: 200%; max-width: none; display: block;" alt="Degraded Image">
+        <img src="https://ephemeral182.github.io/images/eccv_24/ban1_deg.jpg" style="width: 200%; height: auto; display: block;" alt="Degraded Image">
       </div>
       <div style="position: absolute; top: 0; left: 50%; width: 4px; height: 100%; background: rgba(255,255,255,0.7);"></div>
       <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: rgba(255,255,255,0.7); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
@@ -117,9 +117,9 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
     </div>
 
   <div style="position: relative; width: 50%; max-width: 400px; overflow: hidden;">
-      <img src="https://ephemeral182.github.io/images/eccv_24/ban2_clean.jpg" style="width: 100%; display: block;" alt="Clean Image 2">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban2_clean.jpg" style="width: 100%; height: auto; display: block;" alt="Clean Image 2">
       <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
-        <img src="https://ephemeral182.github.io/images/eccv_24/ban2_deg.jpg" style="width: 200%; max-width: none; display: block;" alt="Degraded Image 2">
+        <img src="https://ephemeral182.github.io/images/eccv_24/ban2_deg.jpg" style="width: 200%; height: auto; display: block;" alt="Degraded Image 2">
       </div>
       <div style="position: absolute; top: 0; left: 50%; width: 4px; height: 100%; background: rgba(255,255,255,0.7);"></div>
       <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: rgba(255,255,255,0.7); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
