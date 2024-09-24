@@ -103,40 +103,23 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   </div>  -->
 
 
-<section class="section">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
-          <div class="columns is-centered">
-            <div class="column is-full-width">
-              <div id="example1" class="bal-container-small">
-                <div class="bal-after">
-                  <img src="https://ephemeral182.github.io/images/eccv_24/ban1_deg.jpg">
-                  <div class="bal-afterPosition afterLabel" style="z-index:1;">
-                    Ours
-                  </div>
-                </div>
-                <div class="bal-before" style="width:50%;">
-                  <div class="bal-before-inset">
-                    <img src="https://ephemeral182.github.io/images/eccv_24/ban1_clean.jpg">
-                    <div class="bal-beforePosition beforeLabel">
-                      Input
-                    </div>
-                  </div>
-                </div>
-                <div class="bal-handle" style="left:50%;">
-                  <span class="handle-left-arrow"></span>
-                  <span class="handle-right-arrow"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="fade-in">
+  <h2 class="post-section" style="
+      text-align: center;
+      padding-left: 25px;
+      margin-bottom: 10px;
+      padding-top: 20px;
+  ">Visual Comparison</h2>
+  <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <div style="display: flex; width: 100%; max-width: 800px;">
+      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real_input.png" style="width: 50%; object-fit: cover;" alt="Input Image">
+      <img src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse_real_output.png" style="width: 50%; object-fit: cover;" alt="Output Image">
     </div>
   </div>
-</section>
+  <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px;">
+    Left: Input Image, Right: Our Result
+  </div>
+</div>
 
 
 
