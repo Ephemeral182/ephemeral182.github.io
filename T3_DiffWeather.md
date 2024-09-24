@@ -24,25 +24,15 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
-  .cursor-shadow {
-  position: fixed;
-  pointer-events: none;
-  width: 20px; /* 光标宽度 */
-  height: 20px; /* 光标高度 */
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5); /* 留影效果的颜色 */
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* 留影效果的阴影 */
-  transform: translate(-50%, -50%);
-  transition: background 0.3s ease;
-}
+  <style>
 .cursor-shadow {
   position: fixed;
   pointer-events: none;
-  width: 30px; /* 增加光标宽度 */
-  height: 30px; /* 增加光标高度 */
+  width: 25px; /* 调整光标宽度 */
+  height: 25px; /* 调整光标高度 */
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4); /* 调整留影效果的颜色 */
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.3); /* 增加阴影效果 */
+  background: rgba(255, 255, 255, 0.4); /* 留影效果的颜色 */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.3); /* 增加阴影效果 */
   transform: translate(-50%, -50%);
   transition: background 0.3s ease, transform 0.2s ease; /* 添加变换效果 */
 }
@@ -61,8 +51,9 @@ body {
   // 更新光标位置
   document.addEventListener('mousemove', (e) => {
     cursor.style.left = e.pageX + 'px';
-    cursor.style.top = e.pageY + 'px';
+    cursor.style.top = (e.pageY + 10) + 'px'; // 留影位置稍微向下偏移
   });
+cursor.style.opacity = 1; // 确保留影始终可见
 </script>
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
 
@@ -156,8 +147,8 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
       </div>
     </div>
 
-    <!-- Second Image Set -->
-    <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
+<!-- Second Image Set -->
+  <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
       <img src="https://ephemeral182.github.io/images/eccv_24/ban2_clean.jpg" style="width: 100%; height: 100%; display: block;" alt="Clean Image 2">
       <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
         <img src="https://ephemeral182.github.io/images/eccv_24/ban2_deg.jpg" style="width: 200%; max-width: none; height: 100%; display: block;" alt="Degraded Image 2">
