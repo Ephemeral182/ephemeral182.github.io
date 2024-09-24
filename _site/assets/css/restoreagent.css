@@ -1,0 +1,377 @@
+.ezy__header37 {
+  background-color: #d9d4d0;
+  color: #151618;
+  position: relative;
+  padding: 90px 0; /* 缩小整体高度 */
+  display: flex;
+  justify-content: flex-start; /* 让文字靠左 */
+  align-items: center;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .ezy__header37 {
+    padding: 135px 0; /* 在大屏幕上也缩小高度 */
+  }
+}
+
+.ezy__header37-heading {
+  font-weight: 700;
+  font-size: 40px; /* 调整字体大小 */
+  line-height: 1.2;
+  color: #F1F1F1; /* 修改后的浅灰色字体 */
+}
+
+
+.ezy__subheading {
+  font-size: 30px; /* 调整副标题的字体大小 */
+  color: #F1F1F1; /* 与主标题颜色一致 */
+}
+
+@media (min-width: 991px) {
+  .ezy__header37-heading {
+    font-size: 60px; /* 调整字体大小 */
+  }
+  .ezy__subheading {
+    font-size: 50px; /* 调整副标题的字体大小 */
+  }
+}
+
+
+
+.ezy__header37-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #000000, #2b2b2b);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.ezy__header37-btn {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #d3d3d33e !important; /* 设置按钮的初始背景颜色为浅灰色，并使用 !important */
+  color: #c5c5c5 !important;
+  border-radius: 8px;
+  padding: 13px 40px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.3s; /* 添加过渡效果 */
+}
+
+.ezy__header37-btn:hover {
+  /* background-color: rgb(13, 110, 253) !important; 悬停时的蓝色背景，并使用 !important */
+  background-color: #4ba5b3cb !important; /* 悬停时的蓝色背景，并使用 !important */
+  color: #fff !important;
+}
+
+
+.has-text-justified {
+  padding-top: 20px;
+  font-size: 15px;
+  /* font-weight: bold; */
+  color: #e5e5e5e6 !important;
+  /* padding: 13px 40px; */
+  line-height: 1;
+}
+
+
+.has-text-justified p {
+  color: #f3f3f360 !important;
+}
+
+
+
+
+
+
+.gradient-text-1 {
+  /* font-size: 2.5em; */
+  /* font-weight: bold; */
+  /* background: linear-gradient(to right, #5AB9BE, #3B34CE); */
+  /* -webkit-background-clip: text; */
+  /* color: transparent; */
+  /* color: white; */
+  /* margin-bottom: 20px; */
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  color: transparent;  
+}
+
+
+
+.motivation {
+  padding-top: 30px;
+}
+
+.motivation-small-title {
+
+
+}
+
+.motivation {
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(120px);
+  transition: opacity 2.1s ease, transform 2.1s ease;
+}
+
+.motivation.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.motivation-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  /* background: linear-gradient(to right, #5AB9BE, #3B34CE); */
+  -webkit-background-clip: text;
+  /* color: transparent; */
+  color: white;
+  margin-bottom: 20px;
+}
+
+.motivation-small-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #d2d2d294;
+  /* background: linear-gradient(to right, #5AB9BE, #3B34CE); */
+  -webkit-background-clip: text;
+  /* color: transparent; */
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 900px;
+  margin-top: 10px;
+  padding: 20px;
+  /* background: rgba(255, 255, 255, 0.166); */
+  /* border-radius: 15px; */
+  backdrop-filter: blur(30px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+
+
+
+.ezy__header37-heading-2 {
+  font-weight: 700;
+  font-size: 50px; /* 调整字体大小 */
+  line-height: 1.2;
+  color: #ffffff; /* 修改后的浅灰色字体 */
+}
+
+
+.ezy__subheading-2 {
+  font-size: 30px; /* 调整副标题的字体大小 */
+  color: #f1f1f1; /* 与主标题颜色一致 */
+}
+
+@media (min-width: 991px) {
+  .ezy__header37-heading-2 {
+    font-size: 60px; /* 调整字体大小 */
+  }
+  .ezy__subheading-2 {
+    font-size: 40px; /* 调整副标题的字体大小 */
+  }
+}
+
+
+
+.ezy__subheading-3 {
+  font-size: 20px; /* 调整副标题的字体大小 */
+  color: #fffefe; /* 与主标题颜色一致 */
+}
+
+@media (min-width: 991px) {
+  .ezy__subheading-3 {
+    font-size: 25px; /* 调整副标题的字体大小 */
+  }
+}
+
+
+
+
+
+
+
+.motivation-0 {
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.motivation-0.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+.motivation-0-text {
+  padding: 20px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 3s ease, transform 3s ease;
+}
+
+.motivation-0-text.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+.publication-authors {
+  color: #f3f3f360;
+}
+
+
+
+
+.modern-table {
+  width: 90%;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: white;
+  /* font-family: Arial, sans-serif; */
+  font-size: 12px; /* 减小了基础字体大小 */
+  background: linear-gradient(145deg, #4e4e4f5b, #22232446);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.modern-table th, .modern-table td {
+  padding: 10px; /* 稍微减少了内边距 */
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.649);
+
+}
+
+.modern-table th:not(:first-child), 
+.modern-table td:not(:first-child) {
+  text-align: center; /* 除第一列外，所有列居中对齐 */
+}
+
+.modern-table thead {
+  background: rgba(0, 0, 0, 0.2);
+}
+.modern-table thead th {
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px; /* 减小了表头字体大小 */
+}
+.modern-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+.modern-table tbody td:first-child {
+  text-align: left;
+  /* font-weight: bold; */
+}
+.modern-table caption {
+  caption-side: top;
+  padding-bottom: 30px;
+  font-size: 25px; /* 减小了标题字体大小 */
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.02);
+  color: white;
+}
+
+
+
+
+
+.table-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+.scrollable-table {
+  /* min-width: 1200px; */
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 12px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  /* box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); */
+}
+.scrollable-table th, .scrollable-table td {
+  padding: 10px;
+  text-align: center !important;
+  border-bottom: 1px solid #333;
+  white-space: nowrap;
+  color: #e0e0e0;
+  font-size: 12px;
+
+}
+.scrollable-table thead {
+  background: #2c2c2c;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.scrollable-table thead th {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.scrollable-table tbody tr:hover {
+  filter: brightness(1.2);
+}
+.scrollable-table tbody td:first-child {
+  text-align: left;
+  font-weight: bold;
+  color: #ffffff;
+  position: sticky;
+  left: 0;
+  background: #1e1e1e;
+  z-index: 2;
+  text-align: left !important;
+
+}
+.scrollable-table .empty {
+  background-color: #252525;
+}
+.scrollable-table tbody td:first-child::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -5px;
+  bottom: 0;
+  width: 5px;
+  background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0));
+}
+
+/* Group colors */
+.scrollable-table .group-1 { background-color: rgba(89, 91, 94, 0.168); }
+.scrollable-table .group-2 { background-color: rgba(55, 55, 55, 0.1); }
+.scrollable-table .group-3 { background-color: rgba(89, 91, 94, 0.252); }
+.scrollable-table .group-4 { background-color: rgba(55, 55, 55, 0.1); }
+
+.scrollable-table thead .group-1 { background-color: rgba(97, 97, 97, 0.3); }
+.scrollable-table thead .group-2 { background-color: rgba(52, 52, 52, 0.3); }
+.scrollable-table thead .group-3 { background-color: rgba(115, 115, 115, 0.3); }
+.scrollable-table thead .group-4 { background-color: rgba(77, 77, 77, 0.3); }
+
+

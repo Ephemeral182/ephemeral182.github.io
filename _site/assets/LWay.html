@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Improving Generalization for Super-Resolution by Self-Supervised Learning.">
+  <meta name="keywords" content="LWay, Super-Resolution">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Low-Res Leads the Way</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <script async src="./assets/js/1.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./assets/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/1.css">
+  <link rel="stylesheet" href="./assets/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="icon" href="./assets/images/favicon.svg">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./assets/js/fontawesome.all.min.js"></script>
+  <script src="./assets/js/bulma-carousel.min.js"></script>
+  <script src="./assets/js/bulma-slider.min.js"></script>
+  <!-- <script src="./assets/js/index.js"></script> -->
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://haoyuchen.com/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://haoyuchen.com/VideoDesnowing">
+            Video Desnowing
+          </a>
+          <a class="navbar-item" href="https://github.com/haoyuc/MaskedDenoising">
+            Masked Generalizable Training
+          </a>
+          <!-- <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a> -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Low-Res Leads the Way</h1>
+          <h2 class="title is-2 publication-title">Improving Generalization for Super-Resolution by Self-Supervised Learning</h2>
+            <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://haoyuchen.com/">Haoyu Chen</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://fenglinglwb.github.io/">Wenbo Li</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.jasongt.com/">Jinjin Gu</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=wcuqACgAAAAJ">Jingjing Ren</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Haoze Sun<sup>4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=0ua28KoAAAAJ">Xueyi Zou</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=JPUwfAMAAAAJ">Youliang Yan</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=fs8HQxQAAAAJ">Zhensong Zhang</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>1,5</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou),</span>
+            <span class="author-block"><sup>2</sup>Huawei Noah’s Ark Lab</span>
+            <span class="author-block"><sup>3</sup>The University of Sydney</span>
+            <span class="author-block"><sup>4</sup>Tsinghua University</span>
+            <span class="author-block"><sup>5</sup>The Hong Kong University of Science and Technology</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div style="display: flex;justify-content: center;align-items: center; position: relative;">
+
+  <button id="prevImage" aria-label="上一张" class="toggle-button"></button>
+
+  <div class="ba-slider">
+    <img src="./assets/img/Lway/ours.jpg" alt="Before" class="before-image">
+    <div class="img-overlay" style="clip: rect(0px, 250px, 500px, 0px);">
+        <img src="./assets/img/Lway/stablesr.jpg" alt="After">
+    </div>
+    <div class="slider-handle" style="left: 250px;">
+      <div class="handle-center"></div> 
+    </div>
+
+    <button id="nextImage" aria-label="下一张" class="toggle-button"></button>
+
+  </div>
+  
+</div>
+
+
+
+<h2 class="subtitle has-text-centered" style="padding-top: 15px;">
+  <span class="dnerf">LWay</span> turns selfie videos from your phone into
+  free-viewpoint
+  portraits.
+</h2>
+
+
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <section class="section"> -->
+        <div class="container is-max-desktop">
+          <!-- Abstract. -->
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <h2 class="title is-3">Abstract</h2>
+              <div class="content has-text-justified">
+                <p>
+                  For image super-resolution (SR), bridging the gap between the performance on synthetic datasets and real-world degradation scenarios remains a challenge. 
+                  This work introduces a novel "Low-Res Leads the Way" (LWay) training framework, 
+                  merging Supervised Pre-training with Self-supervised Learning to enhance the adaptability of SR models to real-world images. 
+                </p>
+                <p>
+                  Our approach utilizes a low-resolution (LR) reconstruction network to extract degradation embeddings from LR images, 
+                  merging them with super-resolved outputs for LR reconstruction. 
+                  Leveraging unseen LR images for self-supervised learning guides the model to adapt its modeling space to the target domain, 
+                  facilitating fine-tuning of SR models without requiring paired high-resolution (HR) images. 
+                  The integration of Discrete Wavelet Transform (DWT) further refines the focus on high-frequency details. 
+                </p>
+                <p>
+                  Extensive evaluations show that our method significantly improves the generalization and detail restoration 
+                  capabilities of SR models on unseen real-world datasets, outperforming existing methods. 
+                  Our training regime is universally compatible, requiring no network architecture modifications, 
+                  making it a practical solution for real-world SR applications.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--/ Abstract. -->
+        </div>
+      <!-- </section> -->
+
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">          
+          <p>
+            For image super-resolution (SR), bridging the gap between the performance on synthetic datasets and real-world degradation scenarios remains a challenge. 
+            This work introduces a novel "Low-Res Leads the Way" (LWay) training framework, 
+            merging Supervised Pre-training with Self-supervised Learning to enhance the adaptability of SR models to real-world images. 
+          </p>
+          <p>
+            Our approach utilizes a low-resolution (LR) reconstruction network to extract degradation embeddings from LR images, 
+            merging them with super-resolved outputs for LR reconstruction. 
+            Leveraging unseen LR images for self-supervised learning guides the model to adapt its modeling space to the target domain, 
+            facilitating fine-tuning of SR models without requiring paired high-resolution (HR) images. 
+            The integration of Discrete Wavelet Transform (DWT) further refines the focus on high-frequency details. 
+          </p>
+          <p>
+            Extensive evaluations show that our method significantly improves the generalization and detail restoration 
+            capabilities of SR models on unseen real-world datasets, outperforming existing methods. 
+            Our training regime is universally compatible, requiring no network architecture modifications, 
+            making it a practical solution for real-world SR applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">LWay:  Low-Res Leads the Way</h2>
+        <div class="content has-text-justified">
+          <img src="./assets/img/Lway/net.jpg">
+          <p>
+
+          </p>
+          <p>
+            The proposed training pipeline (LWay) consists of two steps. 
+          </p>
+          <p>
+            <strong>Step 1</strong>, we pre-train a LR reconstruction network to capture degradation embedding from LR images. 
+            This embedding is then applied to HR images, regenerating LR content. 
+          </p>
+          <p>
+            <strong>Step 2</strong>, for test images, a pre-trained SR model generates SR outputs, 
+            which are then degraded by the fixed LR reconstruction network. 
+            We iteratively update the SR model using a self-supervised learning loss applied to LR images, 
+            with a focus on high-frequency details through weighted loss. 
+          </p>
+          <p>
+            This refinement process enhances the SR model’s generalization performance 
+            on previously unseen images.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
+          <h4 class="title is-6">Unsupervised learning using unpaired data</h4>
+          <img src="./assets/img/Lway/1.jpg">
+          <!-- <p>
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
+          </p> -->
+        </div>
+      </div>
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <h4 class="title is-6">Supervised learning using synthetic paired data</h4>
+        <div class="columns is-centered">
+          <div class="column content">
+            <img src="./assets/img/Lway/2.jpg">
+            <!-- <p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Matting. -->
+    <div class="columns is-centered">
+
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
+          <h4 class="title is-6">Self-supervised learning using single image</h4>
+          <img src="./assets/img/Lway/3.jpg">
+          <!-- <p>
+            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
+            would be impossible without nerfies since it would require going through a wall.
+          </p> -->
+        </div>
+      </div>
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <h4 class="title is-6">Supervised pre-training + Self-supervised learning (Ours)</h4>
+        <div class="columns is-centered">
+          <div class="column content">
+            <img src="./assets/img/Lway/4.jpg">
+            <!-- <p>
+              As a byproduct of our method, we can also solve the matting problem by ignoring
+              samples that fall outside of a bounding box during rendering.
+            </p> -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Results</h2>
+
+        <!-- Interpolating. -->
+        <h3 class="title is-4">Fine-tuning process</h3>
+        <div class="content has-text-justified">
+          <img src="./assets/img/Lway/iteration.jpg">
+          <p>
+            The SR model advances through the proposed fine-tuning iterations, 
+            moving from the supervised learning (SL) space of synthetic degradation to 
+            the self-supervised learning (SSL) space learned from test images. 
+            This results in enhanced SR quality and fidelity.
+          </p>
+        </div>
+        <br/>
+        <!--/ Interpolating. -->
+
+        <!-- Re-rendering. -->
+        <h3 class="title is-4">Qualitative comparisons on real-world datasets</h3>
+        <div class="content has-text-justified">
+          <img src="./assets/img/Lway/samples.jpg">
+          <p>
+            <!-- Qualitative comparisons on real-world datasets.  -->
+            The content within the blue box represents a zoomed-in image.
+            Using <span class="dnerf">LWay</span>, every model has a great improvment.
+          </p>
+        </div>
+        <!--/ Re-rendering. -->
+        <h3 class="title is-4">Qualitative comparisons on old films</h3>
+        <div class="content has-text-justified">
+          <img src="./assets/img/Lway/movie.jpg">
+          <!-- <p>
+            Using <span class="dnerf">LWay</span>, every model has a great improvment.
+          </p> -->
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{chen2024lowres,
+  author    = {Chen, Haoyu and Li, Wenbo and Gu, Jinjin and Ren, Jingjing and Sun, Haoze and Zou, Xueyi and Yan, Youliang and Zhang, Zhensong and Zhu, Lei},
+  title     = {Low-Res Leads the Way: Improving Generalization for Super-Resolution by Self-Supervised Learning},
+  journal   = {CVPR},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/haoyuc" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
