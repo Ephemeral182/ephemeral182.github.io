@@ -225,7 +225,7 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   <div style="background-color:#f0f1f3a6; margin-bottom: 20px; border-radius: 10px; padding: 20px; text-align: center; color: #333;"> <!-- 修改字体颜色 --> <!-- 添加背景 -->
      <strong>Left: The selection frequency of sub-prompts.</strong> Some similar selection frequencies reflect the network's ability to adaptively exploit common attributes in some similarity between tasks (e.g. rain and raindrop). At the same time, the unique prompt frequencies highlight the flexibility to adapt to the specific characteristics of each weather condition. <br>
      <strong>Mid: t-SNE visualization of weather-prompts for different weather conditions.</strong>
-    <strong>Right: Motivation of Depth-Anything as a constraint.</strong> Depth-Anything has degradation-independent performance, and the intermediate features have better robustness than the previous pre-trained network.
+    <br><strong>Right: Motivation of Depth-Anything as a constraint.</strong> Depth-Anything has degradation-independent performance, and the intermediate features have better robustness than the previous pre-trained network.
   </div>
 
 
