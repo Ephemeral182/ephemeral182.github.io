@@ -348,9 +348,9 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
   <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
     <!-- First Image Set -->
     <div style="position: relative; width: 50%; max-width: 400px; height: 300px; overflow: hidden;">
-      <img src="https://ephemeral182.github.io/images/eccv_24/ban5_clean.jpg" style="width: 100%; height: 100%; display: block;" alt="Clean Image">
+      <img src="https://ephemeral182.github.io/images/eccv_24/ban7_clean.jpg" style="width: 100%; height: 100%; display: block;" alt="Clean Image">
       <div style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden;">
-        <img src="https://ephemeral182.github.io/images/eccv_24/ban5_deg.jpg" style="width: 200%; max-width: none; height: 100%; display: block;" alt="Degraded Image">
+        <img src="https://ephemeral182.github.io/images/eccv_24/ban7_deg.jpg" style="width: 200%; max-width: none; height: 100%; display: block;" alt="Degraded Image">
       </div>
       <div style="position: absolute; top: 0; left: 50%; width: 4px; height: 100%; background: rgba(255,255,255,0.7);"></div>
       <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; background: rgba(255,255,255,0.7); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
