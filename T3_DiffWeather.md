@@ -84,32 +84,32 @@ European Conference on Computer Vision <strong>(ECCV)</strong>, 2024, MiCo Milan
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <ul class="nav nav-pills nav-justified">
                         <li>
-                            <a href="https://ephemeral182.github.io" style="color: #ffffff;">
+                            <a href="https://arxiv.org/abs/2409.15739" style="color: #ffffff;">
                             <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
                             <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
                                 <h5 style="color: #ffffff;"><strong>arXiv</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/" style="color: #ffffff;">
+                             <a href="https://arxiv.org/abs/2409.15739" style="color: #ffffff;">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
                                 <h5 style="color: #ffffff;"><strong>ECCV 2024</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/" style="color: #ffffff;">
+                             <a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather" style="color: #ffffff;">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/datatset.jpg" height="50px">
                                 <h5 style="color: #ffffff;"><strong>Dataset</strong></h5>
                             </a>
                         </li>                        
                         <li>
-                            <a href="https://ephemeral182.github.io" style="color: #ffffff;">
+                            <a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather" style="color: #ffffff;">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/github.png" height="50px">
                                 <h5 style="color: #ffffff;"><strong>Code</strong></h5>
                             </a>
                         </li>
                         <li>
-                             <a href="https://ephemeral182.github.io/" style="color: #ffffff;">
+                             <a href="https://arxiv.org/abs/2409.15739" style="color: #ffffff;">
                             <img class="post-logo" src="https://ephemeral182.github.io/images/supplementary.jpg" height="50px">
                                 <h5 style="color: #ffffff;"><strong>Supplementery</strong></h5>
                             </a>
