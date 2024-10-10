@@ -46,7 +46,7 @@ title: Publications
           <br>
           Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, <strong><u>Sixiang Chen</u></strong>, Tian Ye, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu<sup>✉️</sup>.
           <br>  
-          <em>European Conference on Computer Vision <strong>(NeurIPS)</strong></em>, 2024
+          <em>Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong></em>, 2024
           <br>
           <a href="https://arxiv.org/abs/2407.18035" class="custom-link—paper">[Paper]</a>
           <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
