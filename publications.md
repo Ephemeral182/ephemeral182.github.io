@@ -73,7 +73,6 @@ title: Publications
           <br>
           <a href="https://arxiv.org/abs/2409.15739" class="custom-link—paper">[Paper]</a>
           <a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather" class="custom-link—code">[Code]</a>
-          </a>
           <a href="https://ephemeral182.github.io/T3-DiffWeather/" class="custom-link—project">[Project]</a>
       </td>
     </tr>
