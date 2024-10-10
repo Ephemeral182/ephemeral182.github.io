@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://ephemeral182.github.io/csx2.jpg" class="floatpic" style="width: 45%; max-width: 540px; height: auto; float: right; margin-left: 1em;">
+<img src="https://ephemeral182.github.io/csx2.jpg" class="floatpic" style="width: 40%; max-width: 540px; height: auto; float: right; margin-left: 1em;">
 
 
 
