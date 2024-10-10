@@ -28,9 +28,32 @@ title: Publications
 
 # Publications
 
-6&nbsp; ***CVPR*** / ***ICCV*** / ***ECCV*** &nbsp;&nbsp;&nbsp;5&nbsp; ***AAAI*** / ***IJCAI*** / ***ACM MM*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***MICCAI*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***CVPRW*** / ***ICCVW*** / ***ECCVW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ACCV*** / ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICME*** / ***ICASSP*** &nbsp;&nbsp;&nbsp;
+7&nbsp; ***CVPR*** / ***ICCV*** / ***ECCV*** /  ***NeurIPS*** &nbsp;&nbsp;&nbsp;5&nbsp; ***AAAI*** / ***IJCAI*** / ***ACM MM*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***MICCAI*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***CVPRW*** / ***ICCVW*** / ***ECCVW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ACCV*** / ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICME*** / ***ICASSP*** &nbsp;&nbsp;&nbsp;
 
 <!-- =================================================================================== -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
+        <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/nips2024/overview.png" alt="dise"> 
+      </td>
+      <td width="75%" valign="center" class="text-wrapper"> 
+          <papertitle>
+            <strong>
+              RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models
+            </strong>
+          </papertitle>
+          <br>
+          Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, <strong><u>Sixiang Chen</u></strong>, Tian Ye, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu<sup>✉️</sup>.
+          <br>  
+          <em>European Conference on Computer Vision <strong>(NeurIPS)</strong></em>, 2024
+          <br>
+          <a href="https://arxiv.org/abs/2407.18035" class="custom-link—paper">[Paper]</a>
+          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+          <a href="https://haoyuchen.com/RestoreAgent" class="custom-link—project">[Project]</a>
+      </td>
+    </tr>
+
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
@@ -48,8 +71,10 @@ title: Publications
           <br>  
           <em>European Conference on Computer Vision <strong>(ECCV)</strong></em>, 2024
           <br>
-          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
-          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+          <a href="https://arxiv.org/abs/2409.15739" class="custom-link—paper">[Paper]</a>
+          <a href="https://github.com/Ephemeral182/ECCV24_T3-DiffWeather" class="custom-link—code">[Code]</a>
+          </a>
+          <a href="https://ephemeral182.github.io/T3-DiffWeather/" class="custom-link—project">[Project]</a>
       </td>
     </tr>
 
@@ -70,8 +95,9 @@ title: Publications
           <br>  
           <em>European Conference on Computer Vision <strong>(ECCV)</strong></em>, 2024
           <br>
-          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
-          <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
+          <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01500.pdf" class="custom-link—paper">[Paper]</a>
+          <a href="https://github.com/TonyHongtaoWu/SemiVDN
+          " class="custom-link—code">[Code]</a>
       </td>
     </tr>
 
@@ -92,7 +118,7 @@ title: Publications
           <br>  
           <em>Medical Image Computing and Computer Assisted Intervention <strong>(MICCAI)</strong></em>, 2024
           <br>
-          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-72104-5_20" class="custom-link—paper">[Paper]</a>
           <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
     </tr>
@@ -114,7 +140,7 @@ title: Publications
           <br>  
           <em>Computer Vision and Pattern Recognition <strong>(CVPR Highlight)</strong></em>, 2024
           <br>
-          <a href="Ephemeral182.github.io" class="custom-link—paper">[Paper]</a>
+          <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Ye_Learning_Diffusion_Texture_Priors_for_Image_Restoration_CVPR_2024_paper.html" class="custom-link—paper">[Paper]</a>
           <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
     </tr>
