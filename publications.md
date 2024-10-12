@@ -58,6 +58,29 @@ title: Publications
   <tbody>
     <tr>
       <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
+        <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/aglldiff.png" alt="dise"> 
+      </td>
+      <td width="75%" valign="center" class="text-wrapper"> 
+          <papertitle>
+            <strong>
+              AGLLDiff: Guiding Diffusion Models Towards Unsupervised Training-free Real-world Low-light Image Enhancement
+            </strong>
+          </papertitle>
+          <br>
+          Yunlong Lin* ,Tian Ye*, <strong><u>Sixiang Chen*</u></strong> ,Zhenqi Fu, Yingying Wang, Wenhao Chai, Zhaohu Xing, Lei Zhu, Xinghao Ding<sup>✉️</sup>.
+          <br>  
+          <em><strong>Arxiv (Under review)</strong></em>, 2024
+          <br>
+          <a href="https://arxiv.org/abs/2407.14900" class="custom-link—paper">[Paper]</a>
+          <a href="https://aglldiff.github.io/" class="custom-link—code">[Code]</a>
+          <a href="https://aglldiff.github.io/" class="custom-link—project">[Project]</a>
+      </td>
+    </tr>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+    <tr>
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
