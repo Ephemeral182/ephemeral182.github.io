@@ -360,12 +360,19 @@ body {
   overflow: hidden;
   border-radius: 12px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* 添加这行来创建阴影 */
+  width: 100%;  /* 确保容器宽度与父元素一致 */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);  /* 柔和的阴影 */
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* 确保图片填充容器 */
 }
 
 .image-wrapper:hover {
   transform: scale(1.02);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);  /* 悬停时加深阴影 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 </style>
 
