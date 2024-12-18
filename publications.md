@@ -353,6 +353,20 @@ body {
   gap: 12px;
   justify-content: flex-start;
 }
+
+/* 添加图片容器悬停效果 */
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* 添加这行来创建阴影 */
+}
+
+.image-wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);  /* 悬停时加深阴影 */
+}
 </style>
 
 <!-- 添加摘要部分 -->
