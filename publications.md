@@ -5,24 +5,121 @@ title: Publications
 ---
 
 <style>
-  /* 自定义链接样式 */
-  .custom-link—project {
-    color: rgb(255,115,227);
-  }
-</style>
+/* 基础样式优化 */
+.custom-link {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+}
 
-<style>
-  /* 自定义链接样式 */
-  .custom-link—code {
-    color: rgb(103, 100, 248);
-  }
-</style>
+.custom-link—project { 
+  color: rgb(255,115,227);
+  background: rgba(255,115,227,0.1);
+}
 
-<style>
-  /* 自定义链接样式 */
-  .custom-link—paper {
-    color: rgb(39, 207, 236);
-  }
+.custom-link—code { 
+  color: rgb(103,100,248);
+  background: rgba(103,100,248,0.1);
+}
+
+.custom-link—paper { 
+  color: rgb(39,207,236);
+  background: rgba(39,207,236,0.1);
+}
+
+/* 悬停效果增强 */
+.custom-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 图片容器悬停效果 */
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* 添加图片悬停效果和简介 */
+.image-wrapper:hover img {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.image-wrapper:hover::after {
+  opacity: 1;
+}
+
+.image-wrapper::after {
+  content: attr(data-description);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* 论文标题样式优化 */
+papertitle {
+  display: block;
+  font-size: 1.1em;
+  margin: 10px 0;
+  line-height: 1.4;
+  transition: all 0.3s ease;
+}
+
+papertitle:hover {
+  color: #2196F3;
+}
+
+/* 添加论文类型标签 */
+.paper-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin: 5px;
+  background: #f0f0f0;
+  color: #666;
+}
+
+/* 添加引用数量徽章 */
+.citation-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 12px;
+  background: #e3f2fd;
+  color: #1976d2;
+  margin-left: 10px;
+}
+
+/* 优化表格布局 */
+.publication-table {
+  width: 100%;
+  border-spacing: 0 20px;
+  margin: 20px auto;
+}
+
+.publication-table tr {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.publication-table tr:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 </style>
 
 
@@ -34,7 +131,7 @@ title: Publications
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="NeurIPS'2024">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/nips2024/overview.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -43,6 +140,10 @@ title: Publications
               RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models
             </strong>
           </papertitle>
+          <div>
+        <span class="paper-tag">Computer Vision</span>
+            <span class="paper-tag">Deep Learning</span>
+          </div>
           <br>
           Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, <strong><u>Sixiang Chen</u></strong>, Tian Ye, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu<sup>✉️</sup>.
           <br>  
