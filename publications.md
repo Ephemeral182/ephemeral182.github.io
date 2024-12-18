@@ -93,7 +93,7 @@ body {
 }
 
 .image-wrapper:hover::before {
-  content: attr(data-description);
+  content: attr( data-description);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -423,7 +423,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="AAAI'2025">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"  data-description="AAAI'2025">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/aaai25_prompthaze.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -453,7 +453,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="AAAI'2025">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"  data-description="AAAI'2025">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/aglldiff.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -488,7 +488,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="NeurIPS'2024">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"  data-description="NeurIPS'2024">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/nips2024/overview.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -519,7 +519,7 @@ body {
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"data-description="ECCV'2024">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"  data-description="ECCV'2024">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/eccv_24/eccv_adverse.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -546,7 +546,7 @@ body {
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"data-description="ECCV'2024">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"  data-description="ECCV'2024">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/eccv_snow.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -573,7 +573,7 @@ body {
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"data-description="MICCAI'2024">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"  data-description="MICCAI'2024">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/miccai24.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -600,7 +600,7 @@ body {
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"data-description="CVPR'2024 (Highlight)">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="CVPR'2024 (Highlight)">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/CVPR24.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -632,7 +632,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"data-description="ICCV'2023">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="ICCV'2023">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/udrs2former.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -660,7 +660,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ICCV'2023">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ICCV'2023">
           <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/AWRCP_framework.jpg" alt="dise"> 
         </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -687,7 +687,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ACM MM'2023">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ACM MM'2023">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/Uncertainty_MM.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -714,7 +714,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ACM MM'2023">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ACM MM'2023">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/cpl.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -741,7 +741,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ACM MM'2023">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ACM MM'2023">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/video.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -766,7 +766,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ACM MM'2023">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ACM MM'2023">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/Nightformer.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -791,7 +791,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="BMVC'2023">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="BMVC'2023">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/BMVC.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -816,7 +816,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ICASSP'2023" >
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ICASSP'2023" >
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/dehrformer_00.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -841,7 +841,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ICASSP'2023" >
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ICASSP'2023" >
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/MSP-Former_00.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -873,7 +873,7 @@ body {
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="Arxiv'2022">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="Arxiv'2022">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/snowformer.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -898,7 +898,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ACCV'2022">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ACCV'2022">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/ACCV.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -923,7 +923,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="Digital Signal Processing">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="Digital Signal Processing">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/dualformer.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -949,7 +949,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="ECCV'2022 (Oral)">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="ECCV'2022 (Oral)">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/ECCV.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -973,7 +973,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
   <tr>
-        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper"data-description="CVPRW'2022">
+        <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper" data-description="CVPRW'2022">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/CVPRW.png" alt="dise"> 
         </td>
       <td width="75%" valign="center" class="text-wrapper"> 
