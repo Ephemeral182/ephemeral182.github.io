@@ -363,7 +363,6 @@ body {
 (1) Advancing AIGC (AI-Generated Content) technology through various generative paradigms (e.g., Diffusion Models, Auto-Regressive Models, VAR) for intelligent image generation;<br><br>
 (2) Developing robust and generalizable solutions for real-world image restoration, particularly in adverse conditions;<br><br>
 (3) Exploring multimodal large language models (MLLM) for intelligent visual application.
-  </p>
 
   
   <div class="research-tags-container">
