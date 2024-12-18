@@ -374,6 +374,28 @@ body {
   transform: scale(1.02);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
+
+
+/* 调整图片容器的右边距 */
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-right: 40px;  /* 增加右边距 */
+}
+
+/* 或者可以调整单元格的内边距 */
+td {
+  padding: 20px 40px;  /* 增加单元格的内边距 */
+}
+
+/* 特别是右侧文字单元格的左内边距 */
+.text-wrapper {
+  padding-left: 40px;  /* 增加文字部分的左内边距 */
+}
 </style>
 
 <!-- 添加摘要部分 -->
