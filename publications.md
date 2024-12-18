@@ -446,6 +446,8 @@ body {
           <a href="Ephemeral182.github.io" class="custom-link—project">[Project]</a>
       </td>
     </tr>
+  </tbody>
+  </table>
 
 
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -510,6 +512,7 @@ body {
       </td>
     </tr>
   </tbody>
+  </table>
 
 
 
