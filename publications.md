@@ -431,7 +431,7 @@ body {
             <strong>
               PromptHaze: Prompting Real-world Dehazing via Depth Anything Model
             </strong>
-          </papertitle>
+          </papertitle><br>
           <div>
           <span class="paper-tag tag-method">Prompt Learning for Image Restoration</span>
           <span class="paper-tag tag-application">Real-world Generalization, Depth Anything Model</span>
@@ -461,7 +461,7 @@ body {
             <strong>
               AGLLDiff: Guiding Diffusion Models Towards Unsupervised Training-free Real-world Low-light Image Enhancement
             </strong>
-          </papertitle>
+          </papertitle><br>
           <div>
           <span class="paper-tag tag-method">Generative Model for Image Restoration</span>
           <span class="paper-tag tag-application">Unsupervised Training-free, Real-world Generalization</span>
@@ -496,7 +496,7 @@ body {
             <strong>
               RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models
             </strong>
-          </papertitle>
+          </papertitle><br>
           <div>
           <span class="paper-tag tag-method">MLLM for Image Restoration</span>
           <span class="paper-tag tag-application">Intelligent Agent</span>
@@ -527,7 +527,7 @@ body {
             <strong>
               Teaching Tailored to Talent: Adverse Weather Restoration via Prompt Pool and Depth-Anything Constraint
             </strong>
-          </papertitle>
+          </papertitle><br>
           <span class="paper-tag tag-method">Generative Model for Image Restoration</span>
           <span class="paper-tag tag-application">Real-world Generalization, Prompt Learning</span>
           <br>
@@ -554,7 +554,7 @@ body {
             <strong>
               Semi-Supervised Video Desnowing Network via Temporal Decoupling Experts and Distribution-Driven Contrastive Regularization
             </strong>
-          </papertitle>
+          </papertitle><br>
           <span class="paper-tag tag-method">MoE for Video Restoration</span>
           <span class="paper-tag tag-application">Semi-Supervised Learning, New Benchmark</span>
           <br>
@@ -581,7 +581,7 @@ body {
             <strong>
               Cross-conditioned Diffusion Model for medical image-to-image translation
             </strong>
-          </papertitle>
+          </papertitle><br>
           <span class="paper-tag tag-method">Generative Model for  Medical Image Translation</span>
           <span class="paper-tag tag-application">Conditional Generation</span>
           <br>
@@ -608,7 +608,7 @@ body {
             <strong>
               Learning Diffusion Texture Priors for Image Restoration
             </strong>
-          </papertitle>
+          </papertitle><br>
           <span class="paper-tag tag-method">Generative Model for Image Restoration</span>
           <span class="paper-tag tag-application">Diffusion Model for Textural Learning</span>
           <br>
@@ -640,7 +640,8 @@ body {
             <strong>
               Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks
             </strong>
-          </papertitle>
+          </papertitle><br>
+          <br>
           <span class="paper-tag tag-method">Uncertainty for Image Restoration</span>
           <span class="paper-tag tag-application">Uncertainty-Driven Consideration, Sparse Sampling</span>
           <br>
@@ -668,7 +669,7 @@ body {
         <strong>
         Adverse Weather Removal with Codebook Priors
         </strong>
-        </papertitle>
+        </papertitle><br>
           <span class="paper-tag tag-method">Generative Model for Image Restoration</span>
           <span class="paper-tag tag-application">Codebook Priors</span>
         <br>
@@ -695,7 +696,7 @@ body {
         <strong>
           Uncertainty-Driven Dynamic Degradation Perceiving and Background Modeling for Efficient Single Image Desnowing
         </strong>
-        </papertitle>
+        </papertitle><br>
           <span class="paper-tag tag-method">Uncertainty for Image Restoration</span>
           <span class="paper-tag tag-application">Novel Perspective for Desnowing</span>
         <br>
@@ -722,7 +723,7 @@ body {
         <strong>
           CPLFormer: Cross-scale Prototype Learning Transformer for Image Snow Removal
         </strong>
-        </papertitle>
+        </papertitle><br>
           <span class="paper-tag tag-method">Prototype Learning for Image Restoration</span>
           <span class="paper-tag tag-application">Cross-scale Prototype </span>
         <br>
@@ -749,7 +750,7 @@ body {
         <strong>
           Sequential Affinity Learning for Video Restoration
         </strong>
-        </papertitle>
+        </papertitle><br>
           <span class="paper-tag tag-method">Sequential Affinity for Video Restoration</span>
           <span class="paper-tag tag-application">Sequential Affinity Learning</span>
         <br>
@@ -774,7 +775,7 @@ body {
         <strong>
           NightHazeFormer: Single Nighttime Haze Removal Using Prior Query Transformer
         </strong>
-        </papertitle>
+        </papertitle><br>
           <span class="paper-tag tag-method">Prior Query Transformer for Image Restoration</span>
           <span class="paper-tag tag-application">Physical Prior, New Benchmark</span>
         <br>
@@ -799,7 +800,7 @@ body {
         <strong>
           Five A+ Network: You Only Need 9K Parameters for Underwater Image Enhancement
         </strong>
-        </papertitle>
+        </papertitle><br>
         <span class="paper-tag tag-method">Efficient Image Restoration</span>
         <span class="paper-tag tag-application">Only 9K Parameters</span>
         <br>
@@ -824,7 +825,7 @@ body {
         <strong>
           DEHRFormer: Real-time Transformer for Depth Estimation and Haze Removal from Varicolored Haze Scenes
         </strong>
-        </papertitle>
+        </papertitle><br>
           <span class="paper-tag tag-method">Vision Transformer for Image Restoration</span>
           <span class="paper-tag tag-application">Real-time, New Benchmark for Vari-color Haze</span>
         <br>
@@ -849,7 +850,7 @@ body {
         <strong>
           MSP-Former: Multi-Scale Projection Transformer for Single Image Desnowing
         </strong>
-        </papertitle>
+        </papertitle><br>
         <span class="paper-tag tag-method">Vision Transformer for Image Restoration</span>
         <span class="paper-tag tag-application">Multi-Scale Projection, First Vision Transformer for Desnowing</span>
         <br>
@@ -881,7 +882,7 @@ body {
         <strong>
           SnowFormer: Context Interaction Transformer with Scale-awareness for Single Image Desnowing
         </strong>
-        </papertitle>
+        </papertitle><br>
         <span class="paper-tag tag-method">Vision Transformer for Image Restoration</span>
         <span class="paper-tag tag-application">SOTA Desnowing, Significant Performance Improvement</span>
         <br>
@@ -906,7 +907,7 @@ body {
         <strong>
           Towards Real-time High-Definition Image Snow Removal: Efficient Pyramid Network with Asymmetrical Encoder-decoder Architecture
         </strong>
-        </papertitle>
+        </papertitle><br>
         <span class="paper-tag tag-method">Efficient Image Restoration</span>
         <span class="paper-tag tag-application">Real-time, High-Definition</span>
         <br>
@@ -932,7 +933,7 @@ body {
           Dual-former: Hybrid Self-attention Transformer for
           Efficient Image Restoration
         </strong>
-        </papertitle>
+        </papertitle><br>
         <span class="paper-tag tag-method">Vision Transformer for Image Restoration</span>
         <span class="paper-tag tag-application">Latent-based Self-attention</span>
         <br>
@@ -957,7 +958,7 @@ body {
         <strong>
           Perceiving and Modeling Density for Image Dehazing
         </strong>
-        </papertitle>
+        </papertitle><br>
         <span class="paper-tag tag-method">Novel Attention for Image Restoration</span>
         <span class="paper-tag tag-application">New Perspective for Image Dehazing</span>
         <br>
@@ -981,7 +982,7 @@ body {
         <strong>
           Underwater Light Field Retention: Neural Rendering for Underwater Imaging
         </strong>
-        </papertitle>
+        </papertitle><br>
         <span class="paper-tag tag-method">Neural Rendering for Image Generation</span>
         <span class="paper-tag tag-application">Light Field Retention, New Benchmark</span>
         <br>
