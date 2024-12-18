@@ -358,17 +358,23 @@ body {
 <!-- 添加摘要部分 -->
 <div class="summary-section">
   <h1>Publications</h1>
-  <p>My research focuses on computer vision and deep learning, with particular emphasis on image restoration and enhancement under real-world conditions. I am also actively exploring AIGC technology and efficient neural architectures like ViTs and Diffusion Models for low-level vision tasks.</p>
+  <p>My research focuses on AIGC and image restoration:</p>
+  <p class="research-direction">
+    (1) advancing AIGC (AI-Generated Content) technology through various generative paradigms (e.g., Diffusion Models, Auto-Regressive Models, VAR) for intelligent image generation;<br><br>
+    (2) developing robust and generalizable solutions for real-world image restoration, particularly in adverse conditions;<br><br>
+    (3) investigating next-generation architectures (e.g., Mamba, State Space Models) for efficient visual computing.
+  </p>
+
   
   <div class="research-tags-container">
     <!-- <span class="research-tag tag-core">Computer Vision</span>
     <span class="research-tag tag-core">Deep Learning</span> -->
     <span class="research-tag tag-tech">Diffusion Models</span>
-    <span class="research-tag tag-tech">Vision Transformer</span>
     <span class="research-tag tag-tech">AIGC</span>
+    <span class="research-tag tag-tech">MLLM</span>
+    <span class="research-tag tag-focus">Image Generation</span>
     <span class="research-tag tag-focus">Image Restoration</span>
-    <span class="research-tag tag-focus">Image Enhancement</span>
-    <span class="research-tag tag-focus">Low-level Vision</span>
+    <span class="research-tag tag-focus">Real-world Generalizability</span>
   </div>
 
   
