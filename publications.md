@@ -5,130 +5,187 @@ title: Publications
 ---
 
 <style>
-/* 基础样式优化 */
-.custom-link {
+/* 整体背景色 */
+body {
+  background-color: #f0f5fa;  /* 非常淡的蓝色背景 */
+}
+
+/* 摘要部分样式 */
+.summary-section {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.summary-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.stat-item {
+  background: #fff;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* 年份分隔样式 */
+.year-section {
+  margin: 50px 0;
+}
+
+.year-divider {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.year-2024 { color: #2196F3; }  /* 蓝色 */
+.year-2023 { color: #00BCD4; }  /* 青色 */
+.year-2022 { color: #4CAF50; }  /* 绿色 */
+
+.year-divider::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  margin-left: 20px;
+  background: linear-gradient(90deg, currentColor, transparent);
+}
+
+/* 论文类型标签样式优化 */
+.paper-tag {
   display: inline-block;
-  padding: 5px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  margin: 0 5px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin: 5px;
 }
 
-.custom-link—project { 
-  color: rgb(255,115,227);
-  background: rgba(255,115,227,0.1);
+.tag-top { 
+  background: rgba(33,150,243,0.1);
+  color: #2196F3;
 }
 
-.custom-link—code { 
-  color: rgb(103,100,248);
-  background: rgba(103,100,248,0.1);
+.tag-conference {
+  background: rgba(0,188,212,0.1);
+  color: #00BCD4;
 }
 
-.custom-link—paper { 
-  color: rgb(39,207,236);
-  background: rgba(39,207,236,0.1);
+.tag-workshop {
+  background: rgba(76,175,80,0.1);
+  color: #4CAF50;
 }
 
-/* 悬停效果增强 */
-.custom-link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* 图片容器悬停效果 */
+/* 添加图片容器悬停效果 */
 .image-wrapper {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 12px;
   transition: all 0.3s ease;
 }
 
-/* 添加图片悬停效果和简介 */
-.image-wrapper:hover img {
-  transform: scale(1.05);
-  filter: brightness(0.8);
+.image-wrapper:hover {
+  transform: scale(1.02);
 }
 
-.image-wrapper:hover::after {
-  opacity: 1;
-}
-
-.image-wrapper::after {
+.image-wrapper:hover::before {
   content: attr(data-description);
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 15px;
   font-size: 14px;
   opacity: 0;
-  transition: all 0.3s ease;
+  transform: translateY(100%);
+  animation: slideUp 0.3s forwards;
 }
 
-/* 论文标题样式优化 */
-papertitle {
-  display: block;
-  font-size: 1.1em;
-  margin: 10px 0;
-  line-height: 1.4;
-  transition: all 0.3s ease;
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-papertitle:hover {
-  color: #2196F3;
-}
-
-/* 添加论文类型标签 */
-.paper-tag {
-  display: inline-block;
-  padding: 3px 8px;
-  border-radius: 12px;
-  font-size: 12px;
-  margin: 5px;
-  background: #f0f0f0;
-  color: #666;
-}
-
-/* 添加引用数量徽章 */
-.citation-badge {
-  display: inline-block;
-  padding: 2px 6px;
-  border-radius: 10px;
-  font-size: 12px;
-  background: #e3f2fd;
-  color: #1976d2;
-  margin-left: 10px;
-}
-
-/* 优化表格布局 */
-.publication-table {
-  width: 100%;
-  border-spacing: 0 20px;
-  margin: 20px auto;
-}
-
-.publication-table tr {
+/* 论文条目样式优化 */
+.publication-item {
   background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  border-radius: 16px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.publication-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* 链接样式美化 */
+.custom-link {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 0 5px;
   transition: all 0.3s ease;
 }
 
-.publication-table tr:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+.custom-link—paper {
+  color: #2196F3;
+  background: rgba(33,150,243,0.1);
+}
+
+.custom-link—code {
+  color: #4CAF50;
+  background: rgba(76,175,80,0.1);
+}
+
+.custom-link—project {
+  color: #9C27B0;
+  background: rgba(156,39,176,0.1);
+}
+
+.custom-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 </style>
 
+<!-- 添加摘要部分 -->
+<div class="summary-section">
+  <h1>Publications</h1>
+  <p>My research focuses on computer vision and deep learning, particularly in image restoration and enhancement.</p>
+  
+  <div class="summary-stats">
+    <div class="stat-item">
+      <h3>7</h3>
+      <p>CVPR/ICCV/ECCV/NeurIPS</p>
+    </div>
+    <div class="stat-item">
+      <h3>5</h3>
+      <p>AAAI/IJCAI/ACM MM</p>
+    </div>
+    <div class="stat-item">
+      <h3>4</h3>
+      <p>Other Conferences</p>
+    </div>
+  </div>
+</div>
 
-# Publications
-
-7&nbsp; ***CVPR*** / ***ICCV*** / ***ECCV*** /  ***NeurIPS*** &nbsp;&nbsp;&nbsp;5&nbsp; ***AAAI*** / ***IJCAI*** / ***ACM MM*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***MICCAI*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***CVPRW*** / ***ICCVW*** / ***ECCVW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ACCV*** / ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICME*** / ***ICASSP*** &nbsp;&nbsp;&nbsp;
-
-<!-- =================================================================================== -->
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<!-- 2024年论文 -->
+<div class="year-section">
+  <div class="year-divider">
+    <h2 class="year-2024">2024</h2>
+  </div>
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
       <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="NeurIPS'2024">
@@ -141,8 +198,8 @@ papertitle:hover {
             </strong>
           </papertitle>
           <div>
-        <span class="paper-tag">Computer Vision</span>
-            <span class="paper-tag">Deep Learning</span>
+            <span class="paper-tag">MLLM for Image Restoration</span>
+            <span class="paper-tag">Intelligent Agent</span>
           </div>
           <br>
           Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, <strong><u>Sixiang Chen</u></strong>, Tian Ye, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu<sup>✉️</sup>.
@@ -267,8 +324,16 @@ papertitle:hover {
           <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
     </tr>
+    </tbody>
+  </table>
+</div>
 
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<!-- 2023年论文 -->
+<div class="year-section">
+  <div class="year-divider">
+    <h2 class="year-2023">2023</h2>
+  </div>
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
       <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper">
@@ -292,8 +357,9 @@ papertitle:hover {
     </tr>
 
 
-
- <tr>
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
+  <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
           <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/AWRCP_framework.jpg" alt="dise"> 
         </td>
@@ -314,7 +380,8 @@ papertitle:hover {
       </tr>
 
       
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/Uncertainty_MM.png" alt="dise"> 
@@ -336,7 +403,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/cpl.png" alt="dise"> 
@@ -358,7 +426,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/video.png" alt="dise"> 
@@ -380,7 +449,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/Nightformer.png" alt="dise"> 
@@ -402,7 +472,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/BMVC.png" alt="dise"> 
@@ -424,7 +495,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/dehrformer_00.png" alt="dise"> 
@@ -446,7 +518,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/MSP-Former_00.png" alt="dise"> 
@@ -466,9 +539,17 @@ papertitle:hover {
         <a href="Ephemeral182.github.io" class="custom-link—code">[Code]</a>
       </td>
       </tr>
+    </tbody>
+  </table>
+</div>
 
-
-
+<!-- 2022年论文 -->
+<div class="year-section">
+  <div class="year-divider">
+    <h2 class="year-2022">2022</h2>
+  </div>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/snowformer.png" alt="dise"> 
@@ -490,7 +571,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/ACCV.png" alt="dise"> 
@@ -512,7 +594,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/dualformer.png" alt="dise"> 
@@ -535,7 +618,8 @@ papertitle:hover {
       </tr>
 
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/ECCV.png" alt="dise"> 
@@ -556,7 +640,8 @@ papertitle:hover {
       </td>
       </tr>
 
-
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>
   <tr>
         <td style="margin:5px;padding:5px;width:35%;max-width:40%" align="center" class="image-wrapper">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/CVPRW.png" alt="dise"> 
@@ -578,6 +663,22 @@ papertitle:hover {
       </tr>
   </tbody>
 </table>
+</div>
+
+<div class="content-wrapper">
+  
+
+<!-- # Publications -->
+
+<!-- 7&nbsp; ***CVPR*** / ***ICCV*** / ***ECCV*** /  ***NeurIPS*** &nbsp;&nbsp;&nbsp;5&nbsp; ***AAAI*** / ***IJCAI*** / ***ACM MM*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***MICCAI*** &nbsp;&nbsp;&nbsp; 1&nbsp; ***CVPRW*** / ***ICCVW*** / ***ECCVW*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ACCV*** / ***BMVC*** &nbsp;&nbsp;&nbsp;2&nbsp; ***ICME*** / ***ICASSP*** &nbsp;&nbsp;&nbsp; -->
+
+<!-- =================================================================================== -->
+
+
+
+
+
+
 
 <!-- =================================================================================== -->
 
