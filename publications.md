@@ -157,25 +157,252 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+/* 更新摘要统计部分的样式 */
+.stat-item {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.stat-number {
+  font-size: 2.5em;
+  font-weight: 700;
+  background: linear-gradient(135deg, #2196F3, #00BCD4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* 统计项悬浮提示 */
+.stat-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.9em;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  width: max-content;
+  max-width: 300px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.stat-item:hover .stat-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* 添加动画效果 */
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.stat-number {
+  animation: countUp 1s ease-out forwards;
+}
+
+/* 论文标签样式优化 */
+.paper-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  margin: 4px;
+  font-size: 0.85em;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+/* 不同类型的标签使用不同的颜色主题 */
+.tag-method {
+  background: linear-gradient(135deg, rgba(33,150,243,0.1), rgba(33,150,243,0.2));
+  color: #2196F3;
+  border: 1px solid rgba(33,150,243,0.3);
+}
+
+.tag-domain {
+  background: linear-gradient(135deg, rgba(156,39,176,0.1), rgba(156,39,176,0.2));
+  color: #9C27B0;
+  border: 1px solid rgba(156,39,176,0.3);
+}
+
+.tag-application {
+  background: linear-gradient(135deg, rgba(76,175,80,0.1), rgba(76,175,80,0.2));
+  color: #4CAF50;
+  border: 1px solid rgba(76,175,80,0.3);
+}
+
+/* 悬停效果 */
+.paper-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 添加图标支持 */
+.paper-tag::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  opacity: 0.7;
+}
+
+.tag-method::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%232196F3"><path d="M12 3L1 9l11 6l11-6z"/></svg>');
+}
+
+.tag-domain::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%239C27B0"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2z"/></svg>');
+}
+
+.tag-application::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%234CAF50"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>');
+}
+
+/* 研究方向专用标签样式 */
+.research-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: 0.9em;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 核心领域标签 */
+.tag-core {
+  background: linear-gradient(135deg, #1a237e10, #1a237e20);
+  color: #1a237e;
+  border: 1.5px solid #1a237e40;
+}
+
+/* 技术方法标签 */
+.tag-tech {
+  background: linear-gradient(135deg, #00695c10, #00695c20);
+  color: #00695c;
+  border: 1.5px solid #00695c40;
+}
+
+/* 应用领域标签 */
+.tag-focus {
+  background: linear-gradient(135deg, #bf360c10, #bf360c20);
+  color: #bf360c;
+  border: 1.5px solid #bf360c40;
+}
+
+/* 发光效果 */
+.research-tag::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: inherit;
+  filter: blur(10px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.research-tag:hover {
+  transform: translateY(-2px);
+}
+
+.research-tag:hover::before {
+  opacity: 0.7;
+}
+
+/* 标签组容器 */
+.research-tags-container {
+  margin: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-start;
+}
 </style>
 
 <!-- 添加摘要部分 -->
 <div class="summary-section">
   <h1>Publications</h1>
-  <p>My research focuses on computer vision and deep learning, particularly in image restoration and enhancement.</p>
+  <p>My research focuses on computer vision and deep learning, with particular emphasis on image restoration and enhancement under real-world conditions. I am also actively exploring AIGC technology and efficient neural architectures like ViTs and Diffusion Models for low-level vision tasks.</p>
   
-  <div class="summary-stats">
+  <div class="research-tags-container">
+    <!-- <span class="research-tag tag-core">Computer Vision</span>
+    <span class="research-tag tag-core">Deep Learning</span> -->
+    <span class="research-tag tag-tech">Diffusion Models</span>
+    <span class="research-tag tag-tech">Vision Transformer</span>
+    <span class="research-tag tag-tech">AIGC</span>
+    <span class="research-tag tag-focus">Image Restoration</span>
+    <span class="research-tag tag-focus">Image Enhancement</span>
+    <span class="research-tag tag-focus">Low-level Vision</span>
+  </div>
+
+  
+<div class="summary-stats">
     <div class="stat-item">
-      <h3>7</h3>
-      <p>CVPR/ICCV/ECCV/NeurIPS</p>
+      <div class="stat-number">7</div>
+      <div class="stat-label">CVPR/ICCV/ECCV/NeurIPS</div>
+      <div class="stat-tooltip">
+        <strong>Main list:</strong><br>
+        • CVPR'24 (Highlight)<br>
+        • ECCV'24 (2 papers)<br>
+        • NeurIPS'24<br>
+        • ICCV'23 (2 papers)<br>
+        • ECCV'22 (Oral)
+      </div>
     </div>
     <div class="stat-item">
-      <h3>5</h3>
-      <p>AAAI/IJCAI/ACM MM</p>
+      <div class="stat-number">5</div>
+      <div class="stat-label">AAAI/IJCAI/ACM MM</div>
+      <div class="stat-tooltip">
+        <strong>Main list:</strong><br>
+        • ACM MM'23 (4 papers)<br>
+        • MICCAI'24
+      </div>
     </div>
-    <div class="stat-item">
-      <h3>4</h3>
-      <p>Other Conferences</p>
+     <div class="stat-item">
+      <div class="stat-number">4</div>
+      <div class="stat-label">Other Conferences</div>
+      <div class="stat-tooltip">
+        <strong>Main list:</strong><br>
+        • BMVC'23<br>
+        • ACCV'22<br>
+        • ICASSP'23 (2 papers)
+      </div>
     </div>
   </div>
 </div>
@@ -198,8 +425,8 @@ body {
             </strong>
           </papertitle>
           <div>
-            <span class="paper-tag">MLLM for Image Restoration</span>
-            <span class="paper-tag">Intelligent Agent</span>
+          <span class="paper-tag tag-method">MLLM for Image Restoration</span>
+          <span class="paper-tag tag-application">Intelligent Agent</span>
           </div>
           <br>
           Haoyu Chen, Wenbo Li, Jinjin Gu, Jingjing Ren, <strong><u>Sixiang Chen</u></strong>, Tian Ye, Renjing Pei, Kaiwen Zhou, Fenglong Song, Lei Zhu<sup>✉️</sup>.
@@ -326,7 +553,7 @@ body {
     </tr>
     </tbody>
   </table>
-</div>
+<!-- </div> -->
 
 <!-- 2023年论文 -->
 <div class="year-section">
@@ -541,7 +768,7 @@ body {
       </tr>
     </tbody>
   </table>
-</div>
+<!-- </div> -->
 
 <!-- 2022年论文 -->
 <div class="year-section">
@@ -663,9 +890,9 @@ body {
       </tr>
   </tbody>
 </table>
-</div>
+<!-- </div> -->
 
-<div class="content-wrapper">
+<!-- <div class="content-wrapper"> -->
   
 
 <!-- # Publications -->
@@ -684,6 +911,6 @@ body {
 
 
 
----
+<!-- --- -->
 
 
