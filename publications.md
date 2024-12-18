@@ -358,8 +358,8 @@ body {
 <!-- 添加摘要部分 -->
 <div class="summary-section">
   <h1>Publications</h1>
-  <p>My research focuses on AIGC and image restoration:</p>
-  <p class="research-direction">
+  My research focuses on AIGC and image restoration:
+<br>
 (1) Advancing AIGC (AI-Generated Content) technology through various generative paradigms (e.g., Diffusion Models, Auto-Regressive Models, VAR) for intelligent image generation;<br><br>
 (2) Developing robust and generalizable solutions for real-world image restoration, particularly in adverse conditions;<br><br>
 (3) Exploring multimodal large language models (MLLM) for intelligent visual application.

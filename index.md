@@ -1,6 +1,11 @@
 ---
 layout: page
 ---
+<style>
+body {
+  background-color: #f0f5fa;  /* 非常淡的蓝色背景 */
+}
+</style>
 
 # About Me
 
@@ -8,7 +13,7 @@ layout: page
 
 
 
-My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communication Engineering from the School of Ocean Information Engineering at Jimei University, where I was extremely fortunate to be supervised by ***[Dr. Erkang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ)*** and ***[Dr. Yun Liu](https://scholar.google.com.hk/citations?user=9fjHp-EAAAAJ&hl=zh-CN)*** (Southwest University). My research interests lie in the low-level vision and AIGC. I am currently a PhD student at HKUST@[ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** and ***[Prof. Fugee Tsung](https://www.ieda.ust.hk/dfaculty/tsung/)***.
+My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Communication Engineering from the School of Ocean Information Engineering at Jimei University, where I was extremely fortunate to be supervised by ***[Dr. Erkang Chen](https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ)*** and ***[Dr. Yun Liu](https://scholar.google.com.hk/citations?user=9fjHp-EAAAAJ&hl=zh-CN)*** (Southwest University). My research interests lie in the AIGC and low-level vision. I am currently a PhD student at HKUST@[ROAS](https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/), supervised by ***[Prof. Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)*** and ***[Prof. Fugee Tsung](https://www.ieda.ust.hk/dfaculty/tsung/)***.
 
 
 
@@ -25,15 +30,17 @@ My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Commun
 
 ## Research Interests
 
-- Perform image restoration under real-world conditions.
 - Explore the applications of AIGC (Artificial Intelligence Generated Content) technology
-- Efficient neural network for low-level applications (ViTs, Diffusions, Mambas).
+- Perform image restoration under real-world conditions.
+- Multimodal large language models (MLLM) for intelligent visual application.
 
 <br>
 
 ---
 
 ## News and Updates
+- **Dec. 2024：**&#127752; I start to serve as a reviewer in **CVPR'2025** and **ICML'2025**.
+- **Dec. 2024：**&#128640; Serendipitously, four papers have been accepted by **AAAI'2025**.
 - **Sept. 2024：**&#127873; Luckily, one paper has been accepted by **NeurIPS'2024**.
 - **Jun. 2024：**&#127752; I start to serve as a reviewer in **TITS**.
 - **Aug. 2024：**&#127752; I start to serve as a reviewer in **ICLR'2025**.
@@ -61,6 +68,8 @@ My name is **Sixiang Chen (陈思翔)**. I received my bachelor degree in Commun
 ## Academic Service & Awards
 
 **Program Committee / Reviewer:**
+ - International Conference on Machine Learning (**ICML'2025**)
+ - Conference on Computer Vision and Pattern Recognition (**CVPR'2025**)
  - International Conference on Learning Representations (**ICLR'2025**)
  - IEEE Transactions on Intelligent Transportation Systems (**TITS**)
  - Conference on Neural Information Processing Systems (**NeurIPS'2024**)
