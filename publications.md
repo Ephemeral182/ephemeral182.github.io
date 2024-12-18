@@ -423,7 +423,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"data-description="AAAI'2025">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="AAAI'2025">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/aaai25_prompthaze.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
@@ -453,7 +453,7 @@ body {
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>
     <tr>
-      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper"data-description="AAAI'2025">
+      <td style="margin:5px;padding:5px;width:35%;max-width:90%" align="center" class="image-wrapper" data-description="AAAI'2025">
         <img style="margin:1px;padding-right:20px;width:100%;max-width:100%" src="https://ephemeral182.github.io/images/aglldiff.png" alt="dise"> 
       </td>
       <td width="75%" valign="center" class="text-wrapper"> 
